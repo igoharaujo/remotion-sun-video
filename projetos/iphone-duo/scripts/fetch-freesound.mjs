@@ -1,0 +1,115 @@
+// Download SFX from the Freesound API (CC0 first, CC-BY fallback) and log credits.
+// Each slot tries its queries in order; a pinned `id` skips the search.
+// Files are the API's HQ mp3 previews (originals need OAuth2), re-encoded to 48 kHz
+// stereo wav with leading silence trimmed so the hit lands on the cue frame.
+// Usage:
+//   node scripts/fetch-freesound.mjs --list   # print candidates per slot
+//   node scripts/fetch-freesound.mjs          # download pinned / best picks
+import { execFileSync } from "node:child_process";
+import { mkdirSync, readFileSync, rmSync, writeFileSync, existsSync } from "node:fs";
+import { join } from "node:path";
+
+const KEY = process.env.FREESOUND_API_KEY;
+if (!KEY) throw new Error("FREESOUND_API_KEY is not set");
+const OUT = join(process.cwd(), "public", "sfx");
+const TMP = join(OUT, ".download");
+const CREDITS = join(OUT, "CREDITS.json");
+const LIST = process.argv.includes("--list");
+
+// [file, queries, duration range (s), pinned id]
+const SLOTS = [
+  ["iph_tick.wav", ["digital counter tick", "counter tick", "ui tick"], [0.05, 1.2]],
+  ["iph_chime.wav", ["power on chime", "startup chime", "power up chime"], [0.8, 4]],
+  ["iph_sparkle.wav", ["electric sparkle short", "electric spark", "spark short"], [0.3, 3]],
+  ["iph_power_off.wav", ["power off", "power down"], [0.4, 3]],
+  ["iph_shing.wav", ["metal shing", "metal scrape shing"], [0.4, 3]],
+  ["iph_ratchet.wav", ["mechanical ratchet snap", "ratchet click", "ratchet"], [0.3, 2.5]],
+  ["iph_riser.wav", ["cinematic riser short", "riser"], [2, 6]],
+  ["iph_boom.wav", ["cinematic impact boom", "impact boom"], [1, 6]],
+  ["iph_coin.wav", ["coin drop metallic", "coin drop", "single coin drop"], [0.4, 3]],
+  ["iph_whoosh.wav", ["soft whoosh slide", "whoosh soft", "swoosh"], [0.4, 2.5]],
+  ["iph_swoosh.wav", ["soft whoosh slide", "whoosh soft", "swoosh"], [0.4, 2.5]],
+  ["iph_boom_low.wav", ["cinematic impact boom", "impact boom"], [1, 6]],
+];
+const PINS = existsSync(join(process.cwd(), "scripts/data/freesound_pins.json"))
+  ? JSON.parse(readFileSync(join(process.cwd(), "scripts/data/freesound_pins.json"), "utf8"))
+  : {};
+
+const api = async (path, params = {}) => {
+  const u = new URL(`https://freesound.org/apiv2/${path}`);
+  for (const [k, v] of Object.entries({ ...params, token: KEY })) u.searchParams.set(k, v);
+  const r = await fetch(u);
+  if (!r.ok) throw new Error(`${r.status} ${u.pathname}`);
+  return r.json();
+};
+
+const FIELDS = "id,name,username,license,duration,avg_rating,num_downloads,url,previews";
+const search = async (query, [d0, d1], license) =>
+  (
+    await api("search/text/", {
+      query,
+      filter: `duration:[${d0} TO ${d1}] license:"${license}"`,
+      sort: "downloads_desc",
+      fields: FIELDS,
+      page_size: 6,
+    })
+  ).results;
+
+const licenseName = (url) =>
+  url.includes("/zero/") ? "CC0 1.0" : url.includes("/by/") ? `CC BY ${url.match(/by\/([\d.]+)/)?.[1] ?? ""}`.trim() : url;
+
+const candidates = async (queries, dur) => {
+  for (const license of ["Creative Commons 0", "Attribution"]) {
+    for (const q of queries) {
+      const r = await search(q, dur, license);
+      if (r.length) return { query: q, results: r };
+    }
+  }
+  return { query: null, results: [] };
+};
+
+mkdirSync(TMP, { recursive: true });
+const credits = existsSync(CREDITS) ? JSON.parse(readFileSync(CREDITS, "utf8")).filter((c) => !SLOTS.some(([f]) => f === c.file)) : [];
+
+for (const [file, queries, dur] of SLOTS) {
+  let pick;
+  let query = PINS[file]?.query ?? null;
+  if (PINS[file]?.id && !LIST) {
+    pick = await api(`sounds/${PINS[file].id}/`, { fields: FIELDS });
+  } else {
+    const c = await candidates(queries, dur);
+    query = c.query;
+    if (LIST) {
+      console.log(`\n${file}  (query: ${c.query})`);
+      for (const r of c.results)
+        console.log(`  ${r.id}  ${licenseName(r.license).padEnd(9)} ${r.duration.toFixed(2)}s  ${String(r.num_downloads).padStart(6)} dl  ${r.name}  — ${r.username}`);
+      continue;
+    }
+    pick = c.results[0];
+  }
+  if (!pick) throw new Error(`no CC0/CC-BY result for ${file}`);
+  const raw = join(TMP, `${pick.id}.mp3`);
+  writeFileSync(raw, Buffer.from(await (await fetch(pick.previews["preview-hq-mp3"])).arrayBuffer()));
+  execFileSync("ffmpeg", [
+    "-hide_banner", "-v", "error", "-y", "-i", raw,
+    "-af", "silenceremove=start_periods=1:start_threshold=-50dB,aresample=48000",
+    "-ac", "2", "-c:a", "pcm_s16le", join(OUT, file),
+  ]);
+  credits.push({
+    file,
+    freesound_id: pick.id,
+    name: pick.name,
+    author: pick.username,
+    license: licenseName(pick.license),
+    license_url: pick.license,
+    source_url: pick.url,
+    query,
+    note: "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed",
+  });
+  console.log(`${file} <- #${pick.id} ${pick.name} (${licenseName(pick.license)}, ${pick.username})`);
+}
+
+if (!LIST) {
+  writeFileSync(CREDITS, JSON.stringify(credits, null, 2) + "\n");
+  rmSync(TMP, { recursive: true, force: true });
+}

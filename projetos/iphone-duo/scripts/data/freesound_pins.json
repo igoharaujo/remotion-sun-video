@@ -1,0 +1,14 @@
+{
+  "iph_tick.wav": { "id": 528561, "query": "ui tick" },
+  "iph_chime.wav": { "id": 351878, "query": "startup chime" },
+  "iph_sparkle.wav": { "id": 94132, "query": "electric spark" },
+  "iph_power_off.wav": { "id": 443465, "query": "power off" },
+  "iph_shing.wav": { "id": 107589, "query": "metal shing" },
+  "iph_ratchet.wav": { "id": 551497, "query": "ratchet click" },
+  "iph_riser.wav": { "id": 859482, "query": "cinematic riser short" },
+  "iph_boom.wav": { "id": 430977, "query": "cinematic impact boom" },
+  "iph_boom_low.wav": { "id": 430978, "query": "cinematic impact boom" },
+  "iph_coin.wav": { "id": 19778, "query": "coin drop metallic" },
+  "iph_whoosh.wav": { "id": 71852, "query": "whoosh soft" },
+  "iph_swoosh.wav": { "id": 701104, "query": "whoosh soft" }
+}

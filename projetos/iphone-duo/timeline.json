@@ -1,0 +1,1324 @@
+{
+  "$comment": "Beat sheet for SunVideo. All times in frames @ 60 fps (sec = frame / 60). Cue times come from a word-level transcription of public/eu.mp4 (whisper small, cross-checked against the RMS envelope). STATUS: approved 2026-10-22 and built.",
+  "status": "approved-built (v2 motion pass)",
+  "composition": {
+    "id": "SunVideo",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "durationInFrames": 1408,
+    "durationSec": 23.467,
+    "durationNote": "The brief asks for 20 s, but the voice runs to 22.76 s ('...vendo o passado.'). 1408 frames = full source clip so the punchline is not cut. Strict-20 s alternative is in alternatives.strict20s."
+  },
+  "voice": {
+    "source": "public/eu.mp4",
+    "sourceFps": 30,
+    "sourceDurationSec": 23.467,
+    "integratedLoudnessLUFS": -19.3,
+    "phrases": [
+      {
+        "id": "v1",
+        "text": "Você sabia que a luz do Sol demora mais de 8 minutos para chegar na Terra?",
+        "from": 30,
+        "to": 262
+      },
+      {
+        "id": "v2",
+        "text": "Sim: 8 minutos e 20 segundos.",
+        "from": 276,
+        "to": 432,
+        "keyWords": {
+          "Sim": 276,
+          "8 minutos": 331,
+          "20 segundos": 378
+        }
+      },
+      {
+        "id": "v3",
+        "text": "Nesse tempo, um avião comercial daria a volta no mundo quase 3 vezes.",
+        "from": 448,
+        "to": 682,
+        "keyWords": {
+          "avião": 501,
+          "3 vezes": 656
+        }
+      },
+      {
+        "id": "v4",
+        "text": "Mas a luz? Viaja a 300 mil km por segundo.",
+        "from": 714,
+        "to": 912,
+        "keyWords": {
+          "luz": 732,
+          "300 mil": 803
+        }
+      },
+      {
+        "id": "v5",
+        "text": "Olha só o caminho dela...",
+        "from": 948,
+        "to": 1008
+      },
+      {
+        "id": "v6",
+        "text": "Do Sol até a gente.",
+        "from": 1026,
+        "to": 1121,
+        "keyWords": {
+          "Sol": 1048,
+          "gente": 1089
+        }
+      },
+      {
+        "id": "v7",
+        "text": "É por isso que, quando você olha pro Sol, está vendo o passado.",
+        "from": 1137,
+        "to": 1366,
+        "keyWords": {
+          "olha": 1224,
+          "vendo": 1304,
+          "passado": 1333
+        }
+      }
+    ],
+    "words": [
+      {
+        "w": "Você",
+        "f": 0,
+        "end": 29
+      },
+      {
+        "w": "sabia",
+        "f": 29,
+        "end": 41
+      },
+      {
+        "w": "que",
+        "f": 41,
+        "end": 55
+      },
+      {
+        "w": "a",
+        "f": 55,
+        "end": 59
+      },
+      {
+        "w": "luz",
+        "f": 59,
+        "end": 73
+      },
+      {
+        "w": "do",
+        "f": 78,
+        "end": 82
+      },
+      {
+        "w": "sol",
+        "f": 85,
+        "end": 96
+      },
+      {
+        "w": "demora",
+        "f": 96,
+        "end": 124
+      },
+      {
+        "w": "mais",
+        "f": 124,
+        "end": 142
+      },
+      {
+        "w": "de",
+        "f": 142,
+        "end": 158
+      },
+      {
+        "w": "8",
+        "f": 158,
+        "end": 165
+      },
+      {
+        "w": "minutos",
+        "f": 165,
+        "end": 203
+      },
+      {
+        "w": "para",
+        "f": 203,
+        "end": 209
+      },
+      {
+        "w": "chegar",
+        "f": 209,
+        "end": 221
+      },
+      {
+        "w": "na",
+        "f": 221,
+        "end": 226
+      },
+      {
+        "w": "terra?",
+        "f": 226,
+        "end": 263
+      },
+      {
+        "w": "Sim,",
+        "f": 263,
+        "end": 331
+      },
+      {
+        "w": "8",
+        "f": 331,
+        "end": 344
+      },
+      {
+        "w": "minutos",
+        "f": 344,
+        "end": 374
+      },
+      {
+        "w": "e",
+        "f": 374,
+        "end": 378
+      },
+      {
+        "w": "20",
+        "f": 378,
+        "end": 404
+      },
+      {
+        "w": "segundos.",
+        "f": 404,
+        "end": 442
+      },
+      {
+        "w": "Nesse",
+        "f": 442,
+        "end": 470
+      },
+      {
+        "w": "tempo,",
+        "f": 473,
+        "end": 492
+      },
+      {
+        "w": "um",
+        "f": 492,
+        "end": 500
+      },
+      {
+        "w": "avião",
+        "f": 500,
+        "end": 521
+      },
+      {
+        "w": "comercial",
+        "f": 521,
+        "end": 560
+      },
+      {
+        "w": "daria",
+        "f": 560,
+        "end": 581
+      },
+      {
+        "w": "a",
+        "f": 581,
+        "end": 585
+      },
+      {
+        "w": "volta",
+        "f": 585,
+        "end": 606
+      },
+      {
+        "w": "no",
+        "f": 607,
+        "end": 616
+      },
+      {
+        "w": "mundo",
+        "f": 616,
+        "end": 637
+      },
+      {
+        "w": "quase",
+        "f": 637,
+        "end": 656
+      },
+      {
+        "w": "três",
+        "f": 656,
+        "end": 673
+      },
+      {
+        "w": "vezes.",
+        "f": 673,
+        "end": 701
+      },
+      {
+        "w": "Mas",
+        "f": 701,
+        "end": 730
+      },
+      {
+        "w": "a",
+        "f": 730,
+        "end": 732
+      },
+      {
+        "w": "luz",
+        "f": 732,
+        "end": 755
+      },
+      {
+        "w": "viaja",
+        "f": 756,
+        "end": 794
+      },
+      {
+        "w": "a",
+        "f": 794,
+        "end": 803
+      },
+      {
+        "w": "300",
+        "f": 812,
+        "end": 872
+      },
+      {
+        "w": "mil",
+        "f": 872,
+        "end": 896
+      },
+      {
+        "w": "km/s.",
+        "f": 901,
+        "end": 928
+      },
+      {
+        "w": "Olha",
+        "f": 928,
+        "end": 944
+      },
+      {
+        "w": "só",
+        "f": 952,
+        "end": 956
+      },
+      {
+        "w": "o",
+        "f": 956,
+        "end": 957
+      },
+      {
+        "w": "caminho",
+        "f": 957,
+        "end": 987
+      },
+      {
+        "w": "dela.",
+        "f": 987,
+        "end": 1019
+      },
+      {
+        "w": "Do",
+        "f": 1019,
+        "end": 1048
+      },
+      {
+        "w": "sol",
+        "f": 1048,
+        "end": 1058
+      },
+      {
+        "w": "até",
+        "f": 1058,
+        "end": 1081
+      },
+      {
+        "w": "a",
+        "f": 1081,
+        "end": 1089
+      },
+      {
+        "w": "gente.",
+        "f": 1089,
+        "end": 1130
+      },
+      {
+        "w": "E",
+        "f": 1130,
+        "end": 1135
+      },
+      {
+        "w": "por",
+        "f": 1135,
+        "end": 1159
+      },
+      {
+        "w": "isso",
+        "f": 1159,
+        "end": 1166
+      },
+      {
+        "w": "que",
+        "f": 1166,
+        "end": 1179
+      },
+      {
+        "w": "quando",
+        "f": 1179,
+        "end": 1206
+      },
+      {
+        "w": "você",
+        "f": 1206,
+        "end": 1224
+      },
+      {
+        "w": "olha",
+        "f": 1224,
+        "end": 1242
+      },
+      {
+        "w": "para",
+        "f": 1242,
+        "end": 1260
+      },
+      {
+        "w": "o",
+        "f": 1261,
+        "end": 1264
+      },
+      {
+        "w": "sol,",
+        "f": 1264,
+        "end": 1290
+      },
+      {
+        "w": "está",
+        "f": 1290,
+        "end": 1304
+      },
+      {
+        "w": "vendo",
+        "f": 1305,
+        "end": 1325
+      },
+      {
+        "w": "o",
+        "f": 1325,
+        "end": 1333
+      },
+      {
+        "w": "passado.",
+        "f": 1341,
+        "end": 1366
+      }
+    ],
+    "wordsNote": "whisper-small word timestamps; starts snapped to the first voiced 10 ms window (RMS > -39 dB) by scripts/align-words.py"
+  },
+  "safeZone": {
+    "contentRect": {
+      "x": [
+        60,
+        1020
+      ],
+      "y": [
+        120,
+        1670
+      ]
+    },
+    "rightActionBarX": 960,
+    "textColumn": {
+      "x": [
+        90,
+        990
+      ],
+      "maxWidth": 900
+    }
+  },
+  "layout": {
+    "pip": {
+      "aspect": "9:16",
+      "size": {
+        "w": 240,
+        "h": 426
+      },
+      "rect": {
+        "x": 700,
+        "y": 1230,
+        "w": 240,
+        "h": 426
+      },
+      "anchor": "bottom-right corner fixed at (940, 1656)",
+      "adjustmentNote": "Brief said x~780, y~1250, but 780+240 = 1020 crosses the x>960 action bar and 1250+426 = 1676 crosses y=1670. Shifted to x 700-940, y 1230-1656 (same size, still bottom-right).",
+      "style": {
+        "borderRadius": 24,
+        "border": "1.5px solid rgba(255,255,255,0.22)",
+        "shadow": "0 18px 48px rgba(0,0,0,0.55)",
+        "objectFit": "cover"
+      },
+      "payoffScale": 1.12,
+      "payoffRect": {
+        "x": 671,
+        "y": 1179,
+        "w": 269,
+        "h": 477
+      }
+    },
+    "scene3d": {
+      "renderer": "@remotion/three ThreeCanvas, full frame 1080x1920, behind PiP and text",
+      "starfield": "3 depth layers of points (~4000 stars), slow drift; nearer layers move more (parallax)",
+      "sun": {
+        "screenPos": [
+          250,
+          800
+        ],
+        "screenRadiusPx": 95,
+        "look": "emissive core + fresnel corona shell + additive glow sprite, slow surface noise"
+      },
+      "earth": {
+        "screenPos": [
+          830,
+          800
+        ],
+        "screenRadiusPx": 42,
+        "look": "procedural ocean/land shader, terminator lit from the Sun side, thin blue atmosphere rim, slow spin"
+      },
+      "beam": {
+        "from": "sun limb",
+        "to": "earth limb",
+        "look": "1-2px white-gold core + additive gaussian glow ~18px, grows Sun->Earth"
+      },
+      "actionBand": {
+        "y": [
+          300,
+          1150
+        ],
+        "note": "all 3D action stays above the PiP top (y 1179 at payoff scale)"
+      },
+      "timerBar": {
+        "rect": {
+          "x": 84,
+          "y": 380,
+          "w": 10,
+          "h": 660
+        },
+        "label": {
+          "x": 70,
+          "y": 1070,
+          "text": "0:00 -> 8:20"
+        },
+        "note": "vertical bar left of the Sun, inside x>=60"
+      }
+    },
+    "typography": {
+      "font": "Inter (bundled via @remotion/google-fonts)",
+      "big": {
+        "size": 104,
+        "weight": 800,
+        "y": 520
+      },
+      "medium": {
+        "size": 72,
+        "weight": 700,
+        "y": 1260,
+        "note": "used above the 3D band"
+      },
+      "kicker": {
+        "size": 44,
+        "weight": 600
+      }
+    }
+  },
+  "easing": {
+    "entrance": "Easing.out(Easing.cubic) / spring(damping 200)",
+    "camera": "Easing.inOut(Easing.cubic)",
+    "exit": "Easing.in(Easing.cubic), 12-18 frames",
+    "rule": "no linear interpolation anywhere; every text holds >= 1.2 s fully settled before exit"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "name": "Hook",
+      "from": 0,
+      "to": 442,
+      "briefWas": "0.0-2.8 s (0-168)",
+      "why": "'8 minutos e 20 segundos' is spoken at 5.52 s; the big text lands on the word instead of 3 s early.",
+      "events": [
+        {
+          "f": 0,
+          "what": "PiP already on screen, floating (±6px bob, 4 s period) over deep space; camera slow push-in drift"
+        },
+        {
+          "f": 120,
+          "what": "3D reveal: camera whips back (z 6.85 -> 9.3 by f200), Sun fades in f150, Earth f170; impact frame"
+        },
+        {
+          "f": 158,
+          "what": "Digital odometer timer appears (y 1045) and rolls 0:00 -> 8:20, locking on f331"
+        },
+        {
+          "f": 18,
+          "what": "Kicker text 'a luz do Sol demora…' fades/rises in (y 520)",
+          "until": 300
+        },
+        {
+          "f": 300,
+          "what": "Kicker exits up (18f)"
+        },
+        {
+          "f": 310,
+          "what": "SFX whoosh_1 starts (lead-in so the transient hits at 331)"
+        },
+        {
+          "f": 331,
+          "what": "BIG TEXT '8 minutos e 20 segundos' lands (scale 1.08->1, blur 12->0, easeOut 20f)"
+        },
+        {
+          "f": 331,
+          "until": 442,
+          "what": "Reading hold (1.85 s)"
+        },
+        {
+          "f": 430,
+          "what": "Big text exits (12f, easeIn)"
+        }
+      ]
+    },
+    {
+      "id": "explanation",
+      "name": "Explanation",
+      "from": 442,
+      "to": 928,
+      "briefWas": "2.8-7.5 s (168-450)",
+      "why": "covers v3 (airplane) + v4 ('300 mil km por segundo' at 13.38 s).",
+      "events": [
+        {
+          "f": 442,
+          "until": 700,
+          "what": "Camera pulls back (continues the 200-700 ease from z 9.3 to 10); Sun & Earth already on screen since the hook"
+        },
+        {
+          "f": 501,
+          "until": 690,
+          "what": "OPTIONAL text '✈ ≈ 3 voltas no mundo' (kicker size, y 1260) - drop if you want only the brief's texts",
+          "optional": true
+        },
+        {
+          "f": 714,
+          "until": 804,
+          "what": "Thin beam starts forming from the Sun limb (draw-on 0 -> 25% of the path, glow breathing)"
+        },
+        {
+          "f": 790,
+          "what": "SFX chime_1 (soft, tuned) lead-in"
+        },
+        {
+          "f": 803,
+          "what": "TEXT '300.000 km/s' lands (y 1260, easeOut 18f)"
+        },
+        {
+          "f": 803,
+          "until": 916,
+          "what": "Reading hold (1.9 s)"
+        },
+        {
+          "f": 916,
+          "what": "'300.000 km/s' exits (12f)"
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "name": "Hero moment - The Journey",
+      "from": 928,
+      "to": 1130,
+      "briefWas": "7.5-14.0 s (450-840), 6 s travel",
+      "why": "voice cue is 'Olha só o caminho dela… Do Sol até a gente' (15.5-18.8 s); light leaves on 'Olha' and arrives on 'gente'.",
+      "travelFrames": 161,
+      "events": [
+        {
+          "f": 928,
+          "what": "Light particle departs the Sun (bright core + trail); beam path fully reveals behind it"
+        },
+        {
+          "f": 928,
+          "until": 1089,
+          "what": "Vertical timer bar fills bottom->top, label counts 0:00 -> 8:20 (easeInOut on progress; digits tick on whole seconds of the 500 s)"
+        },
+        {
+          "f": 1089,
+          "what": "Particle reaches Earth; soft pulse ring expands from Earth (60f, easeOut, fades); timer locks at 8:20 with a tiny scale pop"
+        },
+        {
+          "f": 1084,
+          "what": "SFX chime_2 (arrival) + low swell"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "name": "Payoff",
+      "from": 1130,
+      "to": 1366,
+      "briefWas": "14.0-18.5 s (840-1110)",
+      "why": "v7 runs 18.95-22.76 s.",
+      "events": [
+        {
+          "f": 1130,
+          "until": 1290,
+          "what": "Camera returns closer (inOut cubic); Sun & Earth stay linked by the steady beam"
+        },
+        {
+          "f": 1130,
+          "until": 1190,
+          "what": "PiP scales 1.0 -> 1.12 around its bottom-right anchor (easeOut)"
+        },
+        {
+          "f": 1100,
+          "what": "Timer bar fades out (18f)"
+        },
+        {
+          "f": 1140,
+          "what": "TEXT 'É por isso que olhamos o passado' lands (big, y 520)",
+          "until": 1292
+        },
+        {
+          "f": 1292,
+          "what": "Swap: first text exits (12f), then"
+        },
+        {
+          "f": 1300,
+          "what": "TEXT 'você está vendo o passado' lands on 'vendo' (big, y 520; 'passado' in sun-gold)"
+        },
+        {
+          "f": 1290,
+          "what": "SFX whoosh_2 (soft, lower)"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "name": "End",
+      "from": 1366,
+      "to": 1408,
+      "briefWas": "18.5-20.0 s (1110-1200)",
+      "events": [
+        {
+          "f": 1366,
+          "what": "Clean hold: me (PiP) + space; text stays"
+        },
+        {
+          "f": 1372,
+          "until": 1408,
+          "what": "Picture fades to black (easeIn); space pad fades out; voice untouched"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "master": "eu.mp4 audio, unprocessed (no EQ/compression), volume 1.0",
+    "sfx": [
+      {
+        "id": "whoosh_1",
+        "file": "public/sfx/whoosh_1.wav",
+        "at": 310,
+        "gainDb": -8
+      },
+      {
+        "id": "chime_1",
+        "file": "public/sfx/chime_1.wav",
+        "at": 790,
+        "gainDb": -14
+      },
+      {
+        "id": "chime_2",
+        "file": "public/sfx/chime_2.wav",
+        "at": 1084,
+        "gainDb": -12
+      },
+      {
+        "id": "whoosh_2",
+        "file": "public/sfx/whoosh_2.wav",
+        "at": 1290,
+        "gainDb": -12
+      },
+      {
+        "id": "space_pad",
+        "file": "public/sfx/space_pad.wav",
+        "from": 0,
+        "to": 1408,
+        "gainDb": -24,
+        "fadeInFrames": 60,
+        "fadeOutFrames": 42
+      }
+    ],
+    "sfxGeneration": "procedural, synthesized by scripts/gen-sfx.mjs (filtered-noise sweeps, inharmonic sine partials, detuned pad) - no third-party samples",
+    "ducking": {
+      "voicedRanges": "voice.phrases[from..to]",
+      "duckDb": -8,
+      "attackFrames": 6,
+      "releaseFrames": 18,
+      "appliesTo": [
+        "space_pad",
+        "chimes",
+        "whooshes"
+      ]
+    },
+    "loudness": {
+      "targetLUFS": -14,
+      "truePeakDbTP": -1,
+      "method": "two-pass ffmpeg loudnorm on the final mix (one global gain; the voice itself is not re-processed)"
+    }
+  },
+  "deliverables": {
+    "contactSheet": "out/contact_sheet.png - one frame per beat key moment (~16 tiles) with TikTok safe-zone + action-bar overlay",
+    "final": "out/final_sun_video.mp4 - H.264 (yuv420p, CRF 18) + AAC 320k, -movflags +faststart"
+  },
+  "alternatives": {
+    "strict20s": {
+      "durationInFrames": 1200,
+      "note": "Ends on 'Do Sol até a gente' (18.84 s) + 1.16 s hold/fade. Loses the punchline 'quando você olha pro Sol, está vendo o passado'; payoff text would play over silence. Not recommended."
+    }
+  },
+  "motion": {
+    "version": 2,
+    "camera": {
+      "$comment": "3D camera z keys (world units; z=10 is the base framing). Sun stays inside the safe zone for z >= 8.1.",
+      "keys": [
+        [
+          0,
+          7.0
+        ],
+        [
+          110,
+          6.85
+        ],
+        [
+          200,
+          9.3
+        ],
+        [
+          700,
+          10.0
+        ],
+        [
+          1130,
+          10.12
+        ],
+        [
+          1290,
+          9.15
+        ],
+        [
+          1408,
+          9.05
+        ]
+      ],
+      "drift": {
+        "x": 0.06,
+        "y": 0.04
+      },
+      "sunIn": 150,
+      "earthIn": 170,
+      "appearFrames": 80
+    },
+    "impacts": [
+      {
+        "f": 120,
+        "flash": 0.35,
+        "zoom": 0.03,
+        "shake": 0,
+        "why": "3D reveal"
+      },
+      {
+        "f": 331,
+        "flash": 0.7,
+        "zoom": 0.05,
+        "shake": 14,
+        "why": "'8' slams"
+      },
+      {
+        "f": 378,
+        "flash": 0.25,
+        "zoom": 0.025,
+        "shake": 8,
+        "why": "'20' slams"
+      },
+      {
+        "f": 812,
+        "flash": 0.45,
+        "zoom": 0.03,
+        "shake": 10,
+        "why": "speedometer locks on '300'"
+      },
+      {
+        "f": 1089,
+        "flash": 0.55,
+        "zoom": 0.04,
+        "shake": 10,
+        "why": "light hits Earth"
+      },
+      {
+        "f": 1130,
+        "flash": 0.0,
+        "zoom": 0.03,
+        "shake": 0,
+        "why": "payoff cut"
+      },
+      {
+        "f": 1341,
+        "flash": 0.5,
+        "zoom": 0.04,
+        "shake": 12,
+        "why": "'passado'"
+      }
+    ],
+    "captions": {
+      "$comment": "Kinetic captions: each word pops on its spoken frame (voice.words). key = colour pulse. A chunk leaves 6 frames before the next one starts, or at `out`.",
+      "zone": {
+        "yCenter": 410,
+        "x": [
+          90,
+          990
+        ]
+      },
+      "chunks": [
+        {
+          "id": "c1",
+          "style": "caption",
+          "words": [
+            {
+              "t": "Você",
+              "f": 0
+            },
+            {
+              "t": "sabia",
+              "f": 29
+            },
+            {
+              "t": "que",
+              "f": 41
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "style": "caption",
+          "words": [
+            {
+              "t": "a",
+              "f": 55
+            },
+            {
+              "t": "luz",
+              "f": 59
+            },
+            {
+              "t": "do",
+              "f": 78
+            },
+            {
+              "t": "Sol",
+              "f": 85,
+              "key": true
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "style": "caption",
+          "words": [
+            {
+              "t": "demora",
+              "f": 96
+            },
+            {
+              "t": "mais",
+              "f": 124
+            },
+            {
+              "t": "de",
+              "f": 142
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "style": "caption",
+          "words": [
+            {
+              "t": "8",
+              "f": 158,
+              "key": true
+            },
+            {
+              "t": "minutos",
+              "f": 165,
+              "key": true
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "style": "caption",
+          "words": [
+            {
+              "t": "para",
+              "f": 203
+            },
+            {
+              "t": "chegar",
+              "f": 209
+            },
+            {
+              "t": "na",
+              "f": 221
+            },
+            {
+              "t": "Terra?",
+              "f": 226
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "style": "caption",
+          "words": [
+            {
+              "t": "Sim!",
+              "f": 263
+            }
+          ]
+        },
+        {
+          "id": "c7",
+          "style": "slam",
+          "words": [
+            {
+              "t": "8",
+              "f": 331,
+              "key": true
+            },
+            {
+              "t": "minutos",
+              "f": 344,
+              "key": true
+            },
+            {
+              "t": "e",
+              "f": 374
+            },
+            {
+              "t": "20",
+              "f": 378,
+              "key": true
+            },
+            {
+              "t": "segundos",
+              "f": 404,
+              "key": true
+            }
+          ],
+          "out": 436
+        },
+        {
+          "id": "c8",
+          "style": "caption",
+          "words": [
+            {
+              "t": "Nesse",
+              "f": 442
+            },
+            {
+              "t": "tempo,",
+              "f": 473
+            }
+          ]
+        },
+        {
+          "id": "c9",
+          "style": "caption",
+          "words": [
+            {
+              "t": "um",
+              "f": 492
+            },
+            {
+              "t": "avião",
+              "f": 500,
+              "key": true
+            },
+            {
+              "t": "comercial",
+              "f": 521
+            }
+          ]
+        },
+        {
+          "id": "c10",
+          "style": "caption",
+          "words": [
+            {
+              "t": "daria",
+              "f": 560
+            },
+            {
+              "t": "a",
+              "f": 581
+            },
+            {
+              "t": "volta",
+              "f": 585
+            },
+            {
+              "t": "no",
+              "f": 607
+            },
+            {
+              "t": "mundo",
+              "f": 616
+            }
+          ]
+        },
+        {
+          "id": "c11",
+          "style": "caption",
+          "words": [
+            {
+              "t": "quase",
+              "f": 637
+            },
+            {
+              "t": "3",
+              "f": 656,
+              "key": true
+            },
+            {
+              "t": "vezes.",
+              "f": 673,
+              "key": true
+            }
+          ]
+        },
+        {
+          "id": "c12",
+          "style": "caption",
+          "words": [
+            {
+              "t": "Mas",
+              "f": 701
+            },
+            {
+              "t": "a",
+              "f": 730
+            },
+            {
+              "t": "luz?",
+              "f": 732,
+              "key": true
+            }
+          ]
+        },
+        {
+          "id": "c13",
+          "style": "caption",
+          "words": [
+            {
+              "t": "viaja",
+              "f": 756
+            },
+            {
+              "t": "a",
+              "f": 794
+            }
+          ],
+          "out": 900
+        },
+        {
+          "id": "c14",
+          "style": "caption",
+          "words": [
+            {
+              "t": "Olha",
+              "f": 928
+            },
+            {
+              "t": "só",
+              "f": 952
+            }
+          ]
+        },
+        {
+          "id": "c15",
+          "style": "caption",
+          "words": [
+            {
+              "t": "o",
+              "f": 956
+            },
+            {
+              "t": "caminho",
+              "f": 957
+            },
+            {
+              "t": "dela…",
+              "f": 987
+            }
+          ]
+        },
+        {
+          "id": "c16",
+          "style": "caption",
+          "words": [
+            {
+              "t": "Do",
+              "f": 1019
+            },
+            {
+              "t": "Sol",
+              "f": 1048,
+              "key": true
+            },
+            {
+              "t": "até",
+              "f": 1058
+            },
+            {
+              "t": "a",
+              "f": 1081
+            },
+            {
+              "t": "gente.",
+              "f": 1089,
+              "key": true
+            }
+          ]
+        },
+        {
+          "id": "c17",
+          "style": "hero",
+          "words": [
+            {
+              "t": "É",
+              "f": 1130
+            },
+            {
+              "t": "por",
+              "f": 1135
+            },
+            {
+              "t": "isso",
+              "f": 1159
+            },
+            {
+              "t": "que",
+              "f": 1166
+            },
+            {
+              "t": "olhamos",
+              "f": 1224
+            },
+            {
+              "t": "o",
+              "f": 1261
+            },
+            {
+              "t": "passado",
+              "f": 1264,
+              "key": true
+            }
+          ]
+        },
+        {
+          "id": "c18",
+          "style": "hero",
+          "words": [
+            {
+              "t": "você",
+              "f": 1290
+            },
+            {
+              "t": "está",
+              "f": 1294
+            },
+            {
+              "t": "vendo",
+              "f": 1305
+            },
+            {
+              "t": "o",
+              "f": 1325
+            },
+            {
+              "t": "passado",
+              "f": 1341,
+              "key": true
+            }
+          ]
+        }
+      ]
+    },
+    "hookTimer": {
+      "in": 158,
+      "rollFrom": 165,
+      "lockAt": 331,
+      "out": 430,
+      "yCenter": 1045
+    },
+    "speedometer": {
+      "in": 794,
+      "countFrom": 812,
+      "countTo": 880,
+      "unitLock": 901,
+      "out": 916,
+      "exitFrames": 16,
+      "center": [
+        540,
+        1100
+      ],
+      "radius": 235,
+      "maxKmS": 350000,
+      "valueKmS": 300000
+    },
+    "speedLines": {
+      "from": 794,
+      "to": 930,
+      "count": 44,
+      "band": [
+        600,
+        1010
+      ]
+    },
+    "flightPath": {
+      "in": 492,
+      "drawOn": [
+        500,
+        530
+      ],
+      "fly": [
+        521,
+        690
+      ],
+      "loops": 2.9,
+      "labelAt": 656,
+      "out": 700,
+      "rx": 100,
+      "ry": 52,
+      "tiltDeg": -18
+    },
+    "photon": {
+      "sunPulseAt": 928,
+      "earthGlowRamp": [
+        1000,
+        1089
+      ],
+      "lensFlare": true,
+      "trailSprites": 6
+    }
+  }
+}
