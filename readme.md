@@ -8,7 +8,9 @@ O projeto transforma um roteiro de áudio em um vídeo cinematográfico de alta 
 
 O projeto `iphone-duo` foi gerado inteiramente por este pipeline.
 
-[![Assistir ao vídeo de exemplo](https://img.shields.io/badge/▶_Assistir_Vídeo_Exemplo-blue?style=for-the-badge)](projetos/iphone-duo/out/final_iphone_duo.mp4)
+![Exemplo de vídeo gerado por IA](./projetos/iphone-duo/out/final_iphone_duo.gif)
+
+*(Se o GIF não carregar, ele está salvo localmente no seu computador em `projetos/iphone-duo/out/final_iphone_duo.gif`)*
 
 > **Nota:** Se estiver visualizando o projeto no VS Code, clique no link acima para abrir o vídeo. O arquivo está localizado em `projetos/iphone-duo/out/final_iphone_duo.mp4`.
 
