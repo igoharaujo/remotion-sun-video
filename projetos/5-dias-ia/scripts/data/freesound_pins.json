@@ -1,0 +1,18 @@
+{
+ "ia_meteor.wav": {"id": 683179, "query": "fireball whoosh"},
+ "ia_explosion.wav": {"id": 587193, "query": "big explosion"},
+ "ia_rumble.wav": {"id": 431859, "query": "debris rumble"},
+ "ia_whoosh.wav": {"id": 59995, "query": "fast whoosh"},
+ "ia_pop.wav": {"id": 812555, "query": "ui pop"},
+ "ia_glitch.wav": {"id": 458065, "query": "digital glitch"},
+ "ia_vhs.wav": {"id": 166178, "query": "vhs tape noise"},
+ "ia_impact.wav": {"id": 671375, "query": "deep cinematic impact"},
+ "ia_tick.wav": {"id": 528561, "query": "ui click digital"},
+ "ia_chime.wav": {"id": 351879, "query": "notification chime"},
+ "ia_thud.wav": {"id": 339364, "query": "box thud"},
+ "ia_keys.wav": {"id": 447909, "query": "keyboard typing"},
+ "ia_error.wav": {"id": 478191, "query": "error beep soft"},
+ "ia_riser.wav": {"id": 859482, "query": "short riser"},
+ "ia_ding.wav": {"id": 571512, "query": "soft notification ding"},
+ "ia_unlock.wav": {"id": 422852, "query": "unlock click"}
+}

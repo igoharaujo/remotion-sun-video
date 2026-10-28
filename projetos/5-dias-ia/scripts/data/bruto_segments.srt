@@ -1,0 +1,100 @@
+1
+00:00:00,000 --> 00:00:15,380
+ Na segunda-feira, eu gastei 10 horas fazendo esse vídeo horrível aqui.
+
+2
+00:00:15,380 --> 00:00:37,300
+ Hoje, 5 dias depois, eu estou literalmente explodindo um planeta no meu fundo usando
+
+3
+00:00:37,300 --> 00:00:51,240
+ código e inteligência artificial.
+
+4
+00:00:51,240 --> 00:00:54,620
+ O meu primeiro erro foi achar que volume ganha de técnica.
+
+5
+00:00:54,620 --> 00:01:24,100
+ No meu primeiro dia, eu escrevi.
+
+6
+00:01:24,100 --> 00:01:49,900
+ No meu primeiro dia, eu escrevi um documento de 46 páginas e automatizei 70 imagens de
+
+7
+00:01:49,900 --> 00:01:58,500
+ um boneco parito de uma vez.
+
+8
+00:01:58,500 --> 00:02:20,440
+ O resultado é uma bomba sem intenção nenhuma.
+
+9
+00:02:20,440 --> 00:02:42,820
+ Inteligência artificial sem direção de arte só automatiza o que já é ruim.
+
+10
+00:02:42,820 --> 00:02:49,020
+ No dia 2, eu tentei parar de fazer tudo em um lugar só.
+
+11
+00:02:49,020 --> 00:03:04,540
+ No dia 2, eu parei de tentar fazer tudo em um lugar só e comecei a empilhar as ferramentas.
+
+12
+00:03:04,540 --> 00:03:34,480
+ Um maíagéro código, um maíagéro lógico.
+
+13
+00:03:34,480 --> 00:03:46,920
+ Outra gera trilha e outra anima a física.
+
+14
+00:03:46,920 --> 00:04:10,080
+ Mas o jogo virou no dia 3, quando eu parei de editar a mão e usei minha base de programação.
+
+15
+00:04:10,080 --> 00:04:29,600
+ Para deixar a gente escrever as animações diretamente no código.
+
+16
+00:04:29,600 --> 00:04:59,560
+ O segredo para sair do zero, para ser sem nível, em uma semana, não é fazer promptizinho.
+
+17
+00:04:59,560 --> 00:05:18,880
+ E o segredo para sair do zero a esse nível em uma semana não é criar promptizinho.
+
+18
+00:05:18,880 --> 00:05:36,840
+ É criar um arquivo de regra visual dentro do seu editor de código e obrigar a inteligência
+
+19
+00:05:36,840 --> 00:05:56,960
+ artificial seguir as leis de câmera, ritmo e intensão, antes mesmo de redenharizar qualquer
+
+20
+00:05:56,960 --> 00:06:11,240
+ frame.
+
+21
+00:06:11,240 --> 00:06:34,300
+ Eu deixei basar na tela durante esse vídeo todas as ferramentas e estruturas de pastas
+
+22
+00:06:34,300 --> 00:06:42,920
+ que eu usei.
+
+23
+00:06:42,920 --> 00:06:52,980
+ Comenta aqui qual delas você conseguiu identificar.
+
+24
+00:06:52,980 --> 00:07:07,480
+ E se esse vídeo bater 500 comentários eu abro a arquitetura desse agente do zero.
+
+25
+00:07:07,480 --> 00:07:09,260
+ Segue para acompanhar o dia 6.
+

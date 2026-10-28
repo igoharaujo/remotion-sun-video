@@ -1,0 +1,22 @@
+{
+  "lng_boot.wav": { "id": 220207, "query": "ui startup" },
+  "lng_scan.wav": { "id": 658266, "query": "ui beep" },
+  "lng_pop.wav": { "id": 447910, "query": "ui pop" },
+  "lng_flip.wav": { "id": 84322, "query": "card flip" },
+  "lng_stamp.wav": { "id": 470710, "query": "rubber stamp" },
+  "lng_shimmer.wav": { "id": 562196, "query": "glass shimmer" },
+  "lng_lock.wav": { "id": 388046, "query": "ui beep" },
+  "lng_error.wav": { "id": 445978, "query": "ui error" },
+  "lng_impact.wav": { "id": 736849, "query": "cinematic impact hit" },
+  "lng_riser.wav": { "id": 859482, "query": "cinematic riser short" },
+  "lng_boom.wav": { "id": 430977, "query": "cinematic impact boom" },
+  "lng_tick.wav": { "id": 528561, "query": "ui tick" },
+  "lng_tap.wav": { "id": 467951, "query": "ui pop" },
+  "lng_toggle.wav": { "id": 457463, "query": "toggle switch" },
+  "lng_swipe.wav": { "id": 60007, "query": "swipe whoosh" },
+  "lng_focus.wav": { "id": 467880, "query": "camera focus beep" },
+  "lng_alert.wav": { "id": 258193, "query": "alert beep" },
+  "lng_glitch.wav": { "id": 237607, "query": "digital glitch" },
+  "lng_sparkle.wav": { "id": 817466, "query": "magic sparkle chime" },
+  "lng_chime.wav": { "id": 616696, "query": "notification chime" }
+}

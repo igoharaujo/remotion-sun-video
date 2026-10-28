@@ -1,0 +1,33 @@
+{
+  "name": "analista-dados-ia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vertical TikTok: a IA vai acabar com o Analista de Dados? Jump cuts do bruto + PiP sobre fundo dark tech 3D + cards de fontes + mascote.",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render AnalistaDadosIA out/render_raw.mp4",
+    "still": "remotion still AnalistaDadosIA",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "@remotion/media-utils": "4.0.538",
+    "@remotion/three": "^4.0.538",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.538",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/three": "^0.186.0",
+    "sharp": "^0.34.3",
+    "typescript": "7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "sharp@0.34.5": true
+  }
+}

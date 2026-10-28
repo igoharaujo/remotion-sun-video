@@ -1,0 +1,29 @@
+{
+  "name": "meu-teste",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vertical TikTok: o vício de deixar pra amanhã. Vídeo real de fundo + kinetic type + mascote 2.5D.",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render MeuTeste out/render_raw.mp4",
+    "still": "remotion still MeuTeste",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "@remotion/media-utils": "4.0.538",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "sharp": "^0.34.3",
+    "typescript": "7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "sharp@0.34.5": true
+  }
+}

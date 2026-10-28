@@ -1,0 +1,619 @@
+{
+ "source": "public/eu_falando.mp4",
+ "output": "public/eu_falando_cortado.mp4",
+ "speed": 1.07,
+ "duration": 87.191,
+ "segments": [
+  {
+   "section": "HOOK",
+   "region": 0,
+   "src": [
+    0,
+    3.466
+   ],
+   "out": [
+    0.0,
+    3.239
+   ],
+   "text": "Se você é ou conhece alguém que é analista de dados, não pula esse vídeo."
+  },
+  {
+   "section": "HOOK",
+   "region": 0,
+   "src": [
+    3.603,
+    4.908
+   ],
+   "out": [
+    3.239,
+    4.459
+   ],
+   "text": "Se você é ou conhece alguém que é analista de dados, não pula esse vídeo."
+  },
+  {
+   "section": "HOOK",
+   "region": 1,
+   "src": [
+    6.472,
+    11.079
+   ],
+   "out": [
+    4.459,
+    8.764
+   ],
+   "text": "Eu cruzei as mensagens de um grupo fechado com especialistas da área com os dados do mercado americano agora de 2026."
+  },
+  {
+   "section": "HOOK",
+   "region": 1,
+   "src": [
+    11.294,
+    15.121
+   ],
+   "out": [
+    8.764,
+    12.341
+   ],
+   "text": "Eu cruzei as mensagens de um grupo fechado com especialistas da área com os dados do mercado americano agora de 2026."
+  },
+  {
+   "section": "HOOK",
+   "region": 2,
+   "src": [
+    21.482,
+    24.488
+   ],
+   "out": [
+    12.341,
+    15.15
+   ],
+   "text": "E talvez você não queira ouvir isso, mas a resposta curta"
+  },
+  {
+   "section": "HOOK",
+   "region": 2,
+   "src": [
+    24.679,
+    24.967
+   ],
+   "out": [
+    15.15,
+    15.419
+   ],
+   "text": "E talvez você não queira ouvir isso, mas a resposta curta"
+  },
+  {
+   "section": "HOOK",
+   "region": 2,
+   "src": [
+    25.05,
+    25.288
+   ],
+   "out": [
+    15.419,
+    15.641
+   ],
+   "text": "E talvez você não queira ouvir isso, mas a resposta curta"
+  },
+  {
+   "section": "HOOK",
+   "region": 3,
+   "src": [
+    27.661,
+    30.206
+   ],
+   "out": [
+    15.641,
+    18.019
+   ],
+   "text": "é que o analista de dados tradicional já morreu lá fora."
+  },
+  {
+   "section": "HOOK",
+   "region": 3,
+   "src": [
+    30.372,
+    31.469
+   ],
+   "out": [
+    18.019,
+    19.044
+   ],
+   "text": "é que o analista de dados tradicional já morreu lá fora."
+  },
+  {
+   "section": "GRUPO",
+   "region": 4,
+   "src": [
+    56.854,
+    60.992
+   ],
+   "out": [
+    19.044,
+    22.911
+   ],
+   "text": "Em um dos grupos que eu mapeei, um DBA com mais de 25 anos de mercado lembrou que em 97 já diziam que a profissão dele ia acabar."
+  },
+  {
+   "section": "GRUPO",
+   "region": 4,
+   "src": [
+    61.163,
+    63.002
+   ],
+   "out": [
+    22.911,
+    24.63
+   ],
+   "text": "Em um dos grupos que eu mapeei, um DBA com mais de 25 anos de mercado lembrou que em 97 já diziam que a profissão dele ia acabar."
+  },
+  {
+   "section": "GRUPO",
+   "region": 4,
+   "src": [
+    63.26,
+    65.044
+   ],
+   "out": [
+    24.63,
+    26.298
+   ],
+   "text": "Em um dos grupos que eu mapeei, um DBA com mais de 25 anos de mercado lembrou que em 97 já diziam que a profissão dele ia acabar."
+  },
+  {
+   "section": "GRUPO",
+   "region": 4,
+   "src": [
+    65.171,
+    65.974
+   ],
+   "out": [
+    26.298,
+    27.049
+   ],
+   "text": "Em um dos grupos que eu mapeei, um DBA com mais de 25 anos de mercado lembrou que em 97 já diziam que a profissão dele ia acabar."
+  },
+  {
+   "section": "GRUPO",
+   "region": 5,
+   "src": [
+    66.546,
+    68.779
+   ],
+   "out": [
+    27.049,
+    29.136
+   ],
+   "text": "Só que tem um detalhe: a inteligência artificial hoje já engoliu o código repetitivo, a query básica e o dashboard."
+  },
+  {
+   "section": "GRUPO",
+   "region": 5,
+   "src": [
+    68.873,
+    72.029
+   ],
+   "out": [
+    29.136,
+    32.085
+   ],
+   "text": "Só que tem um detalhe: a inteligência artificial hoje já engoliu o código repetitivo, a query básica e o dashboard."
+  },
+  {
+   "section": "GRUPO",
+   "region": 5,
+   "src": [
+    72.207,
+    74.068
+   ],
+   "out": [
+    32.085,
+    33.824
+   ],
+   "text": "Só que tem um detalhe: a inteligência artificial hoje já engoliu o código repetitivo, a query básica e o dashboard."
+  },
+  {
+   "section": "DADOS",
+   "region": 8,
+   "src": [
+    95.383,
+    99.214
+   ],
+   "out": [
+    33.824,
+    37.405
+   ],
+   "text": "O Fórum Econômico Mundial projeta queda de mais de 50%"
+  },
+  {
+   "section": "DADOS",
+   "region": 9,
+   "src": [
+    103.663,
+    105.672
+   ],
+   "out": [
+    37.405,
+    39.282
+   ],
+   "text": "no trabalho operacional de dados."
+  },
+  {
+   "section": "DADOS",
+   "region": 9,
+   "src": [
+    105.763,
+    105.942
+   ],
+   "out": [
+    39.282,
+    39.45
+   ],
+   "text": "no trabalho operacional de dados."
+  },
+  {
+   "section": "DADOS",
+   "region": 11,
+   "src": [
+    124.304,
+    128.491
+   ],
+   "out": [
+    39.45,
+    43.363
+   ],
+   "text": "a Gartner mostrou que qualquer gestor hoje gera relatórios utilizando"
+  },
+  {
+   "section": "DADOS",
+   "region": 12,
+   "src": [
+    128.829,
+    129.524
+   ],
+   "out": [
+    43.363,
+    44.013
+   ],
+   "text": "inteligência artificial."
+  },
+  {
+   "section": "DADOS",
+   "region": 12,
+   "src": [
+    129.59,
+    130.079
+   ],
+   "out": [
+    44.013,
+    44.469
+   ],
+   "text": "inteligência artificial."
+  },
+  {
+   "section": "DADOS",
+   "region": 13,
+   "src": [
+    142.276,
+    147.538
+   ],
+   "out": [
+    44.469,
+    49.388
+   ],
+   "text": "Lá fora, o analista que sobreviveu, e que hoje ganha 59 mil dólares a mais por ano,"
+  },
+  {
+   "section": "DADOS",
+   "region": 14,
+   "src": [
+    151.884,
+    154.279
+   ],
+   "out": [
+    49.388,
+    51.626
+   ],
+   "text": "parou de fazer gráfico e virou um híbrido."
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 17,
+   "src": [
+    183.162,
+    184.821
+   ],
+   "out": [
+    51.626,
+    53.177
+   ],
+   "text": "você precisa mudar hoje"
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 18,
+   "src": [
+    185.18,
+    187.025
+   ],
+   "out": [
+    53.177,
+    54.901
+   ],
+   "text": "o que você estuda, em três pontos."
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 19,
+   "src": [
+    193.348,
+    193.924
+   ],
+   "out": [
+    54.901,
+    55.439
+   ],
+   "text": "Primeiro: pare de focar em arrastar caixinha no Power BI"
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 19,
+   "src": [
+    194.035,
+    196.895
+   ],
+   "out": [
+    55.439,
+    58.111
+   ],
+   "text": "Primeiro: pare de focar em arrastar caixinha no Power BI"
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 20,
+   "src": [
+    199.624,
+    202.088
+   ],
+   "out": [
+    58.111,
+    60.414
+   ],
+   "text": "e aprenda modelagem e governança."
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 23,
+   "src": [
+    224.604,
+    225.442
+   ],
+   "out": [
+    60.414,
+    61.197
+   ],
+   "text": "Segundo:"
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 24,
+   "src": [
+    228.406,
+    231.411
+   ],
+   "out": [
+    61.197,
+    64.006
+   ],
+   "text": "saia do SQL básico e domine Python"
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 25,
+   "src": [
+    236.063,
+    237.942
+   ],
+   "out": [
+    64.006,
+    65.762
+   ],
+   "text": "e conexão de dados com LLMs."
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 25,
+   "src": [
+    238.176,
+    239.272
+   ],
+   "out": [
+    65.762,
+    66.786
+   ],
+   "text": "e conexão de dados com LLMs."
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 27,
+   "src": [
+    253.016,
+    253.665
+   ],
+   "out": [
+    66.786,
+    67.392
+   ],
+   "text": "Terceiro: entenda de regra de negócio."
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 27,
+   "src": [
+    253.869,
+    255.698
+   ],
+   "out": [
+    67.392,
+    69.102
+   ],
+   "text": "Terceiro: entenda de regra de negócio."
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 28,
+   "src": [
+    258.351,
+    260.289
+   ],
+   "out": [
+    69.102,
+    70.913
+   ],
+   "text": "A IA te dá a resposta em código,"
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 29,
+   "src": [
+    265.778,
+    267.004
+   ],
+   "out": [
+    70.913,
+    72.059
+   ],
+   "text": "mas só o humano sabe qual pergunta dá lucro à empresa."
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 29,
+   "src": [
+    267.076,
+    267.732
+   ],
+   "out": [
+    72.059,
+    72.672
+   ],
+   "text": "mas só o humano sabe qual pergunta dá lucro à empresa."
+  },
+  {
+   "section": "SOLUCAO",
+   "region": 29,
+   "src": [
+    267.947,
+    270.349
+   ],
+   "out": [
+    72.672,
+    74.917
+   ],
+   "text": "mas só o humano sabe qual pergunta dá lucro à empresa."
+  },
+  {
+   "section": "CTA",
+   "region": 30,
+   "src": [
+    279.019,
+    280.749
+   ],
+   "out": [
+    74.917,
+    76.534
+   ],
+   "text": "O analista de dados não vai acabar,"
+  },
+  {
+   "section": "CTA",
+   "region": 31,
+   "src": [
+    283.984,
+    285.759
+   ],
+   "out": [
+    76.534,
+    78.193
+   ],
+   "text": "ele só subiu de nível."
+  },
+  {
+   "section": "CTA",
+   "region": 32,
+   "src": [
+    312.224,
+    314.137
+   ],
+   "out": [
+    78.193,
+    79.98
+   ],
+   "text": "E se você quiser o mapa exato"
+  },
+  {
+   "section": "CTA",
+   "region": 33,
+   "src": [
+    318.368,
+    320.414
+   ],
+   "out": [
+    79.98,
+    81.893
+   ],
+   "text": "do que estudar pra fazer essa transição"
+  },
+  {
+   "section": "CTA",
+   "region": 36,
+   "src": [
+    340.657,
+    342.654
+   ],
+   "out": [
+    81.893,
+    83.759
+   ],
+   "text": "comenta DADOS aqui embaixo"
+  },
+  {
+   "section": "CTA",
+   "region": 37,
+   "src": [
+    346.099,
+    347.491
+   ],
+   "out": [
+    83.759,
+    85.06
+   ],
+   "text": "que eu trago no próximo vídeo."
+  },
+  {
+   "section": "CTA",
+   "region": 38,
+   "src": [
+    350.42,
+    352.7
+   ],
+   "out": [
+    85.06,
+    87.191
+   ],
+   "text": "E já segue pra não ficar pra trás."
+  }
+ ],
+ "droppedRegions": [
+  6,
+  7,
+  10,
+  15,
+  16,
+  21,
+  22,
+  26,
+  34,
+  35,
+  39
+ ]
+}

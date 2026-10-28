@@ -1,0 +1,101 @@
+[
+  {
+    "file": "abas_whoosh.wav",
+    "freesound_id": 59995,
+    "name": "swosh-08.flac - \"stick cutting air\"",
+    "author": "qubodup",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/qubodup/sounds/59995/",
+    "query": "fast whoosh",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "abas_impact.wav",
+    "freesound_id": 671375,
+    "name": "FX Cinematic Impact.wav",
+    "author": "Johnnie_Holiday",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Johnnie_Holiday/sounds/671375/",
+    "query": "deep cinematic impact",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "abas_click.wav",
+    "freesound_id": 528561,
+    "name": "Soft UI Button Click",
+    "author": "Jummit",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Jummit/sounds/528561/",
+    "query": "ui click digital",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS"
+  },
+  {
+    "file": "abas_pop.wav",
+    "freesound_id": 812555,
+    "name": "UI pop sound",
+    "author": "Aesnas",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Aesnas/sounds/812555/",
+    "query": "ui pop",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "abas_glitch.wav",
+    "freesound_id": 458065,
+    "name": "Digital Glitch_v1.wav",
+    "author": "tadaizm",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/tadaizm/sounds/458065/",
+    "query": "digital glitch",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "abas_glitch_long.wav",
+    "freesound_id": 348585,
+    "name": "Glitch Corruption",
+    "author": "dotY21",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/dotY21/sounds/348585/",
+    "query": "digital glitch",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "abas_fan.wav",
+    "freesound_id": 487355,
+    "name": "PC-fan.wav",
+    "author": "whathead07",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/whathead07/sounds/487355/",
+    "query": "computer fan loud",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS"
+  },
+  {
+    "file": "abas_ding.wav",
+    "freesound_id": 571512,
+    "name": "Soft-Notifications - Bell - HighDing.mp3",
+    "author": "LegitCheese",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/LegitCheese/sounds/571512/",
+    "query": "soft notification ding",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS"
+  },
+  {
+    "file": "abas_keys.wav",
+    "freesound_id": 447909,
+    "name": "Keyboard typing",
+    "author": "Breviceps",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Breviceps/sounds/447909/",
+    "query": "keyboard typing",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  }
+]

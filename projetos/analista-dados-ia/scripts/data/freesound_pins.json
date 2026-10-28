@@ -1,0 +1,78 @@
+{
+ "dd_impact.wav": {
+  "id": 736852,
+  "query": "cinematic impact hit"
+ },
+ "dd_subdrop.wav": {
+  "id": 428073,
+  "query": "sub drop"
+ },
+ "dd_whoosh.wav": {
+  "id": 389590,
+  "query": "fast whoosh"
+ },
+ "dd_pop.wav": {
+  "id": 669918,
+  "query": "ui pop"
+ },
+ "dd_blip.wav": {
+  "id": 396193,
+  "query": "ui blip"
+ },
+ "dd_ecg.wav": {
+  "id": 843148,
+  "query": "heart monitor beep"
+ },
+ "dd_flatline.wav": {
+  "id": 398637,
+  "query": "flatline"
+ },
+ "dd_tick.wav": {
+  "id": 528561,
+  "query": "ui click digital"
+ },
+ "dd_typewriter.wav": {
+  "id": 380133,
+  "query": "typewriter typing"
+ },
+ "dd_suck.wav": {
+  "id": 446010,
+  "query": "reverse whoosh"
+ },
+ "dd_downer.wav": {
+  "id": 331823,
+  "query": "downlifter"
+ },
+ "dd_error.wav": {
+  "id": 419023,
+  "query": "error buzz"
+ },
+ "dd_check.wav": {
+  "id": 717771,
+  "query": "success chime"
+ },
+ "dd_cash.wav": {
+  "id": 728224,
+  "query": "cash register"
+ },
+ "dd_levelup.wav": {
+  "id": 442943,
+  "query": "level up"
+ },
+ "dd_ding.wav": {
+  "id": 571512,
+  "query": "soft notification ding"
+ },
+ "dd_glitch.wav": {
+  "id": 237607,
+  "query": "digital glitch"
+ },
+ "dd_riser.wav": {
+  "id": 859482,
+  "query": "short riser"
+ },
+ "dd_keys.wav": {
+  "id": 447909,
+  "query": "keyboard typing"
+ }
+}

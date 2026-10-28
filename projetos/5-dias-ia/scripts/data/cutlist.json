@@ -1,0 +1,335 @@
+{
+ "source": "public/eu_falando.mp4",
+ "output": "public/eu_falando_cortado.mp4",
+ "duration": 75.337,
+ "segments": [
+  {
+   "section": "HOOK",
+   "region": 0,
+   "src": [
+    11.599,
+    15.435
+   ],
+   "out": [
+    0.0,
+    3.835
+   ],
+   "text": "Na segunda-feira, eu gastei 10 horas fazendo esse vídeo horrível aqui."
+  },
+  {
+   "section": "HOOK",
+   "region": 1,
+   "src": [
+    30.8,
+    39.609
+   ],
+   "out": [
+    3.835,
+    12.644
+   ],
+   "text": "Hoje, cinco dias depois, eu tô literalmente explodindo um planeta no meu fundo usando código e IA."
+  },
+  {
+   "section": "DICA1",
+   "region": 3,
+   "src": [
+    51.142,
+    54.902
+   ],
+   "out": [
+    12.644,
+    16.405
+   ],
+   "text": "O meu primeiro erro foi achar que volume ganha de técnica."
+  },
+  {
+   "section": "DICA1",
+   "region": 11,
+   "src": [
+    103.004,
+    112.002
+   ],
+   "out": [
+    16.405,
+    25.402
+   ],
+   "text": "No meu primeiro dia, eu escrevi um documento de 46 páginas de estratégia e automatizei 70 imagens de boneco palito de uma vez."
+  },
+  {
+   "section": "DICA1",
+   "region": 12,
+   "src": [
+    118.425,
+    119.546
+   ],
+   "out": [
+    25.402,
+    26.523
+   ],
+   "text": "O resultado?"
+  },
+  {
+   "section": "DICA1",
+   "region": 14,
+   "src": [
+    125.505,
+    127.923
+   ],
+   "out": [
+    26.523,
+    28.941
+   ],
+   "text": "Uma bomba sem intenção nenhuma."
+  },
+  {
+   "section": "DICA1",
+   "region": 15,
+   "src": [
+    132.557,
+    133.701
+   ],
+   "out": [
+    28.941,
+    30.085
+   ],
+   "text": "Lição 1:"
+  },
+  {
+   "section": "DICA1",
+   "region": 16,
+   "src": [
+    140.299,
+    146.506
+   ],
+   "out": [
+    30.085,
+    36.292
+   ],
+   "text": "inteligência artificial sem direção de arte só automatiza o que já é ruim."
+  },
+  {
+   "section": "DICA2",
+   "region": 22,
+   "src": [
+    179.055,
+    184.64
+   ],
+   "out": [
+    36.292,
+    41.877
+   ],
+   "text": "No dia 2, eu parei de tentar fazer tudo em um lugar só e comecei a empilhar ferramentas."
+  },
+  {
+   "section": "DICA2",
+   "region": 29,
+   "src": [
+    226.317,
+    228.626
+   ],
+   "out": [
+    41.877,
+    44.186
+   ],
+   "text": "Mas o jogo virou no dia 3,"
+  },
+  {
+   "section": "DICA2",
+   "region": 31,
+   "src": [
+    240.958,
+    243.326
+   ],
+   "out": [
+    44.186,
+    46.555
+   ],
+   "text": "quando eu parei de editar à mão"
+  },
+  {
+   "section": "DICA2",
+   "region": 32,
+   "src": [
+    247.852,
+    250.3
+   ],
+   "out": [
+    46.555,
+    49.003
+   ],
+   "text": "e usei minha base de programação"
+  },
+  {
+   "section": "DICA2",
+   "region": 33,
+   "src": [
+    258.987,
+    260.79
+   ],
+   "out": [
+    49.003,
+    50.807
+   ],
+   "text": "pra deixar um agente escrever"
+  },
+  {
+   "section": "DICA2",
+   "region": 35,
+   "src": [
+    269.415,
+    271.359
+   ],
+   "out": [
+    50.807,
+    52.751
+   ],
+   "text": "as animações direto em código."
+  },
+  {
+   "section": "DICA3",
+   "region": 40,
+   "src": [
+    304.06,
+    308.61
+   ],
+   "out": [
+    52.751,
+    57.301
+   ],
+   "text": "E o segredo pra sair do zero a esse nível em uma semana não é criar promptzinho."
+  },
+  {
+   "section": "DICA3",
+   "region": 42,
+   "src": [
+    318.68,
+    321.102
+   ],
+   "out": [
+    57.301,
+    59.722
+   ],
+   "text": "É criar um arquivo de regra visual"
+  },
+  {
+   "section": "DICA3",
+   "region": 43,
+   "src": [
+    325.059,
+    327.051
+   ],
+   "out": [
+    59.722,
+    61.715
+   ],
+   "text": "dentro do seu editor de código"
+  },
+  {
+   "section": "CTA",
+   "region": 54,
+   "src": [
+    385.38,
+    387.237
+   ],
+   "out": [
+    61.715,
+    63.572
+   ],
+   "text": "Eu deixei vazar na tela durante esse vídeo"
+  },
+  {
+   "section": "CTA",
+   "region": 55,
+   "src": [
+    391.84,
+    395.114
+   ],
+   "out": [
+    63.572,
+    66.847
+   ],
+   "text": "todas as ferramentas e estruturas de pastas que eu usei."
+  },
+  {
+   "section": "CTA",
+   "region": 57,
+   "src": [
+    404.27,
+    406.866
+   ],
+   "out": [
+    66.847,
+    69.443
+   ],
+   "text": "Comenta aqui qual delas você conseguiu identificar."
+  },
+  {
+   "section": "CTA",
+   "region": 58,
+   "src": [
+    413.057,
+    416.054
+   ],
+   "out": [
+    69.443,
+    72.439
+   ],
+   "text": "E se esse vídeo bater 500 comentários,"
+  },
+  {
+   "section": "CTA",
+   "region": 59,
+   "src": [
+    421.355,
+    424.252
+   ],
+   "out": [
+    72.439,
+    75.337
+   ],
+   "text": "eu abro a arquitetura desse agente do zero."
+  }
+ ],
+ "droppedRegions": [
+  2,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  13,
+  17,
+  18,
+  19,
+  20,
+  21,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  30,
+  34,
+  36,
+  37,
+  38,
+  39,
+  41,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  56,
+  60,
+  61
+ ]
+}

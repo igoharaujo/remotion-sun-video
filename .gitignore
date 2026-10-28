@@ -1,0 +1,58 @@
+cat > /Users/igoh/Documents/remotion-sun-video/.gitignore << 'EOF'
+# ==========================================
+# Dependências e Node
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ==========================================
+# Vídeos (NUNCA subir para o Git)
+# ==========================================
+*.mp4
+*.mov
+*.MOV
+*.avi
+*.mkv
+*.webm
+*.flv
+
+# ==========================================
+# Arquivos de Áudio e Saídas de Render
+# ==========================================
+*.mp3
+*.wav
+*.aac
+**/out/
+**/out/*
+**/public/contact
+**/render_raw*
+
+# ==========================================
+# Imagens Grandes (Opcional - Recomendado ignorar)
+# ==========================================
+# Ignora imagens pesadas, mas permite manter ícones pequenos se quiser
+**/public/images/*.jpg
+**/public/images/*.jpeg
+**/public/images/*.png
+**/public/images/*.webp
+**/public/images/*.gif
+
+# ==========================================
+# Segurança e Scripts Locais
+# ==========================================
+remove_bg.mjs
+upscale*.mjs
+avatar*/
+.env
+.env.local
+
+# ==========================================
+# Sistema e Editores
+# ==========================================
+.DS_Store
+*.swp
+*.log
+tmp/
+.claude/*.local.*
+EOF

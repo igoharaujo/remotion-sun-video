@@ -1,0 +1,29 @@
+{
+  "name": "iphone-lingua",
+  "version": "1.0.0",
+  "private": true,
+  "description": "49s vertical TikTok: o truque do iPhone de rolar a tela com a língua (Head Tracking, iOS 26). Voz ElevenLabs + 3D procedural.",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render IphoneLingua out/render_raw.mp4",
+    "still": "remotion still IphoneLingua",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "@remotion/media-utils": "4.0.538",
+    "@remotion/three": "4.0.538",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.538",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/three": "0.186.0",
+    "sharp": "^0.34.3",
+    "typescript": "7.0.2"
+  }
+}

@@ -1,0 +1,1346 @@
+{
+ "$comment": "Beat sheet for CincoDiasIA. Frames @ 60 fps. Words: whisper-small (pt) on public/audio/voz_cortada.wav (the jump-cut take, scripts/cut.py), onsets snapped to the first voiced 10 ms window, mapped to what was said (scripts/build-timeline.py). STATUS: draft, waiting for approval.",
+ "status": "draft",
+ "composition": {
+  "id": "CincoDiasIA",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "durationInFrames": 4604,
+  "durationSec": 76.733,
+  "durationNote": "Cut take 75.34 s (22 segments of the 7:12 raw). Holds 1.4 s on the last frame for the CTA sign."
+ },
+ "palette": {
+  "space": "#05060B",
+  "ink": "#FFFFFF",
+  "muted": "#A1A1AA",
+  "blue": "#4285F4",
+  "blueGlow": "#8AB4F8",
+  "violet": "#8B5CF6",
+  "fire": "#FF7A1A",
+  "alert": "#FF453A",
+  "gold": "#F5C451"
+ },
+ "background3D": "Espaço (Three.js): 3 camadas de estrelas com parallax e twinkle, nebulosa procedural azul/violeta em shader, planeta com atmosfera (S01) que explode em fragmentos + detritos (S01→S02), drift contínuo de câmera; bloom leve e vinheta. Some no CTA (tela volta pra mim).",
+ "speaker": {
+  "source": "public/eu_falando_cortado.mp4",
+  "face": {
+   "x": [
+    320,
+    800
+   ],
+   "y": [
+    400,
+    1230
+   ]
+  },
+  "pip": {
+   "crop": {
+    "x": 140,
+    "y": 200,
+    "w": 800,
+    "h": 1422
+   },
+   "radius": 44,
+   "states": {
+    "hook": {
+     "x": 290,
+     "y": 760,
+     "w": 500
+    },
+    "corner": {
+     "x": 690,
+     "y": 160,
+     "w": 250
+    },
+    "mid": {
+     "x": 330,
+     "y": 820,
+     "w": 420
+    },
+    "center": {
+     "x": 270,
+     "y": 640,
+     "w": 540
+    }
+   },
+   "note": "PiP shows the face crop (x 140-940, y 200-1622 of the source); full screen in the CTA"
+  }
+ },
+ "broll": {
+  "bad": {
+   "src": "broll/bad.mp4",
+   "from": "tiktok/d644ab46…mp4 108-124 s",
+   "use": "S02 prova ruim (VHS/glitch + X)"
+  },
+  "aiGrid": {
+   "src": "broll/ai-grid.mp4",
+   "from": "tiktok/874c545d…mp4 52-58 s",
+   "use": "S03 janela flutuante"
+  },
+  "aiCine": {
+   "src": "broll/ai-cine.mp4",
+   "from": "tiktok/874c545d…mp4 72-80 s",
+   "use": "S03 janela flutuante"
+  },
+  "editor": {
+   "src": "broll/editor.mp4",
+   "from": "tiktok/874c545d…mp4 60-66 s",
+   "use": "S03 janela flutuante"
+  },
+  "dataviz": {
+   "src": "broll/dataviz.mp4",
+   "from": "tiktok/dc02c9f2…mp4 48-56 s",
+   "use": "S03 janela flutuante"
+  },
+  "terminal": {
+   "src": "broll/terminal.mp4",
+   "from": "tiktok/7c279454…mp4 50.5-54.5 s",
+   "use": "S03 easter egg 2 (1.5 s)"
+  }
+ },
+ "easterEggs": [
+  {
+   "id": "terminal",
+   "from": 2992,
+   "to": 3082,
+   "what": "terminal rodando código (filmagem real), 1.5 s",
+   "requested": "aos 25 s → no cortado cai em 'um agente escrever', mesmo assunto"
+  },
+  {
+   "id": "skill",
+   "from": 3535,
+   "to": 3595,
+   "what": "pasta remotion-sun-video + SKILL.md, 1 s",
+   "requested": "aos 15 s → proposto em 'arquivo de regra visual' (o SKILL.md é literalmente esse arquivo)"
+  }
+ ],
+ "mascot": {
+  "pose": "pointing → hyped",
+  "keys": [
+   {
+    "f": 4025,
+    "pose": "pointing",
+    "x": 870,
+    "y": 1480
+   },
+   {
+    "f": 4258,
+    "pose": "hyped",
+    "x": 860,
+    "y": 1490
+   }
+  ],
+  "heightPx": 280
+ },
+ "voice": {
+  "source": "public/eu_falando_cortado.mp4",
+  "processing": "high-pass 80 Hz, EQ (-2.5 dB @250 Hz, +2 dB @3.5 kHz), compressor 3:1, loudnorm -14 LUFS (scripts/cut.py)",
+  "words": [
+   {
+    "w": "Na",
+    "f": 5,
+    "end": 29
+   },
+   {
+    "w": "segunda-feira,",
+    "f": 29,
+    "end": 58
+   },
+   {
+    "w": "eu",
+    "f": 58,
+    "end": 67
+   },
+   {
+    "w": "gastei",
+    "f": 67,
+    "end": 84
+   },
+   {
+    "w": "10",
+    "f": 84,
+    "end": 105
+   },
+   {
+    "w": "horas",
+    "f": 105,
+    "end": 122
+   },
+   {
+    "w": "fazendo",
+    "f": 122,
+    "end": 147
+   },
+   {
+    "w": "esse",
+    "f": 147,
+    "end": 161
+   },
+   {
+    "w": "vídeo",
+    "f": 161,
+    "end": 178
+   },
+   {
+    "w": "horrível",
+    "f": 178,
+    "end": 206
+   },
+   {
+    "w": "aqui.",
+    "f": 206,
+    "end": 245
+   },
+   {
+    "w": "Hoje,",
+    "f": 245,
+    "end": 274
+   },
+   {
+    "w": "5",
+    "f": 274,
+    "end": 278
+   },
+   {
+    "w": "dias",
+    "f": 278,
+    "end": 293
+   },
+   {
+    "w": "depois,",
+    "f": 293,
+    "end": 323
+   },
+   {
+    "w": "eu",
+    "f": 323,
+    "end": 331
+   },
+   {
+    "w": "estou",
+    "f": 333,
+    "end": 350
+   },
+   {
+    "w": "literalmente",
+    "f": 350,
+    "end": 398
+   },
+   {
+    "w": "explodindo",
+    "f": 398,
+    "end": 451
+   },
+   {
+    "w": "um",
+    "f": 451,
+    "end": 463
+   },
+   {
+    "w": "planeta",
+    "f": 463,
+    "end": 499
+   },
+   {
+    "w": "no",
+    "f": 499,
+    "end": 509
+   },
+   {
+    "w": "meu",
+    "f": 509,
+    "end": 525
+   },
+   {
+    "w": "fundo,",
+    "f": 525,
+    "end": 569
+   },
+   {
+    "w": "usando",
+    "f": 569,
+    "end": 622
+   },
+   {
+    "w": "código",
+    "f": 625,
+    "end": 651
+   },
+   {
+    "w": "e",
+    "f": 651,
+    "end": 653
+   },
+   {
+    "w": "inteligência",
+    "f": 653,
+    "end": 707
+   },
+   {
+    "w": "artificial.",
+    "f": 707,
+    "end": 768
+   },
+   {
+    "w": "O",
+    "f": 768,
+    "end": 772
+   },
+   {
+    "w": "meu",
+    "f": 772,
+    "end": 797
+   },
+   {
+    "w": "primeiro",
+    "f": 797,
+    "end": 823
+   },
+   {
+    "w": "erro",
+    "f": 823,
+    "end": 841
+   },
+   {
+    "w": "foi",
+    "f": 841,
+    "end": 854
+   },
+   {
+    "w": "achar",
+    "f": 854,
+    "end": 877
+   },
+   {
+    "w": "que",
+    "f": 877,
+    "end": 891
+   },
+   {
+    "w": "volume",
+    "f": 891,
+    "end": 919
+   },
+   {
+    "w": "ganha",
+    "f": 919,
+    "end": 941
+   },
+   {
+    "w": "de",
+    "f": 942,
+    "end": 950
+   },
+   {
+    "w": "técnica.",
+    "f": 950,
+    "end": 998
+   },
+   {
+    "w": "No",
+    "f": 998,
+    "end": 1006
+   },
+   {
+    "w": "meu",
+    "f": 1006,
+    "end": 1028
+   },
+   {
+    "w": "primeiro",
+    "f": 1028,
+    "end": 1051
+   },
+   {
+    "w": "dia,",
+    "f": 1051,
+    "end": 1070
+   },
+   {
+    "w": "eu",
+    "f": 1070,
+    "end": 1078
+   },
+   {
+    "w": "escrevi",
+    "f": 1078,
+    "end": 1106
+   },
+   {
+    "w": "um",
+    "f": 1106,
+    "end": 1114
+   },
+   {
+    "w": "documento",
+    "f": 1114,
+    "end": 1150
+   },
+   {
+    "w": "de",
+    "f": 1150,
+    "end": 1158
+   },
+   {
+    "w": "46",
+    "f": 1158,
+    "end": 1182
+   },
+   {
+    "w": "páginas",
+    "f": 1182,
+    "end": 1210
+   },
+   {
+    "w": "de",
+    "f": 1210,
+    "end": 1217
+   },
+   {
+    "w": "estratégia",
+    "f": 1217,
+    "end": 1258
+   },
+   {
+    "w": "e",
+    "f": 1258,
+    "end": 1262
+   },
+   {
+    "w": "automatizei",
+    "f": 1262,
+    "end": 1313
+   },
+   {
+    "w": "70",
+    "f": 1313,
+    "end": 1347
+   },
+   {
+    "w": "imagens",
+    "f": 1347,
+    "end": 1387
+   },
+   {
+    "w": "de",
+    "f": 1387,
+    "end": 1398
+   },
+   {
+    "w": "boneco",
+    "f": 1398,
+    "end": 1432
+   },
+   {
+    "w": "palito",
+    "f": 1432,
+    "end": 1466
+   },
+   {
+    "w": "de",
+    "f": 1466,
+    "end": 1477
+   },
+   {
+    "w": "uma",
+    "f": 1477,
+    "end": 1494
+   },
+   {
+    "w": "vez.",
+    "f": 1494,
+    "end": 1531
+   },
+   {
+    "w": "O",
+    "f": 1532,
+    "end": 1561
+   },
+   {
+    "w": "resultado?",
+    "f": 1561,
+    "end": 1591
+   },
+   {
+    "w": "Uma",
+    "f": 1600,
+    "end": 1621
+   },
+   {
+    "w": "bomba",
+    "f": 1621,
+    "end": 1632
+   },
+   {
+    "w": "sem",
+    "f": 1632,
+    "end": 1648
+   },
+   {
+    "w": "intenção",
+    "f": 1648,
+    "end": 1689
+   },
+   {
+    "w": "nenhuma.",
+    "f": 1689,
+    "end": 1742
+   },
+   {
+    "w": "Lição",
+    "f": 1745,
+    "end": 1786
+   },
+   {
+    "w": "1:",
+    "f": 1790,
+    "end": 1820
+   },
+   {
+    "w": "inteligência",
+    "f": 1820,
+    "end": 1886
+   },
+   {
+    "w": "artificial",
+    "f": 1886,
+    "end": 1936
+   },
+   {
+    "w": "sem",
+    "f": 1936,
+    "end": 1952
+   },
+   {
+    "w": "direção",
+    "f": 1952,
+    "end": 1988
+   },
+   {
+    "w": "de",
+    "f": 1988,
+    "end": 1999
+   },
+   {
+    "w": "arte",
+    "f": 1999,
+    "end": 2023
+   },
+   {
+    "w": "só",
+    "f": 2023,
+    "end": 2036
+   },
+   {
+    "w": "automatiza",
+    "f": 2036,
+    "end": 2102
+   },
+   {
+    "w": "o",
+    "f": 2102,
+    "end": 2110
+   },
+   {
+    "w": "que",
+    "f": 2110,
+    "end": 2129
+   },
+   {
+    "w": "já",
+    "f": 2129,
+    "end": 2141
+   },
+   {
+    "w": "é",
+    "f": 2141,
+    "end": 2149
+   },
+   {
+    "w": "ruim.",
+    "f": 2149,
+    "end": 2184
+   },
+   {
+    "w": "No",
+    "f": 2184,
+    "end": 2194
+   },
+   {
+    "w": "dia",
+    "f": 2196,
+    "end": 2213
+   },
+   {
+    "w": "2,",
+    "f": 2213,
+    "end": 2232
+   },
+   {
+    "w": "eu",
+    "f": 2232,
+    "end": 2242
+   },
+   {
+    "w": "parei",
+    "f": 2242,
+    "end": 2266
+   },
+   {
+    "w": "de",
+    "f": 2266,
+    "end": 2275
+   },
+   {
+    "w": "tentar",
+    "f": 2275,
+    "end": 2305
+   },
+   {
+    "w": "fazer",
+    "f": 2305,
+    "end": 2329
+   },
+   {
+    "w": "tudo",
+    "f": 2329,
+    "end": 2348
+   },
+   {
+    "w": "em",
+    "f": 2348,
+    "end": 2358
+   },
+   {
+    "w": "um",
+    "f": 2358,
+    "end": 2368
+   },
+   {
+    "w": "lugar",
+    "f": 2368,
+    "end": 2392
+   },
+   {
+    "w": "só",
+    "f": 2392,
+    "end": 2402
+   },
+   {
+    "w": "e",
+    "f": 2402,
+    "end": 2420
+   },
+   {
+    "w": "comecei",
+    "f": 2420,
+    "end": 2440
+   },
+   {
+    "w": "a",
+    "f": 2440,
+    "end": 2446
+   },
+   {
+    "w": "empilhar",
+    "f": 2446,
+    "end": 2483
+   },
+   {
+    "w": "ferramentas.",
+    "f": 2483,
+    "end": 2551
+   },
+   {
+    "w": "Mas",
+    "f": 2551,
+    "end": 2567
+   },
+   {
+    "w": "o",
+    "f": 2567,
+    "end": 2581
+   },
+   {
+    "w": "jogo",
+    "f": 2581,
+    "end": 2593
+   },
+   {
+    "w": "virou",
+    "f": 2593,
+    "end": 2621
+   },
+   {
+    "w": "no",
+    "f": 2621,
+    "end": 2629
+   },
+   {
+    "w": "dia",
+    "f": 2629,
+    "end": 2644
+   },
+   {
+    "w": "3,",
+    "f": 2644,
+    "end": 2670
+   },
+   {
+    "w": "quando",
+    "f": 2676,
+    "end": 2702
+   },
+   {
+    "w": "eu",
+    "f": 2702,
+    "end": 2712
+   },
+   {
+    "w": "parei",
+    "f": 2712,
+    "end": 2738
+   },
+   {
+    "w": "de",
+    "f": 2738,
+    "end": 2748
+   },
+   {
+    "w": "editar",
+    "f": 2748,
+    "end": 2784
+   },
+   {
+    "w": "a",
+    "f": 2784,
+    "end": 2788
+   },
+   {
+    "w": "mão",
+    "f": 2788,
+    "end": 2800
+   },
+   {
+    "w": "e",
+    "f": 2800,
+    "end": 2804
+   },
+   {
+    "w": "usei",
+    "f": 2805,
+    "end": 2825
+   },
+   {
+    "w": "minha",
+    "f": 2825,
+    "end": 2851
+   },
+   {
+    "w": "base",
+    "f": 2851,
+    "end": 2872
+   },
+   {
+    "w": "de",
+    "f": 2872,
+    "end": 2884
+   },
+   {
+    "w": "programação",
+    "f": 2887,
+    "end": 2950
+   },
+   {
+    "w": "para",
+    "f": 2953,
+    "end": 2979
+   },
+   {
+    "w": "deixar",
+    "f": 2979,
+    "end": 2990
+   },
+   {
+    "w": "um",
+    "f": 2990,
+    "end": 3002
+   },
+   {
+    "w": "agente",
+    "f": 3002,
+    "end": 3023
+   },
+   {
+    "w": "escrever",
+    "f": 3023,
+    "end": 3055
+   },
+   {
+    "w": "as",
+    "f": 3055,
+    "end": 3064
+   },
+   {
+    "w": "animações",
+    "f": 3064,
+    "end": 3100
+   },
+   {
+    "w": "direto",
+    "f": 3100,
+    "end": 3124
+   },
+   {
+    "w": "em",
+    "f": 3124,
+    "end": 3132
+   },
+   {
+    "w": "código.",
+    "f": 3132,
+    "end": 3175
+   },
+   {
+    "w": "E",
+    "f": 3176,
+    "end": 3179
+   },
+   {
+    "w": "o",
+    "f": 3179,
+    "end": 3182
+   },
+   {
+    "w": "segredo",
+    "f": 3182,
+    "end": 3210
+   },
+   {
+    "w": "para",
+    "f": 3210,
+    "end": 3226
+   },
+   {
+    "w": "sair",
+    "f": 3226,
+    "end": 3245
+   },
+   {
+    "w": "do",
+    "f": 3245,
+    "end": 3250
+   },
+   {
+    "w": "zero",
+    "f": 3250,
+    "end": 3266
+   },
+   {
+    "w": "a",
+    "f": 3266,
+    "end": 3270
+   },
+   {
+    "w": "esse",
+    "f": 3270,
+    "end": 3286
+   },
+   {
+    "w": "nível",
+    "f": 3286,
+    "end": 3307
+   },
+   {
+    "w": "em",
+    "f": 3307,
+    "end": 3314
+   },
+   {
+    "w": "uma",
+    "f": 3314,
+    "end": 3326
+   },
+   {
+    "w": "semana",
+    "f": 3326,
+    "end": 3351
+   },
+   {
+    "w": "não",
+    "f": 3351,
+    "end": 3363
+   },
+   {
+    "w": "é",
+    "f": 3363,
+    "end": 3367
+   },
+   {
+    "w": "criar",
+    "f": 3369,
+    "end": 3389
+   },
+   {
+    "w": "promptzinho.",
+    "f": 3389,
+    "end": 3451
+   },
+   {
+    "w": "É",
+    "f": 3453,
+    "end": 3463
+   },
+   {
+    "w": "criar",
+    "f": 3463,
+    "end": 3493
+   },
+   {
+    "w": "um",
+    "f": 3493,
+    "end": 3495
+   },
+   {
+    "w": "arquivo",
+    "f": 3495,
+    "end": 3526
+   },
+   {
+    "w": "de",
+    "f": 3526,
+    "end": 3535
+   },
+   {
+    "w": "regra",
+    "f": 3535,
+    "end": 3557
+   },
+   {
+    "w": "visual",
+    "f": 3557,
+    "end": 3584
+   },
+   {
+    "w": "dentro",
+    "f": 3584,
+    "end": 3611
+   },
+   {
+    "w": "do",
+    "f": 3611,
+    "end": 3620
+   },
+   {
+    "w": "seu",
+    "f": 3620,
+    "end": 3634
+   },
+   {
+    "w": "editor",
+    "f": 3634,
+    "end": 3661
+   },
+   {
+    "w": "de",
+    "f": 3661,
+    "end": 3670
+   },
+   {
+    "w": "código.",
+    "f": 3670,
+    "end": 3715
+   },
+   {
+    "w": "Eu",
+    "f": 3715,
+    "end": 3721
+   },
+   {
+    "w": "deixei",
+    "f": 3721,
+    "end": 3745
+   },
+   {
+    "w": "vazar",
+    "f": 3745,
+    "end": 3755
+   },
+   {
+    "w": "na",
+    "f": 3755,
+    "end": 3761
+   },
+   {
+    "w": "tela",
+    "f": 3761,
+    "end": 3773
+   },
+   {
+    "w": "durante",
+    "f": 3773,
+    "end": 3797
+   },
+   {
+    "w": "esse",
+    "f": 3797,
+    "end": 3809
+   },
+   {
+    "w": "vídeo.",
+    "f": 3809,
+    "end": 3840
+   },
+   {
+    "w": "Todas",
+    "f": 3840,
+    "end": 3862
+   },
+   {
+    "w": "as",
+    "f": 3862,
+    "end": 3869
+   },
+   {
+    "w": "ferramentas",
+    "f": 3869,
+    "end": 3910
+   },
+   {
+    "w": "e",
+    "f": 3910,
+    "end": 3910
+   },
+   {
+    "w": "estruturas",
+    "f": 3910,
+    "end": 3947
+   },
+   {
+    "w": "de",
+    "f": 3947,
+    "end": 3955
+   },
+   {
+    "w": "pastas",
+    "f": 3955,
+    "end": 3977
+   },
+   {
+    "w": "que",
+    "f": 3977,
+    "end": 3988
+   },
+   {
+    "w": "eu",
+    "f": 3988,
+    "end": 3995
+   },
+   {
+    "w": "usei.",
+    "f": 3995,
+    "end": 4018
+   },
+   {
+    "w": "Comenta",
+    "f": 4025,
+    "end": 4044
+   },
+   {
+    "w": "aqui",
+    "f": 4044,
+    "end": 4059
+   },
+   {
+    "w": "qual",
+    "f": 4059,
+    "end": 4076
+   },
+   {
+    "w": "delas",
+    "f": 4076,
+    "end": 4093
+   },
+   {
+    "w": "você",
+    "f": 4093,
+    "end": 4114
+   },
+   {
+    "w": "conseguiu",
+    "f": 4114,
+    "end": 4143
+   },
+   {
+    "w": "identificar.",
+    "f": 4143,
+    "end": 4181
+   },
+   {
+    "w": "E",
+    "f": 4182,
+    "end": 4185
+   },
+   {
+    "w": "se",
+    "f": 4185,
+    "end": 4210
+   },
+   {
+    "w": "esse",
+    "f": 4210,
+    "end": 4212
+   },
+   {
+    "w": "vídeo",
+    "f": 4212,
+    "end": 4235
+   },
+   {
+    "w": "bater",
+    "f": 4235,
+    "end": 4258
+   },
+   {
+    "w": "500",
+    "f": 4258,
+    "end": 4298
+   },
+   {
+    "w": "comentários,",
+    "f": 4298,
+    "end": 4358
+   },
+   {
+    "w": "eu",
+    "f": 4361,
+    "end": 4367
+   },
+   {
+    "w": "abro",
+    "f": 4367,
+    "end": 4385
+   },
+   {
+    "w": "a",
+    "f": 4385,
+    "end": 4390
+   },
+   {
+    "w": "arquitetura",
+    "f": 4390,
+    "end": 4439
+   },
+   {
+    "w": "desse",
+    "f": 4439,
+    "end": 4465
+   },
+   {
+    "w": "agente",
+    "f": 4465,
+    "end": 4489
+   },
+   {
+    "w": "do",
+    "f": 4489,
+    "end": 4498
+   },
+   {
+    "w": "zero.",
+    "f": 4498,
+    "end": 4529
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "section": "HOOK",
+   "tag": "impactful",
+   "from": 0,
+   "to": 759,
+   "name": "Gancho — o planeta explode",
+   "keyBeats": {
+    "segunda": 29,
+    "horrivel": 178,
+    "aqui1": 206,
+    "hoje": 245,
+    "depois": 293,
+    "explodindo": 398,
+    "planeta": 463,
+    "fundo": 525,
+    "codigo1": 625,
+    "ia": 653,
+    "meteorIn": 293
+   },
+   "visual": "Espaço 3D (Three.js): 3 camadas de estrelas com parallax, nebulosa azul/violeta sutil, planeta rochoso com atmosfera (centro, y≈430, r≈230px) girando devagar. Eu em PiP (janela de vidro arredondada 44px, borda fina + rim azul, recorte do rosto) embaixo, x 290–790, y 760–1650. Em 'horrível aqui' (pattern interrupt) o clipe do boneco palito pisca 0,8 s numa janelinha com glitch ao lado do PiP. Em 'depois' um meteoro entra do canto superior direito com rastro de fogo; IMPACTO EXATO em 'explodindo': flash branco, camera shake, onda de choque (anel), planeta se parte em fragmentos + núcleo incandescente + detritos voando. Em 'código e inteligência artificial' dois chips HUD: '</> CÓDIGO' e '✦ IA'.",
+   "sfx": [
+    "whoosh/meteoro 293→398",
+    "EXPLOSÃO @398",
+    "rumble de detritos @463",
+    "pop chips @625/653"
+   ]
+  },
+  {
+   "id": "S02",
+   "section": "DICA1",
+   "tag": "conversational",
+   "from": 759,
+   "to": 2178,
+   "name": "Dica 1 — a prova ruim",
+   "keyBeats": {
+    "erro": 823,
+    "volume": 891,
+    "tecnica": 950,
+    "documento": 1114,
+    "n46": 1158,
+    "automatizei": 1262,
+    "n70": 1313,
+    "boneco": 1398,
+    "palito": 1432,
+    "resultado": 1561,
+    "bomba": 1621,
+    "nenhuma": 1689,
+    "licao": 1745,
+    "direcao": 1952,
+    "automatiza": 2036,
+    "ruim": 2149
+   },
+   "visual": "Detritos do planeta derivando no fundo. PiP encolhe para o canto superior direito (x 690–940, y 160–604). 'volume ganha de técnica': HUD 'VOLUME > TÉCNICA' e o '>' é riscado → 'ERRO #1'. 'documento de 46 páginas': pilha de 46 páginas em 3D se abrindo em leque + contador 46. '70 imagens': grade de 70 miniaturas do boneco palito se multiplicando + contador 70. 'boneco palito': o clipe ruim (broll/bad.mp4) entra em janela flutuante grande no centro com filtro VHS/glitch (scanlines, aberração cromática, ruído, tracking jitter, timestamp 'REC ▶ SEG 10:00'). 'O resultado?': zoom lento na janela. 'bomba': X VERMELHO GIGANTE bate com shake + glitch. 'Lição 1': chip 'LIÇÃO 1'. 'IA sem direção de arte… ruim': citação em tipografia gigante (Keynote), 'RUIM' em vermelho; PiP volta ao tamanho médio.",
+   "sfx": [
+    "glitch @1398",
+    "VHS hum sob o clipe 1398→1745",
+    "impacto + glitch no X @1621",
+    "tick contador @1158/1313",
+    "chime @1745"
+   ]
+  },
+  {
+   "id": "S03",
+   "section": "DICA2",
+   "tag": "conversational",
+   "from": 2178,
+   "to": 3165,
+   "name": "Dica 2 — empilhar ferramentas → o agente",
+   "keyBeats": {
+    "dia2": 2196,
+    "empilhar": 2446,
+    "ferramentas1": 2483,
+    "jogo": 2581,
+    "virou": 2593,
+    "dia3": 2629,
+    "editar": 2748,
+    "mao": 2788,
+    "programacao": 2887,
+    "agente1": 3002,
+    "escrever": 3023,
+    "animacoes": 3064,
+    "codigo2": 3132,
+    "terminalIn": 2992
+   },
+   "visual": "Chip 'DIA 2'. B-roll dos TikToks em janelas 3D flutuando no espaço (Minority Report): ai-grid, ai-cine, editor, dataviz. Em 'empilhar ferramentas' as janelas se empilham numa torre com leve parallax. 'Mas o jogo virou': transição glitch, a torre se desfaz; chip 'DIA 3'. 'editar à mão': ícone de mão/cursor riscado. EASTER EGG 2 (1,5 s, a partir de 'agente'): o terminal real (broll/terminal.mp4) ocupa a tela numa janela de terminal com barra de título, código rolando. 'animações direto em código': linhas de código se digitando sobre o espaço (genéricas, sem nome de ferramenta).",
+   "sfx": [
+    "whoosh ×4 nas janelas @2196",
+    "stack thuds @2446",
+    "glitch @2581",
+    "teclado @2992→3082"
+   ]
+  },
+  {
+   "id": "S04",
+   "section": "DICA3",
+   "tag": "serious",
+   "from": 3165,
+   "to": 3703,
+   "name": "Dica 3 — o arquivo de regras",
+   "keyBeats": {
+    "segredo": 3182,
+    "zero1": 3250,
+    "semana": 3326,
+    "prompt": 3389,
+    "arquivo": 3495,
+    "regra": 3535,
+    "visual": 3557,
+    "editor": 3634,
+    "codigo3": 3670,
+    "skillIn": 3535
+   },
+   "visual": "Dolly lento no espaço, luz cai (serious); PiP cresce para o centro. 'do zero a esse nível em uma semana': barra de progresso 0 → 100 em 7 dias. 'não é criar promptzinho': caixa de chat genérica 'faça um vídeo incrível…' é riscada em vermelho. 'arquivo de regra visual dentro do seu editor de código': janela de editor de código (tema escuro genérico) com árvore de arquivos. EASTER EGG 1 (1 s, em 'regra'): a árvore mostra 'remotion-sun-video/' › '.claude/skills/motion-video-3d/SKILL.md' destacado e o arquivo aberto com títulos de regras (texto parcialmente desfocado).",
+   "sfx": [
+    "riser sutil @3182",
+    "erro/risco @3389",
+    "click @3535"
+   ]
+  },
+  {
+   "id": "S05",
+   "section": "CTA",
+   "tag": "conversational",
+   "from": 3703,
+   "to": 4604,
+   "name": "CTA — comenta qual ferramenta você viu",
+   "keyBeats": {
+    "deixei": 3721,
+    "vazar": 3745,
+    "tela": 3761,
+    "ferramentas2": 3869,
+    "pastas": 3955,
+    "comenta": 4025,
+    "identificar": 4143,
+    "n500": 4258,
+    "comentarios": 4298,
+    "abro": 4367,
+    "arquitetura": 4390,
+    "agente2": 4465,
+    "zero2": 4498
+   },
+   "visual": "A tela volta pra mim: tela cheia (corte seco + flash), overlay escuro 20%, espaço some. 'deixei vazar na tela': 3 miniaturas borradas dos easter eggs (terminal, SKILL.md, B-roll) com '?' passam rápido no topo. 'comenta aqui': letreiro fixo no topo 'COMENTE QUAL FERRAMENTA VOCÊ VIU' + balão de comentário; o camaleão entra no canto inferior direito apontando pro letreiro. '500 comentários': barra '0 / 500 COMENTÁRIOS' enchendo. 'abro a arquitetura desse agente do zero': ícone de cadeado abrindo + 'ARQUITETURA DO AGENTE'. Hold de 1,4 s no último frame.",
+   "sfx": [
+    "whoosh corte @3703",
+    "DING @4025",
+    "pop mascote @4025",
+    "ticks barra @4258",
+    "unlock @4367"
+   ]
+  }
+ ],
+ "audio": {
+  "bgm": null,
+  "duck": {
+   "whoosh": -3,
+   "boom": -8
+  },
+  "target": {
+   "lufs": -14,
+   "dbtp": -1
+  }
+ },
+ "layout": {
+  "safeZone": {
+   "x": [
+    60,
+    1020
+   ],
+   "y": [
+    120,
+    1670
+   ]
+  },
+  "captions": {
+   "y": [
+    1400,
+    1550
+   ],
+   "minPx": 72,
+   "note": "abaixo do queixo (rosto termina em y≈1230 na tela cheia; no PiP do gancho cai no peito)"
+  },
+  "hud": {
+   "y": [
+    170,
+    700
+   ]
+  }
+ }
+}

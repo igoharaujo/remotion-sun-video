@@ -1,0 +1,134 @@
+[
+  {
+    "file": "teste_pop.wav",
+    "freesound_id": 812555,
+    "name": "UI pop sound",
+    "author": "Aesnas",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Aesnas/sounds/812555/",
+    "query": "ui pop",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "teste_whoosh.wav",
+    "freesound_id": 59995,
+    "name": "swosh-08.flac - \"stick cutting air\"",
+    "author": "qubodup",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/qubodup/sounds/59995/",
+    "query": "fast whoosh",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "teste_riser.wav",
+    "freesound_id": 859482,
+    "name": "Cinematic Riser #3 subtle",
+    "author": "BeaconStudio",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/BeaconStudio/sounds/859482/",
+    "query": "short riser",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "teste_tick.wav",
+    "freesound_id": 528561,
+    "name": "Soft UI Button Click",
+    "author": "Jummit",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Jummit/sounds/528561/",
+    "query": "ui click digital",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS"
+  },
+  {
+    "file": "teste_check.wav",
+    "freesound_id": 220176,
+    "name": "Confirm Click Spacey",
+    "author": "GameAudio",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/GameAudio/sounds/220176/",
+    "query": "ui confirm",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS"
+  },
+  {
+    "file": "teste_error.wav",
+    "freesound_id": 478191,
+    "name": "Beep_Error_1.wav",
+    "author": "JonnyRuss01",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/JonnyRuss01/sounds/478191/",
+    "query": "error beep soft",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS"
+  },
+  {
+    "file": "teste_pageflip.wav",
+    "freesound_id": 397548,
+    "name": "Page Turn 01",
+    "author": "LilMati",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/LilMati/sounds/397548/",
+    "query": "page flip",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "teste_heartbeat.wav",
+    "freesound_id": 276578,
+    "name": "Heavy Heartbeat",
+    "author": "MickBoere",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/MickBoere/sounds/276578/",
+    "query": "heartbeat",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "teste_spin.wav",
+    "freesound_id": 463766,
+    "name": "up swish x2 HZA 07-03-2019.wav",
+    "author": "hz37",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/hz37/sounds/463766/",
+    "query": "whoosh spin",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS"
+  },
+  {
+    "file": "teste_clock.wav",
+    "freesound_id": 275802,
+    "name": "Ticking Stopwatch (dry)",
+    "author": "DavidJGurney",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/DavidJGurney/sounds/275802/",
+    "query": "clock ticking",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "teste_impact.wav",
+    "freesound_id": 671375,
+    "name": "FX Cinematic Impact.wav",
+    "author": "Johnnie_Holiday",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Johnnie_Holiday/sounds/671375/",
+    "query": "deep cinematic impact",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "teste_ding.wav",
+    "freesound_id": 571512,
+    "name": "Soft-Notifications - Bell - HighDing.mp3",
+    "author": "LegitCheese",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/LegitCheese/sounds/571512/",
+    "query": "soft notification ding",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS"
+  }
+]

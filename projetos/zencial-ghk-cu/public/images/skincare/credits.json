@@ -1,0 +1,32 @@
+[
+ {
+  "filename": "serum_hero_cut.webp",
+  "source_url": "https://cdn.shopify.com/s/files/1/0673/0950/2681/files/ChatGPT_Image_27_de_mai._de_2026_10_15_39.png",
+  "page": "https://zencial.com.br/products/ghkcu",
+  "author": "Zencial (imagem oficial do produto)",
+  "license": "Uso promocional do próprio produto (afiliado/anúncio) — não é licença aberta",
+  "use": "Produto no palco (S02, S07–S09, thumbnail). Recorte com alfa feito por scripts/cutout.mjs a partir da foto oficial."
+ },
+ {
+  "filename": "serum_army.webp",
+  "source_url": "https://cdn.shopify.com/s/files/1/0673/0950/2681/files/magnific_roque-o-produto-da-img1-p_J9mP9kROq4.png",
+  "page": "https://zencial.com.br/products/ghkcu",
+  "author": "Zencial (imagem oficial do produto)",
+  "license": "idem",
+  "use": "S03 125 mil pedidos"
+ },
+ {
+  "filename": "portrait_glow.webp",
+  "source_url": "https://unsplash.com/photos/AmLDjIBAEG8",
+  "author": "Eze Joseph (@justbeingblythe) — Unsplash",
+  "license": "Unsplash License (uso comercial gratuito, sem atribuição obrigatória)",
+  "use": "S05 retrato ilustrativo — rotulado SIMULAÇÃO ILUSTRATIVA; foto não alterada; não é cliente/resultado do produto"
+ },
+ {
+  "filename": "portrait_lookup.webp",
+  "source_url": "https://unsplash.com/photos/yManEWNtKjA",
+  "author": "Reece van der Merwe — Unsplash (modelo: Alisha Lombard)",
+  "license": "Unsplash License (uso comercial gratuito, sem atribuição obrigatória)",
+  "use": "S07 retrato ilustrativo em 'viço' — rotulado SIMULAÇÃO ILUSTRATIVA; foto não alterada; não é cliente/resultado do produto"
+ }
+]

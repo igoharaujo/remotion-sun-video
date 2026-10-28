@@ -1,0 +1,178 @@
+[
+  {
+    "file": "ia_meteor.wav",
+    "freesound_id": 683179,
+    "name": "Fireball",
+    "author": "NearTheAtmoshphere",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/NearTheAtmoshphere/sounds/683179/",
+    "query": "fireball whoosh",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "ia_explosion.wav",
+    "freesound_id": 587193,
+    "name": "explosion_big_02.ogg",
+    "author": "derplayer",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/derplayer/sounds/587193/",
+    "query": "big explosion",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "ia_rumble.wav",
+    "freesound_id": 431859,
+    "name": "quake and break.wav",
+    "author": "cheetahzbrain",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/cheetahzbrain/sounds/431859/",
+    "query": "debris rumble",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "ia_whoosh.wav",
+    "freesound_id": 59995,
+    "name": "swosh-08.flac - \"stick cutting air\"",
+    "author": "qubodup",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/qubodup/sounds/59995/",
+    "query": "fast whoosh",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "ia_pop.wav",
+    "freesound_id": 812555,
+    "name": "UI pop sound",
+    "author": "Aesnas",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Aesnas/sounds/812555/",
+    "query": "ui pop",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "ia_glitch.wav",
+    "freesound_id": 458065,
+    "name": "Digital Glitch_v1.wav",
+    "author": "tadaizm",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/tadaizm/sounds/458065/",
+    "query": "digital glitch",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS (+5.5 dB)"
+  },
+  {
+    "file": "ia_vhs.wav",
+    "freesound_id": 166178,
+    "name": "vhs hum.wav",
+    "author": "jacobzeier",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/jacobzeier/sounds/166178/",
+    "query": "vhs tape noise",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS (+34.0 dB)"
+  },
+  {
+    "file": "ia_impact.wav",
+    "freesound_id": 671375,
+    "name": "FX Cinematic Impact.wav",
+    "author": "Johnnie_Holiday",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Johnnie_Holiday/sounds/671375/",
+    "query": "deep cinematic impact",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "ia_tick.wav",
+    "freesound_id": 528561,
+    "name": "Soft UI Button Click",
+    "author": "Jummit",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Jummit/sounds/528561/",
+    "query": "ui click digital",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS (+12.2 dB)"
+  },
+  {
+    "file": "ia_chime.wav",
+    "freesound_id": 351879,
+    "name": "Computer Chimes - Notification.aif",
+    "author": "marlonnnnnn",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/marlonnnnnn/sounds/351879/",
+    "query": "notification chime",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS (+12.4 dB)"
+  },
+  {
+    "file": "ia_thud.wav",
+    "freesound_id": 339364,
+    "name": "drop06.wav",
+    "author": "newagesoup",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/newagesoup/sounds/339364/",
+    "query": "box thud",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "ia_keys.wav",
+    "freesound_id": 447909,
+    "name": "Keyboard typing",
+    "author": "Breviceps",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Breviceps/sounds/447909/",
+    "query": "keyboard typing",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "ia_error.wav",
+    "freesound_id": 478191,
+    "name": "Beep_Error_1.wav",
+    "author": "JonnyRuss01",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/JonnyRuss01/sounds/478191/",
+    "query": "error beep soft",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS (+6.3 dB)"
+  },
+  {
+    "file": "ia_riser.wav",
+    "freesound_id": 859482,
+    "name": "Cinematic Riser #3 subtle",
+    "author": "BeaconStudio",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/BeaconStudio/sounds/859482/",
+    "query": "short riser",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "ia_ding.wav",
+    "freesound_id": 571512,
+    "name": "Soft-Notifications - Bell - HighDing.mp3",
+    "author": "LegitCheese",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/LegitCheese/sounds/571512/",
+    "query": "soft notification ding",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS (+26.5 dB)"
+  },
+  {
+    "file": "ia_unlock.wav",
+    "freesound_id": 422852,
+    "name": "Door_Unlocking.wav",
+    "author": "IPaddeh",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/IPaddeh/sounds/422852/",
+    "query": "unlock click",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed; peak-normalized to about -3 dBFS (+3.3 dB)"
+  }
+]

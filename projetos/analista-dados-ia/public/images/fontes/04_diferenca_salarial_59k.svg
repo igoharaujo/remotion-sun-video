@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <!-- Generated for the video (no third-party content). The +US$ 59k figure is what the narrator says;
+       no published source was found for it (see LICENSE_CHECK.md). Only the difference is known, so the
+       chart shows the gap as a hero number over an indexed baseline instead of inventing absolute salaries. -->
+  <rect width="1200" height="1500" fill="#0B0D12"/>
+  <text x="100" y="170" fill="#9AA3B2" font-family="Helvetica, Arial, sans-serif" font-size="40" letter-spacing="6">SALÁRIO ANUAL · EUA</text>
+  <text x="100" y="250" fill="#F2F4F7" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700">Analista híbrido vs. tradicional</text>
+  <!-- baseline -->
+  <line x1="100" y1="1180" x2="1100" y2="1180" stroke="#2A2F3A" stroke-width="2"/>
+  <!-- traditional: indexed base -->
+  <path d="M180 1180 V704 a4 4 0 0 1 4 -4 H476 a4 4 0 0 1 4 4 V1180 Z" fill="#5B6472"/>
+  <!-- hybrid: base + 59k (gap segment highlighted, 2px surface gap) -->
+  <path d="M720 1180 V704 H1020 V1180 Z" fill="#5B6472"/>
+  <path d="M720 702 V424 a4 4 0 0 1 4 -4 H1016 a4 4 0 0 1 4 4 V702 Z" fill="#33D1A0"/>
+  <line x1="480" y1="700" x2="720" y2="700" stroke="#9AA3B2" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="870" y="590" fill="#0B0D12" font-family="Helvetica, Arial, sans-serif" font-size="72" font-weight="800" text-anchor="middle">+59k</text>
+  <text x="330" y="1240" fill="#C9CFD8" font-family="Helvetica, Arial, sans-serif" font-size="40" text-anchor="middle">Tradicional</text>
+  <text x="870" y="1240" fill="#F2F4F7" font-family="Helvetica, Arial, sans-serif" font-size="40" font-weight="700" text-anchor="middle">Híbrido (dados + IA)</text>
+  <text x="100" y="1380" fill="#F2F4F7" font-family="Helvetica, Arial, sans-serif" font-size="96" font-weight="800">+ US$ 59 mil / ano</text>
+  <text x="100" y="1440" fill="#6B7380" font-family="Helvetica, Arial, sans-serif" font-size="28">Base indexada (não é salário real). Diferença conforme citado no vídeo.</text>
+</svg>

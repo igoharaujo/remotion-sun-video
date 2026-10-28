@@ -1,0 +1,33 @@
+{
+  "name": "5-dias-ia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vertical TikTok: 5 dias criando vídeos com IA. Jump cuts do bruto + PiP sobre espaço 3D + B-roll + mascote.",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render CincoDiasIA out/render_raw.mp4",
+    "still": "remotion still CincoDiasIA",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "@remotion/media-utils": "4.0.538",
+    "@remotion/three": "^4.0.538",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.538",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/three": "^0.186.0",
+    "sharp": "^0.34.3",
+    "typescript": "7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "sharp@0.34.5": true
+  }
+}

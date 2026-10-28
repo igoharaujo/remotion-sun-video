@@ -1,0 +1,1271 @@
+{
+  "$comment": "Beat sheet for IphoneDuo. Frames @ 60 fps (sec = frame/60). Word onsets: whisper-small (pt) word timestamps on public/audio/iphoneduo.mp3, snapped to the first voiced 10 ms window (RMS > -39 dB) by scripts/align-words-iphone.py. STATUS: approved 2026-10-22 with adjustments (approval block).",
+  "status": "approved-2026-10-22 (with adjustments)",
+  "composition": {
+    "id": "IphoneDuo",
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "durationInFrames": 3420,
+    "durationSec": 57.0,
+    "durationNote": "Audio is 55.719 s (3343 frames); last word 'também.' ends at 3341. Holds about 1.3 s past the audio so the coin and fade-to-black complete."
+  },
+  "voice": {
+    "source": "public/audio/iphoneduo.mp3",
+    "durationSec": 55.719125,
+    "codec": "mp3 44.1 kHz mono",
+    "integratedLoudnessLUFS": -22.1,
+    "startOffsetFrames": 0,
+    "transcriptMatchesScript": true,
+    "words": [
+      {
+        "w": "Você",
+        "f": 9,
+        "end": 17
+      },
+      {
+        "w": "sabia",
+        "f": 17,
+        "end": 38
+      },
+      {
+        "w": "que",
+        "f": 38,
+        "end": 50
+      },
+      {
+        "w": "a",
+        "f": 50,
+        "end": 55
+      },
+      {
+        "w": "tela",
+        "f": 55,
+        "end": 71
+      },
+      {
+        "w": "do",
+        "f": 71,
+        "end": 80
+      },
+      {
+        "w": "iPhone",
+        "f": 80,
+        "end": 105
+      },
+      {
+        "w": "Duo",
+        "f": 105,
+        "end": 122
+      },
+      {
+        "w": "tem",
+        "f": 122,
+        "end": 134
+      },
+      {
+        "w": "dez",
+        "f": 134,
+        "end": 161
+      },
+      {
+        "w": "camadas",
+        "f": 161,
+        "end": 194
+      },
+      {
+        "w": "e",
+        "f": 194,
+        "end": 197
+      },
+      {
+        "w": "mais",
+        "f": 197,
+        "end": 210
+      },
+      {
+        "w": "de",
+        "f": 210,
+        "end": 216
+      },
+      {
+        "w": "cem",
+        "f": 216,
+        "end": 250
+      },
+      {
+        "w": "peças",
+        "f": 250,
+        "end": 272
+      },
+      {
+        "w": "só",
+        "f": 272,
+        "end": 283
+      },
+      {
+        "w": "na",
+        "f": 283,
+        "end": 294
+      },
+      {
+        "w": "dobradiça?",
+        "f": 294,
+        "end": 360
+      },
+      {
+        "w": "Pois",
+        "f": 361,
+        "end": 383
+      },
+      {
+        "w": "é,",
+        "f": 383,
+        "end": 401
+      },
+      {
+        "w": "a",
+        "f": 401,
+        "end": 407
+      },
+      {
+        "w": "mágica",
+        "f": 419,
+        "end": 441
+      },
+      {
+        "w": "começa",
+        "f": 441,
+        "end": 482
+      },
+      {
+        "w": "no",
+        "f": 482,
+        "end": 488
+      },
+      {
+        "w": "OLED.",
+        "f": 488,
+        "end": 533
+      },
+      {
+        "w": "Diferente",
+        "f": 539,
+        "end": 566
+      },
+      {
+        "w": "das",
+        "f": 566,
+        "end": 578
+      },
+      {
+        "w": "telas",
+        "f": 578,
+        "end": 596
+      },
+      {
+        "w": "antigas,",
+        "f": 596,
+        "end": 634
+      },
+      {
+        "w": "aqui",
+        "f": 635,
+        "end": 655
+      },
+      {
+        "w": "cada",
+        "f": 663,
+        "end": 673
+      },
+      {
+        "w": "pixel",
+        "f": 673,
+        "end": 698
+      },
+      {
+        "w": "gera",
+        "f": 698,
+        "end": 718
+      },
+      {
+        "w": "a",
+        "f": 718,
+        "end": 722
+      },
+      {
+        "w": "própria",
+        "f": 722,
+        "end": 757
+      },
+      {
+        "w": "luz.",
+        "f": 757,
+        "end": 787
+      },
+      {
+        "w": "Não",
+        "f": 787,
+        "end": 799
+      },
+      {
+        "w": "existe",
+        "f": 799,
+        "end": 822
+      },
+      {
+        "w": "aquela",
+        "f": 822,
+        "end": 848
+      },
+      {
+        "w": "placa",
+        "f": 848,
+        "end": 865
+      },
+      {
+        "w": "rígida",
+        "f": 865,
+        "end": 887
+      },
+      {
+        "w": "de",
+        "f": 887,
+        "end": 895
+      },
+      {
+        "w": "backlight",
+        "f": 895,
+        "end": 929
+      },
+      {
+        "w": "por",
+        "f": 929,
+        "end": 941
+      },
+      {
+        "w": "trás,",
+        "f": 941,
+        "end": 970
+      },
+      {
+        "w": "por",
+        "f": 970,
+        "end": 980
+      },
+      {
+        "w": "isso",
+        "f": 980,
+        "end": 995
+      },
+      {
+        "w": "ela",
+        "f": 995,
+        "end": 1006
+      },
+      {
+        "w": "consegue",
+        "f": 1006,
+        "end": 1037
+      },
+      {
+        "w": "dobrar.",
+        "f": 1037,
+        "end": 1070
+      },
+      {
+        "w": "Mas",
+        "f": 1070,
+        "end": 1087
+      },
+      {
+        "w": "não",
+        "f": 1087,
+        "end": 1103
+      },
+      {
+        "w": "é",
+        "f": 1103,
+        "end": 1108
+      },
+      {
+        "w": "só",
+        "f": 1108,
+        "end": 1119
+      },
+      {
+        "w": "isso.",
+        "f": 1119,
+        "end": 1157
+      },
+      {
+        "w": "Por",
+        "f": 1163,
+        "end": 1171
+      },
+      {
+        "w": "cima",
+        "f": 1171,
+        "end": 1190
+      },
+      {
+        "w": "e",
+        "f": 1190,
+        "end": 1195
+      },
+      {
+        "w": "por",
+        "f": 1195,
+        "end": 1210
+      },
+      {
+        "w": "baixo",
+        "f": 1210,
+        "end": 1234
+      },
+      {
+        "w": "da",
+        "f": 1234,
+        "end": 1245
+      },
+      {
+        "w": "tela",
+        "f": 1245,
+        "end": 1262
+      },
+      {
+        "w": "tem",
+        "f": 1262,
+        "end": 1279
+      },
+      {
+        "w": "vidros",
+        "f": 1279,
+        "end": 1306
+      },
+      {
+        "w": "ultratinhos,",
+        "f": 1306,
+        "end": 1370
+      },
+      {
+        "w": "e",
+        "f": 1370,
+        "end": 1373
+      },
+      {
+        "w": "bem",
+        "f": 1373,
+        "end": 1387
+      },
+      {
+        "w": "no",
+        "f": 1387,
+        "end": 1396
+      },
+      {
+        "w": "fundo",
+        "f": 1396,
+        "end": 1418
+      },
+      {
+        "w": "uma",
+        "f": 1418,
+        "end": 1434
+      },
+      {
+        "w": "placa",
+        "f": 1434,
+        "end": 1453
+      },
+      {
+        "w": "de",
+        "f": 1453,
+        "end": 1462
+      },
+      {
+        "w": "titânio.",
+        "f": 1462,
+        "end": 1510
+      },
+      {
+        "w": "Entre",
+        "f": 1520,
+        "end": 1531
+      },
+      {
+        "w": "todas",
+        "f": 1531,
+        "end": 1553
+      },
+      {
+        "w": "essas",
+        "f": 1553,
+        "end": 1574
+      },
+      {
+        "w": "camadas",
+        "f": 1574,
+        "end": 1604
+      },
+      {
+        "w": "existe",
+        "f": 1604,
+        "end": 1631
+      },
+      {
+        "w": "uma",
+        "f": 1631,
+        "end": 1643
+      },
+      {
+        "w": "cola",
+        "f": 1643,
+        "end": 1660
+      },
+      {
+        "w": "especial.",
+        "f": 1660,
+        "end": 1711
+      },
+      {
+        "w": "Uma",
+        "f": 1720,
+        "end": 1723
+      },
+      {
+        "w": "cola",
+        "f": 1723,
+        "end": 1739
+      },
+      {
+        "w": "que",
+        "f": 1739,
+        "end": 1751
+      },
+      {
+        "w": "deixa",
+        "f": 1752,
+        "end": 1772
+      },
+      {
+        "w": "elas",
+        "f": 1772,
+        "end": 1787
+      },
+      {
+        "w": "deslizarem",
+        "f": 1787,
+        "end": 1827
+      },
+      {
+        "w": "uma",
+        "f": 1827,
+        "end": 1839
+      },
+      {
+        "w": "sobre",
+        "f": 1839,
+        "end": 1859
+      },
+      {
+        "w": "a",
+        "f": 1859,
+        "end": 1862
+      },
+      {
+        "w": "outra",
+        "f": 1862,
+        "end": 1882
+      },
+      {
+        "w": "igual",
+        "f": 1882,
+        "end": 1902
+      },
+      {
+        "w": "às",
+        "f": 1903,
+        "end": 1910
+      },
+      {
+        "w": "páginas",
+        "f": 1910,
+        "end": 1937
+      },
+      {
+        "w": "de",
+        "f": 1937,
+        "end": 1945
+      },
+      {
+        "w": "um",
+        "f": 1945,
+        "end": 1961
+      },
+      {
+        "w": "livro.",
+        "f": 1961,
+        "end": 1992
+      },
+      {
+        "w": "Agora",
+        "f": 2003,
+        "end": 2012
+      },
+      {
+        "w": "presta",
+        "f": 2012,
+        "end": 2036
+      },
+      {
+        "w": "atenção",
+        "f": 2038,
+        "end": 2065
+      },
+      {
+        "w": "na",
+        "f": 2065,
+        "end": 2073
+      },
+      {
+        "w": "dobradiça.",
+        "f": 2073,
+        "end": 2124
+      },
+      {
+        "w": "Ela",
+        "f": 2124,
+        "end": 2137
+      },
+      {
+        "w": "não",
+        "f": 2137,
+        "end": 2150
+      },
+      {
+        "w": "dobra",
+        "f": 2150,
+        "end": 2172
+      },
+      {
+        "w": "a",
+        "f": 2172,
+        "end": 2176
+      },
+      {
+        "w": "tela",
+        "f": 2176,
+        "end": 2194
+      },
+      {
+        "w": "no",
+        "f": 2194,
+        "end": 2202
+      },
+      {
+        "w": "meio.",
+        "f": 2202,
+        "end": 2234
+      },
+      {
+        "w": "Ela",
+        "f": 2234,
+        "end": 2247
+      },
+      {
+        "w": "força",
+        "f": 2248,
+        "end": 2268
+      },
+      {
+        "w": "a",
+        "f": 2269,
+        "end": 2272
+      },
+      {
+        "w": "tela",
+        "f": 2272,
+        "end": 2289
+      },
+      {
+        "w": "a",
+        "f": 2289,
+        "end": 2296
+      },
+      {
+        "w": "formar",
+        "f": 2298,
+        "end": 2318
+      },
+      {
+        "w": "um",
+        "f": 2318,
+        "end": 2327
+      },
+      {
+        "w": "formato",
+        "f": 2327,
+        "end": 2356
+      },
+      {
+        "w": "de",
+        "f": 2356,
+        "end": 2365
+      },
+      {
+        "w": "lágrima",
+        "f": 2365,
+        "end": 2395
+      },
+      {
+        "w": "por",
+        "f": 2395,
+        "end": 2407
+      },
+      {
+        "w": "dentro,",
+        "f": 2408,
+        "end": 2447
+      },
+      {
+        "w": "um",
+        "f": 2447,
+        "end": 2456
+      },
+      {
+        "w": "raio",
+        "f": 2456,
+        "end": 2484
+      },
+      {
+        "w": "bem",
+        "f": 2484,
+        "end": 2492
+      },
+      {
+        "w": "largo.",
+        "f": 2492,
+        "end": 2537
+      },
+      {
+        "w": "Assim,",
+        "f": 2545,
+        "end": 2568
+      },
+      {
+        "w": "a",
+        "f": 2568,
+        "end": 2572
+      },
+      {
+        "w": "tensão",
+        "f": 2574,
+        "end": 2599
+      },
+      {
+        "w": "não",
+        "f": 2599,
+        "end": 2612
+      },
+      {
+        "w": "se",
+        "f": 2612,
+        "end": 2621
+      },
+      {
+        "w": "concentra",
+        "f": 2621,
+        "end": 2662
+      },
+      {
+        "w": "e",
+        "f": 2662,
+        "end": 2666
+      },
+      {
+        "w": "a",
+        "f": 2666,
+        "end": 2671
+      },
+      {
+        "w": "marca",
+        "f": 2671,
+        "end": 2695
+      },
+      {
+        "w": "da",
+        "f": 2695,
+        "end": 2702
+      },
+      {
+        "w": "dobra",
+        "f": 2702,
+        "end": 2724
+      },
+      {
+        "w": "quase",
+        "f": 2724,
+        "end": 2746
+      },
+      {
+        "w": "desaparece.",
+        "f": 2746,
+        "end": 2810
+      },
+      {
+        "w": "É",
+        "f": 2810,
+        "end": 2819
+      },
+      {
+        "w": "por",
+        "f": 2822,
+        "end": 2825
+      },
+      {
+        "w": "isso",
+        "f": 2825,
+        "end": 2841
+      },
+      {
+        "w": "que",
+        "f": 2841,
+        "end": 2852
+      },
+      {
+        "w": "a",
+        "f": 2852,
+        "end": 2856
+      },
+      {
+        "w": "Apple",
+        "f": 2856,
+        "end": 2875
+      },
+      {
+        "w": "conseguiu",
+        "f": 2875,
+        "end": 2910
+      },
+      {
+        "w": "fazer",
+        "f": 2910,
+        "end": 2932
+      },
+      {
+        "w": "a",
+        "f": 2932,
+        "end": 2933
+      },
+      {
+        "w": "tela",
+        "f": 2933,
+        "end": 2948
+      },
+      {
+        "w": "mais",
+        "f": 2948,
+        "end": 2964
+      },
+      {
+        "w": "fina",
+        "f": 2964,
+        "end": 2983
+      },
+      {
+        "w": "e",
+        "f": 2983,
+        "end": 2987
+      },
+      {
+        "w": "com",
+        "f": 2988,
+        "end": 3000
+      },
+      {
+        "w": "menos",
+        "f": 3000,
+        "end": 3020
+      },
+      {
+        "w": "ruga",
+        "f": 3020,
+        "end": 3037
+      },
+      {
+        "w": "que",
+        "f": 3037,
+        "end": 3049
+      },
+      {
+        "w": "a",
+        "f": 3049,
+        "end": 3060
+      },
+      {
+        "w": "maioria",
+        "f": 3060,
+        "end": 3088
+      },
+      {
+        "w": "dos",
+        "f": 3088,
+        "end": 3094
+      },
+      {
+        "w": "dobráveis.",
+        "f": 3094,
+        "end": 3137
+      },
+      {
+        "w": "Tecnologia",
+        "f": 3147,
+        "end": 3198
+      },
+      {
+        "w": "absurda.",
+        "f": 3198,
+        "end": 3262
+      },
+      {
+        "w": "E",
+        "f": 3262,
+        "end": 3271
+      },
+      {
+        "w": "um",
+        "f": 3271,
+        "end": 3275
+      },
+      {
+        "w": "preço",
+        "f": 3275,
+        "end": 3298
+      },
+      {
+        "w": "também.",
+        "f": 3298,
+        "end": 3341
+      }
+    ]
+  },
+  "layout": {
+    "pip": null,
+    "audioVisualizerHUD": {
+      "anchor": "bottom-right",
+      "box": {
+        "x": 780,
+        "y": 1568,
+        "w": 220,
+        "h": 96
+      },
+      "note": "Replaces the PiP slot, bottom-right. Sits under the caption band (y 1400-1550) so captions keep the full width. Inside the safe zone (x<=1020, y<=1670). Bars driven by the voice amplitude (visualizeAudio), OLED blue with a titanium frame."
+    },
+    "captions": {
+      "y": [
+        1400,
+        1550
+      ],
+      "fontMinPx": 72,
+      "style": "word-by-word, ease-out overshoot 0.15 s, NO background box; text-shadow 4px 4px 8px rgba(0,0,0,.9) + drop-shadow(0 2px 8px rgba(0,0,0,.8))"
+    },
+    "safeZone": {
+      "x": [
+        60,
+        1020
+      ],
+      "y": [
+        120,
+        1670
+      ]
+    }
+  },
+  "energyByTag": {
+    "curious": "slow reveals, soft camera",
+    "conversational": "relaxed drift, low energy",
+    "matter-of-fact": "clean HUDs, data cards",
+    "serious": "dim, slow dolly",
+    "impactful": "hard cuts, kinetic impacts, shake"
+  },
+  "scenes": [
+    {
+      "id": "s01_layers",
+      "tag": "curious",
+      "text": "Você sabia que a tela do iPhone Duo tem dez camadas e mais de cem peças só na dobradiça?",
+      "keyBeats": {
+        "iPhone Duo": 80,
+        "dez": 134,
+        "camadas": 161,
+        "cem": 216,
+        "peças": 250,
+        "dobradiça": 294
+      },
+      "visual": "Slow reveal (curious): 10 glowing planes fade in one by one from 'dez', drift apart along Z. HUD counter rolls 0→10 on 'dez', then 0→100+ on 'cem'. Soft camera, no hard cuts. On 'dobradiça' a faint hinge silhouette glints under the stack.",
+      "sfx": [
+        {
+          "name": "digital counter tick (roll 0→10)",
+          "frame": 134
+        },
+        {
+          "name": "digital counter tick (roll 0→100+)",
+          "frame": 216
+        }
+      ],
+      "images": [
+        "fold_pixel_fold.webp (faint backplate, 15% opacity, hook frame only)"
+      ],
+      "from": 0,
+      "to": 355,
+      "voiceFrom": 9
+    },
+    {
+      "id": "s02_oled_ignite",
+      "tag": "conversational",
+      "text": "Pois é. A mágica começa no OLED.",
+      "keyBeats": {
+        "Pois é": 361,
+        "mágica": 419,
+        "OLED": 488
+      },
+      "visual": "Relaxed drift (conversational). Camera eases toward one pixel of the stack; on 'OLED' it ignites with a bloom burst and a wave of neighbours lights up across the grid.",
+      "sfx": [
+        {
+          "name": "power on chime",
+          "frame": 488
+        }
+      ],
+      "images": [
+        "oled_subpixels.webp (revealed under the igniting grid)"
+      ],
+      "from": 355,
+      "to": 533,
+      "voiceFrom": 361
+    },
+    {
+      "id": "s03_self_emissive",
+      "tag": "matter-of-fact",
+      "text": "Diferente das telas antigas, aqui cada pixel gera a própria luz.",
+      "keyBeats": {
+        "telas antigas": 578,
+        "pixel": 673,
+        "própria luz": 757
+      },
+      "visual": "Clean HUD (matter-of-fact). Macro RGB sub-pixel grid pulsing; data card 'OLED = cada pixel emite luz'. Cross-section slice shows emitter layer with NO backlight below.",
+      "sfx": [
+        {
+          "name": "electric sparkle",
+          "frame": 757
+        }
+      ],
+      "images": [
+        "oled_s22_rgb_matrix.webp (macro, Ken Burns)",
+        "oled_structure_diagram.webp (faint diagram texture in data card)"
+      ],
+      "from": 533,
+      "to": 781,
+      "voiceFrom": 539
+    },
+    {
+      "id": "s04_no_backlight",
+      "tag": "matter-of-fact",
+      "text": "Não existe aquela placa rígida de backlight por trás. Por isso ela consegue dobrar.",
+      "keyBeats": {
+        "placa rígida": 848,
+        "backlight": 895,
+        "dobrar": 1037
+      },
+      "visual": "Split screen LCD | OLED. LCD half: bright white backlight plate that flickers and powers off on 'backlight'. OLED half: black void with self-lit pixels. On 'dobrar' the OLED half bends smoothly; the LCD half stays rigid.",
+      "sfx": [
+        {
+          "name": "power off",
+          "frame": 895
+        }
+      ],
+      "images": [
+        "lcd_backlight_leds.webp (LCD half)",
+        "lcd_layer_layout.webp (HUD inset, LCD layer diagram)"
+      ],
+      "from": 781,
+      "to": 1064,
+      "voiceFrom": 787
+    },
+    {
+      "id": "s05a_not_only",
+      "tag": "serious",
+      "text": "Mas não é só isso.",
+      "keyBeats": {
+        "Mas": 1070,
+        "isso": 1119
+      },
+      "visual": "Serious beat: everything dims to ~40%, slow dolly back, layer stack re-forms in silhouette. No SFX, the pause carries it.",
+      "sfx": [],
+      "images": [],
+      "from": 1064,
+      "to": 1157,
+      "voiceFrom": 1070
+    },
+    {
+      "id": "s05_glass_titanium",
+      "tag": "matter-of-fact",
+      "text": "Por cima e por baixo da tela tem vidros ultratinhos. E bem no fundo uma placa de titânio.",
+      "keyBeats": {
+        "por cima": 1171,
+        "por baixo": 1210,
+        "vidros": 1279,
+        "ultratinhos": 1306,
+        "bem no fundo": 1396,
+        "titânio": 1462
+      },
+      "visual": "Exploded view, camera orbit. Glass panes slide in above ('cima') and below ('baixo') the OLED with refraction; HUD labels 'UTG · vidro ultrafino'. On 'titânio' a metallic specular plate slides in at the bottom with a glint sweep. Label 'Ti · placa de suporte'.",
+      "sfx": [
+        {
+          "name": "metal shing (glass)",
+          "frame": 1279
+        },
+        {
+          "name": "metal shing (titanium)",
+          "frame": 1462
+        }
+      ],
+      "images": [
+        "titanium_cetko.webp (texture/inset for the plate)",
+        "titanium_anodized_plates.webp (backup)"
+      ],
+      "from": 1157,
+      "to": 1514,
+      "voiceFrom": 1163
+    },
+    {
+      "id": "s06_glue_book",
+      "tag": "conversational",
+      "text": "Entre todas essas camadas existe uma cola especial. Uma cola que deixa elas deslizarem uma sobre a outra igual às páginas de um livro.",
+      "keyBeats": {
+        "camadas": 1574,
+        "cola": 1643,
+        "cola 2": 1723,
+        "deslizarem": 1787,
+        "páginas": 1910,
+        "livro": 1961
+      },
+      "visual": "Relaxed drift. Amber glue glows between layers on 'cola'. On 'deslizarem' the stack bends and layers shear past each other like book pages, edges fanning. On 'livro' a ghosted book outline matches the curve.",
+      "sfx": [
+        {
+          "name": "soft whoosh slide",
+          "frame": 1787
+        }
+      ],
+      "images": [],
+      "from": 1514,
+      "to": 1997,
+      "voiceFrom": 1520
+    },
+    {
+      "id": "s07_hinge_assembly",
+      "tag": "curious",
+      "text": "Agora presta atenção na dobradiça.",
+      "keyBeats": {
+        "atenção": 2038,
+        "dobradiça": 2073
+      },
+      "visual": "Curious: slow camera push-in. 100+ tiny 3D parts drift in from all sides and snap into a hinge on 'dobradiça'.",
+      "sfx": [
+        {
+          "name": "mechanical ratchet snap (lands on snap)",
+          "frame": 2073
+        }
+      ],
+      "images": [
+        "hinge_mobile_phone.webp (brief real-hinge flash behind the assembly)"
+      ],
+      "from": 1997,
+      "to": 2118,
+      "voiceFrom": 2003
+    },
+    {
+      "id": "s08_teardrop",
+      "tag": "serious",
+      "text": "Ela não dobra a tela no meio. Ela força a tela a formar um formato de lágrima por dentro. Um raio bem largo.",
+      "keyBeats": {
+        "não dobra": 2150,
+        "meio": 2202,
+        "formar": 2298,
+        "lágrima": 2365,
+        "raio": 2456,
+        "largo": 2492
+      },
+      "visual": "Serious: side by side. Left: sharp V-fold with a red X on 'meio'. Right: teardrop fold forms on 'lágrima' (procedural cross-section). Radius-arc HUD draws on 'raio' and widens on 'largo'. Riser builds 'formar'→'raio'.",
+      "sfx": [
+        {
+          "name": "cinematic riser (start)",
+          "frame": 2298
+        }
+      ],
+      "images": [],
+      "note": "Teardrop diagram is procedural Three.js; no CC-licensed diagram found.",
+      "from": 2118,
+      "to": 2539,
+      "voiceFrom": 2124
+    },
+    {
+      "id": "s09_stress",
+      "tag": "impactful",
+      "text": "Assim a tensão não se concentra e a marca da dobra quase desaparece.",
+      "keyBeats": {
+        "tensão": 2574,
+        "concentra": 2621,
+        "marca da dobra": 2671,
+        "desaparece": 2746
+      },
+      "visual": "Impactful: HARD CUT on 'tensão' to a stress heatmap. V-fold glows red at a point; teardrop spreads green/blue. Kinetic shake. On 'desaparece' the crease line on the panel fades away.",
+      "sfx": [
+        {
+          "name": "cinematic impact boom",
+          "frame": 2574
+        }
+      ],
+      "images": [
+        "crease_z_flip.webp (real foldable photo; crease line fades on 'desaparece')"
+      ],
+      "from": 2539,
+      "to": 2804,
+      "voiceFrom": 2545
+    },
+    {
+      "id": "s10_thinner",
+      "tag": "matter-of-fact",
+      "text": "É por isso que a Apple conseguiu fazer a tela mais fina e com menos ruga que a maioria dos dobráveis.",
+      "keyBeats": {
+        "Apple": 2856,
+        "mais fina": 2964,
+        "menos ruga": 3020,
+        "dobráveis": 3094
+      },
+      "visual": "Clean data cards: animated bar chart, bar 1 'espessura' on 'fina', bar 2 'ruga' on 'ruga', iPhone vs 'outros dobráveis'. Bars are qualitative (no invented numbers) unless you give me figures.",
+      "sfx": [
+        {
+          "name": "swoosh (bars)",
+          "frame": 2964
+        }
+      ],
+      "images": [
+        "fold_z7_unfolded.webp (the 'outros dobráveis' reference)"
+      ],
+      "from": 2804,
+      "to": 3141,
+      "voiceFrom": 2810
+    },
+    {
+      "id": "s11_absurd",
+      "tag": "impactful",
+      "text": "Tecnologia absurda.",
+      "keyBeats": {
+        "Tecnologia": 3147,
+        "absurda": 3198
+      },
+      "visual": "Massive white flash + zoom punch on 'absurda'. Particles freeze for ~12 frames, then resume.",
+      "sfx": [
+        {
+          "name": "cinematic impact boom (big)",
+          "frame": 3198
+        }
+      ],
+      "images": [],
+      "from": 3141,
+      "to": 3256,
+      "voiceFrom": 3147
+    },
+    {
+      "id": "s12_price",
+      "tag": "conversational",
+      "text": "E um preço também.",
+      "keyBeats": {
+        "E": 3262,
+        "preço": 3275,
+        "também": 3298,
+        "coinLand": 3305,
+        "fadeOut": [
+          3360,
+          3420
+        ]
+      },
+      "visual": "End card: coin falls on 'preço', bounces twice; price card. Fade to black from 3360 to 3420.",
+      "sfx": [
+        {
+          "name": "coin drop metallic (first bounce)",
+          "frame": 3305
+        }
+      ],
+      "images": [],
+      "note": "End card: 'R$ ???' glitch + small 'Conceito' tag.",
+      "from": 3256,
+      "to": 3420,
+      "voiceFrom": 3262
+    }
+  ],
+  "captionKeywords": {
+    "dez camadas": [
+      134
+    ],
+    "cem peças": [
+      216
+    ],
+    "OLED": [
+      488
+    ],
+    "pixel": [
+      673
+    ],
+    "backlight": [
+      895
+    ],
+    "dobráveis": [
+      3094
+    ],
+    "titânio": [
+      1462
+    ],
+    "cola": [
+      1643,
+      1723
+    ],
+    "lágrima": [
+      2365
+    ],
+    "raio": [
+      2456
+    ],
+    "tensão": [
+      2574
+    ],
+    "Apple": [
+      2856
+    ],
+    "absurda": [
+      3198
+    ],
+    "preço": [
+      3275
+    ]
+  },
+  "audio": {
+    "drone": "synthesized dark ambient drone at -24 dB under the whole piece",
+    "mix": "-14 LUFS integrated, -1 dBTP via scripts/finalize.sh (one global gain; the voice gets no EQ/compression)",
+    "ducking": "SFX are sidechained to the voice: whooshes -3 dB, booms -8 dB while voice is active"
+  },
+  "approval": {
+    "date": "2026-10-22",
+    "price": "End card shows 'R$ ???' with a glitch effect. No real number is shown or invented.",
+    "conceptTag": {
+      "text": "CONCEITO · baseado em rumores",
+      "frames": [
+        0,
+        180
+      ],
+      "anchor": "top-right",
+      "endCardTag": "Conceito (small, under the price)"
+    },
+    "ducking": "Voice untouched. SFX duck under voice: whooshes -3 dB, booms -8 dB. One global gain to hit -14 LUFS.",
+    "scene10": "Relative bars, no numbers; legends 'mais fina' / 'menos ruga'."
+  }
+}

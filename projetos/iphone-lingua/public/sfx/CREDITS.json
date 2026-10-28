@@ -1,0 +1,222 @@
+[
+  {
+    "file": "lng_boot.wav",
+    "freesound_id": 220207,
+    "name": "Boot Sound",
+    "author": "GameAudio",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/GameAudio/sounds/220207/",
+    "query": "ui startup",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_scan.wav",
+    "freesound_id": 658266,
+    "name": "Retro Inspect Sound, UI, or In-Game Notification.wav",
+    "author": "LilMati",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/LilMati/sounds/658266/",
+    "query": "ui beep",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_pop.wav",
+    "freesound_id": 447910,
+    "name": "Plop!",
+    "author": "Breviceps",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Breviceps/sounds/447910/",
+    "query": "ui pop",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_flip.wav",
+    "freesound_id": 84322,
+    "name": "flipCard.wav",
+    "author": "Splashdust",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Splashdust/sounds/84322/",
+    "query": "card flip",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_stamp.wav",
+    "freesound_id": 470710,
+    "name": "traditional stamp.wav",
+    "author": "I.fekry",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/I.fekry/sounds/470710/",
+    "query": "rubber stamp",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_shimmer.wav",
+    "freesound_id": 562196,
+    "name": "snd_fragment_retrieve.wav",
+    "author": "gristi",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/gristi/sounds/562196/",
+    "query": "glass shimmer",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_lock.wav",
+    "freesound_id": 388046,
+    "name": "beep_up.wav",
+    "author": "paep3nguin",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/paep3nguin/sounds/388046/",
+    "query": "ui beep",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_error.wav",
+    "freesound_id": 445978,
+    "name": "Error Signal 2",
+    "author": "Breviceps",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Breviceps/sounds/445978/",
+    "query": "ui error",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_impact.wav",
+    "freesound_id": 736849,
+    "name": "Bright sfx hit",
+    "author": "xkeril",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/xkeril/sounds/736849/",
+    "query": "cinematic impact hit",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_riser.wav",
+    "freesound_id": 859482,
+    "name": "Cinematic Riser #3 subtle",
+    "author": "BeaconStudio",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/BeaconStudio/sounds/859482/",
+    "query": "cinematic riser short",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_boom.wav",
+    "freesound_id": 430977,
+    "name": "Big impact.wav",
+    "author": "AudioPapkin",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/AudioPapkin/sounds/430977/",
+    "query": "cinematic impact boom",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_tick.wav",
+    "freesound_id": 528561,
+    "name": "Soft UI Button Click",
+    "author": "Jummit",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Jummit/sounds/528561/",
+    "query": "ui tick",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_tap.wav",
+    "freesound_id": 467951,
+    "name": "UI Button Click",
+    "author": "benzix2",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/benzix2/sounds/467951/",
+    "query": "ui pop",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_toggle.wav",
+    "freesound_id": 457463,
+    "name": "Small_Flashlight_Click_on_02.wav",
+    "author": "Rudmer_Rotteveel",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Rudmer_Rotteveel/sounds/457463/",
+    "query": "toggle switch",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_swipe.wav",
+    "freesound_id": 60007,
+    "name": "Swipe Whoosh",
+    "author": "qubodup",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/qubodup/sounds/60007/",
+    "query": "swipe whoosh",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_focus.wav",
+    "freesound_id": 467880,
+    "name": "Nikon D5100 DSLR Focus beep and shutter release.wav",
+    "author": "louis0118",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/louis0118/sounds/467880/",
+    "query": "camera focus beep",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_alert.wav",
+    "freesound_id": 258193,
+    "name": "beep beep",
+    "author": "Kodack",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/Kodack/sounds/258193/",
+    "query": "alert beep",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_glitch.wav",
+    "freesound_id": 237607,
+    "name": "Glitch 01",
+    "author": "JacksonMiller0",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/JacksonMiller0/sounds/237607/",
+    "query": "digital glitch",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_sparkle.wav",
+    "freesound_id": 817466,
+    "name": "Cliche Magic Spell Sound",
+    "author": "qubodup",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/qubodup/sounds/817466/",
+    "query": "magic sparkle chime",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  },
+  {
+    "file": "lng_chime.wav",
+    "freesound_id": 616696,
+    "name": "Chimes / Saved",
+    "author": "melokacool",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "source_url": "https://freesound.org/people/melokacool/sounds/616696/",
+    "query": "notification chime",
+    "note": "Freesound HQ mp3 preview, re-encoded to 48 kHz wav, leading silence trimmed"
+  }
+]

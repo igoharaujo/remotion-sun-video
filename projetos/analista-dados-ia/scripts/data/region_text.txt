@@ -1,0 +1,40 @@
+r00    0.00-   4.82 ( 4.82s)  Se você é ou conhece alguém que é análise de dados, não pula esse vídeo.
+r01    6.52-  15.03 ( 8.51s)  Eu cruzei as mensagens de um grupo fechado com especialistas da área com os dados do mercado americano agora de 2026.
+r02   21.53-  25.20 ( 3.67s)  E talvez você não queira ouvir isso, mas a resposta curta.
+r03   27.71-  31.38 ( 3.67s)  é que o analista de dados tradicional já morreu lá fora.
+r04   56.90-  65.88 ( 8.98s)  Em um dos grupos que eu mapei um DBA com mais de 25 anos de mercado, lembrou que em 97 já dizinho que a profissão dele iria acabar.
+r05   66.60-  73.98 ( 7.38s)  Só que tem um detalhe, a inteligência artificial hoje já engoliu o código repetitivo, a query básica e o dashboard.
+r06   84.23-  86.25 ( 2.02s)  E mais, não sou eu falando.
+r07   89.45-  90.77 ( 1.31s)  é matemática.
+r08   95.43-  99.12 ( 3.69s)  O Fórum Econômico Mundial projeto queda de mais de 50%.
+r09  103.71- 105.85 ( 2.14s)  no trabalho operacional de dados.
+r10  113.92- 117.77 ( 3.85s)  Nos Estados Unidos, aonde a inteligência artificial já está mais avançada,
+r11  124.35- 128.40 ( 4.05s)  A garra demonstrou que qualquer gestor hoje gera relatórios utilizando
+r12  128.88- 129.99 ( 1.11s)  Inteligência artificial.
+r13  142.33- 147.45 ( 5.12s)  lá fora o analista que sobreviveu e que hoje ganha 59 mil dólares a mais por ano.
+r14  151.93- 154.19 ( 2.25s)  parou de fazer gráfico e virou um híbrido.
+r15  171.63- 173.83 ( 2.20s)  Se você se perguntar, qual é a solução?
+r16  174.36- 177.91 ( 3.55s)  Para não rodar quando essa onda bater 100% no Brasil,
+r17  183.21- 184.73 ( 1.52s)  Você precisa mudar hoje!
+r18  185.23- 186.94 ( 1.71s)  que você estuda em três pontos.
+r19  193.40- 196.81 ( 3.41s)  Primeiro, pare de focar em arrastar caixinha no Power BI.
+r20  199.67- 202.00 ( 2.32s)  e aprenda modelagem e governança.
+r21  205.07- 207.28 ( 2.22s)  Porque se o dado for um lixo...
+r22  210.34- 213.38 ( 3.05s)  a inteligência artificial da empresa alucina.
+r23  224.65- 225.35 ( 0.70s)  Segundo.
+r24  228.46- 231.32 ( 2.87s)  Sai do SQL básico e domine Python.
+r25  236.11- 239.18 ( 3.07s)  e conexão de dados com LLMs.
+r26  245.65- 250.61 ( 4.96s)  É você que precisa construir a ponte para a inteligência para o agente trabalhar.
+r27  253.07- 255.61 ( 2.54s)  Terceiro, entenda de regra de negócio.
+r28  258.40- 260.20 ( 1.80s)  aí te dá a resposta em código.
+r29  265.83- 270.26 ( 4.43s)  Mas só o humano sabe qual pergunta dá lucro à empresa.
+r30  279.07- 280.66 ( 1.59s)  O analista de dados não vai acabar.
+r31  284.03- 285.67 ( 1.63s)  ele só subiu de nível.
+r32  312.27- 314.05 ( 1.77s)  E se você quiser o mapa é exato.
+r33  318.42- 320.32 ( 1.91s)  Do que isso dá pra fazer essa transição?
+r34  330.65- 331.98 ( 1.32s)  e teu perfil híbrido.
+r35  337.10- 338.63 ( 1.52s)  antes da maioria.
+r36  340.71- 342.56 ( 1.86s)  Comenta dados aqui embaixo.
+r37  346.15- 347.40 ( 1.25s)  que eu trago no próximo vídeo.
+r38  350.47- 352.61 ( 2.14s)  E já segue para não ficar para trás.
+r39  357.21- 357.93 ( 0.73s)  she said

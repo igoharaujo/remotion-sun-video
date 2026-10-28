@@ -1,0 +1,578 @@
+{
+ "$comment": "Beat sheet for MeuTeste. Frames @ 60 fps (source video is 30 fps). Words: whisper-small (pt) on the voice track of public/eu.mp4, onsets snapped to the first voiced 10 ms window, mapped to the script's spelling (scripts/build-timeline.py). STATUS: approved 2026-10-24.",
+ "status": "approved-2026-10-24",
+ "composition": {
+  "id": "MeuTeste",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "durationInFrames": 1464,
+  "durationSec": 24.4,
+  "durationNote": "Video 24.40 s (1080x1920 @30 fps, no rotation). Last word 'amanhã?' ends ~1416; CTA holds on the remaining footage."
+ },
+ "palette": {
+  "ink": "#FFFFFF",
+  "muted": "#C9CDD2",
+  "blue": "#4285F4",
+  "blueGlow": "#8AB4F8",
+  "alert": "#FF453A",
+  "gold": "#F5C451",
+  "glass": "rgba(20,20,24,0.55)"
+ },
+ "background": {
+  "source": "public/eu.mp4",
+  "fit": "cover (already 1080x1920)",
+  "overlay": {
+   "base": 0.2,
+   "serious": 0.38
+  },
+  "pushIn": "1.00→1.04 over the whole video; extra 1.04→1.08 in S03"
+ },
+ "audio": {
+  "voice": "the video's own track, untouched (only the final global gain to -14 LUFS)",
+  "bgm": null,
+  "duck": {
+   "whoosh": -3,
+   "boom": -8
+  },
+  "target": {
+   "lufs": -14,
+   "dbtp": -1
+  }
+ },
+ "voice": {
+  "source": "public/eu.mp4",
+  "words": [
+   {
+    "w": "Você",
+    "f": 30,
+    "end": 43
+   },
+   {
+    "w": "não",
+    "f": 43,
+    "end": 54
+   },
+   {
+    "w": "é",
+    "f": 54,
+    "end": 61
+   },
+   {
+    "w": "preguiçoso.",
+    "f": 61,
+    "end": 124
+   },
+   {
+    "w": "Você",
+    "f": 124,
+    "end": 131
+   },
+   {
+    "w": "só",
+    "f": 131,
+    "end": 135
+   },
+   {
+    "w": "está",
+    "f": 135,
+    "end": 145
+   },
+   {
+    "w": "viciado",
+    "f": 146,
+    "end": 158
+   },
+   {
+    "w": "na",
+    "f": 158,
+    "end": 169
+   },
+   {
+    "w": "dopamina",
+    "f": 169,
+    "end": 210
+   },
+   {
+    "w": "de",
+    "f": 210,
+    "end": 240
+   },
+   {
+    "w": "'deixar",
+    "f": 240,
+    "end": 266
+   },
+   {
+    "w": "pra",
+    "f": 266,
+    "end": 279
+   },
+   {
+    "w": "amanhã'.",
+    "f": 279,
+    "end": 324
+   },
+   {
+    "w": "Seu",
+    "f": 327,
+    "end": 337
+   },
+   {
+    "w": "cérebro",
+    "f": 338,
+    "end": 369
+   },
+   {
+    "w": "ama",
+    "f": 370,
+    "end": 383
+   },
+   {
+    "w": "a",
+    "f": 383,
+    "end": 387
+   },
+   {
+    "w": "sensação",
+    "f": 387,
+    "end": 427
+   },
+   {
+    "w": "de",
+    "f": 427,
+    "end": 432
+   },
+   {
+    "w": "planejar.",
+    "f": 433,
+    "end": 478
+   },
+   {
+    "w": "É",
+    "f": 478,
+    "end": 482
+   },
+   {
+    "w": "como",
+    "f": 483,
+    "end": 499
+   },
+   {
+    "w": "se",
+    "f": 499,
+    "end": 509
+   },
+   {
+    "w": "você",
+    "f": 509,
+    "end": 527
+   },
+   {
+    "w": "já",
+    "f": 527,
+    "end": 536
+   },
+   {
+    "w": "tivesse",
+    "f": 536,
+    "end": 568
+   },
+   {
+    "w": "feito",
+    "f": 568,
+    "end": 590
+   },
+   {
+    "w": "a",
+    "f": 590,
+    "end": 595
+   },
+   {
+    "w": "tarefa,",
+    "f": 595,
+    "end": 642
+   },
+   {
+    "w": "mas",
+    "f": 642,
+    "end": 671
+   },
+   {
+    "w": "sem",
+    "f": 671,
+    "end": 673
+   },
+   {
+    "w": "o",
+    "f": 673,
+    "end": 678
+   },
+   {
+    "w": "esforço",
+    "f": 678,
+    "end": 713
+   },
+   {
+    "w": "real.",
+    "f": 713,
+    "end": 745
+   },
+   {
+    "w": "Aí",
+    "f": 745,
+    "end": 755
+   },
+   {
+    "w": "chega",
+    "f": 755,
+    "end": 782
+   },
+   {
+    "w": "amanhã,",
+    "f": 782,
+    "end": 813
+   },
+   {
+    "w": "a",
+    "f": 813,
+    "end": 817
+   },
+   {
+    "w": "ansiedade",
+    "f": 817,
+    "end": 873
+   },
+   {
+    "w": "bate,",
+    "f": 873,
+    "end": 886
+   },
+   {
+    "w": "e",
+    "f": 886,
+    "end": 890
+   },
+   {
+    "w": "o",
+    "f": 890,
+    "end": 895
+   },
+   {
+    "w": "ciclo",
+    "f": 895,
+    "end": 921
+   },
+   {
+    "w": "recomeça.",
+    "f": 921,
+    "end": 989
+   },
+   {
+    "w": "Regra",
+    "f": 991,
+    "end": 1024
+   },
+   {
+    "w": "de",
+    "f": 1024,
+    "end": 1036
+   },
+   {
+    "w": "ouro:",
+    "f": 1036,
+    "end": 1072
+   },
+   {
+    "w": "se",
+    "f": 1072,
+    "end": 1091
+   },
+   {
+    "w": "leva",
+    "f": 1091,
+    "end": 1106
+   },
+   {
+    "w": "menos",
+    "f": 1106,
+    "end": 1123
+   },
+   {
+    "w": "de",
+    "f": 1123,
+    "end": 1135
+   },
+   {
+    "w": "2",
+    "f": 1135,
+    "end": 1153
+   },
+   {
+    "w": "minutos,",
+    "f": 1153,
+    "end": 1201
+   },
+   {
+    "w": "faz",
+    "f": 1205,
+    "end": 1220
+   },
+   {
+    "w": "AGORA.",
+    "f": 1220,
+    "end": 1261
+   },
+   {
+    "w": "Me",
+    "f": 1264,
+    "end": 1287
+   },
+   {
+    "w": "conta:",
+    "f": 1287,
+    "end": 1294
+   },
+   {
+    "w": "o",
+    "f": 1294,
+    "end": 1298
+   },
+   {
+    "w": "que",
+    "f": 1298,
+    "end": 1309
+   },
+   {
+    "w": "você",
+    "f": 1309,
+    "end": 1324
+   },
+   {
+    "w": "tá",
+    "f": 1324,
+    "end": 1339
+   },
+   {
+    "w": "deixando",
+    "f": 1339,
+    "end": 1369
+   },
+   {
+    "w": "pra",
+    "f": 1369,
+    "end": 1381
+   },
+   {
+    "w": "amanhã?",
+    "f": 1385,
+    "end": 1417
+   }
+  ]
+ },
+ "lineStarts": {
+  "L1": 30,
+  "L2": 327,
+  "L3": 745,
+  "L4": 991
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "line": 0,
+   "from": 0,
+   "to": 323,
+   "name": "Hook — não é preguiça, é dopamina",
+   "keyBeats": {
+    "voce": 30,
+    "nao": 43,
+    "preguicoso": 61,
+    "viciado": 146,
+    "dopamina": 169,
+    "deixar": 240,
+    "amanha1": 279
+   },
+   "visual": "Vídeo em tela cheia, overlay escuro 20%, push-in lento (1.00→1.04). Em 'preguiçoso' a palavra PREGUIÇOSO (hero, 132px, branco) bate na zona superior e um risco vermelho a atravessa em 'preguiçoso'+12. Em 'viciado' o camaleão (shocked) sobe quicando no canto inferior esquerdo (spring). Em 'dopamina' HUD 'DOPAMINA' — barra/medidor vertical azul enchendo até o topo com um pico em linha (ECG-like) ao lado. Em 'deixar pra amanhã' um cartão de calendário glass 'AMANHÃ →' entra e desliza pra direita (empurrado pra frente).",
+   "sfx": [
+    "pop (mascote) @146",
+    "riser curto @169",
+    "whoosh (calendário) @240"
+   ],
+   "tag": "curious",
+   "text": "Você não é preguiçoso. Você só está viciado na dopamina de 'deixar pra amanhã'."
+  },
+  {
+   "id": "S02",
+   "line": 1,
+   "from": 323,
+   "to": 741,
+   "name": "Planejar = sensação de feito",
+   "keyBeats": {
+    "cerebro": 338,
+    "ama": 370,
+    "planejar": 433,
+    "feito": 568,
+    "tarefa": 595,
+    "mas": 642,
+    "esforco": 678,
+    "real": 713
+   },
+   "visual": "Cortes limpos (matter-of-fact). Em 'planejar' o camaleão troca pra skeptical (squash-pop) e um checklist glass entra na zona superior: 'Planejar', 'Organizar', 'Fazer'. Em 'feito' os dois primeiros itens se marcam ✓ em sequência (azul). Em 'mas sem o esforço real' o item 'Fazer' fica vazio, pisca em vermelho, e uma barra 'PROGRESSO REAL 0%' aparece embaixo.",
+   "sfx": [
+    "pop (pose) @433",
+    "tick ×2 @568",
+    "glitch/erro suave @678"
+   ],
+   "tag": "matter-of-fact",
+   "text": "Seu cérebro ama a sensação de planejar. É como se você já tivesse feito a tarefa, mas sem o esforço real."
+  },
+  {
+   "id": "S03",
+   "line": 2,
+   "from": 741,
+   "to": 987,
+   "name": "Ansiedade → o ciclo recomeça",
+   "keyBeats": {
+    "chega": 755,
+    "amanha2": 782,
+    "ansiedade": 817,
+    "bate": 873,
+    "ciclo": 895,
+    "recomeca": 921
+   },
+   "visual": "Iluminação mais escura (overlay 20%→38%), push-in pesado no vídeo (serious). Em 'amanhã' o calendário volta e vira a página (HOJE → AMANHÃ). Em 'ansiedade' o camaleão troca pra tired e vibra; em 'bate' um pulso de batimento (linha ECG vermelha) cruza a zona superior + micro-shake. Em 'ciclo recomeça' uma seta circular grande (azul, 300px) desenha-se e gira 1,5 volta, com 'DE NOVO' no centro.",
+   "sfx": [
+    "page flip @782",
+    "heartbeat @873",
+    "whoosh circular @895"
+   ],
+   "tag": "serious",
+   "text": "Aí chega amanhã, a ansiedade bate, e o ciclo recomeça."
+  },
+  {
+   "id": "S04",
+   "line": 3,
+   "from": 987,
+   "to": 1464,
+   "name": "Regra dos 2 minutos → AGORA → CTA",
+   "keyBeats": {
+    "regra": 991,
+    "ouro": 1036,
+    "menos": 1106,
+    "dois": 1135,
+    "minutos": 1153,
+    "faz": 1205,
+    "agora": 1220,
+    "me": 1264,
+    "conta": 1287,
+    "deixando": 1339,
+    "amanha3": 1385
+   },
+   "visual": "Volta a luz normal (conversational). Em 'Regra de ouro' chip 'REGRA DE OURO' (dourado #F5C451, estrela) no topo. Em '2 minutos' HUD de relógio grande: anel de timer 360px com ponteiro varrendo e '2:00' em mono gigante; o camaleão troca pra pointing e aponta pro relógio. Em 'faz AGORA' o anel completa com flash, 'AGORA' bate em hero (180px, branco→azul) com shake. Em 'Me conta' o camaleão troca pra hyped e um balão de comentário (azul) entra ao lado do texto da pergunta.",
+   "sfx": [
+    "chime @991",
+    "ticks relógio 1135→1205",
+    "impacto @1220",
+    "ding @1287"
+   ],
+   "tag": "conversational",
+   "text": "Regra de ouro: se leva menos de 2 minutos, faz AGORA. Me conta: o que você tá deixando pra amanhã?"
+  }
+ ],
+ "mascot": {
+  "sprites": "public/avatar (trimmed, 2.5D CSS plane with springs)",
+  "heightPx": 240,
+  "keys": [
+   {
+    "f": 142,
+    "pose": "shocked",
+    "x": 162,
+    "y": 1500
+   },
+   {
+    "f": 433,
+    "pose": "skeptical",
+    "x": 890,
+    "y": 1500
+   },
+   {
+    "f": 817,
+    "pose": "tired",
+    "x": 160,
+    "y": 1505
+   },
+   {
+    "f": 1135,
+    "pose": "pointing",
+    "x": 885,
+    "y": 1490
+   },
+   {
+    "f": 1264,
+    "pose": "hyped",
+    "x": 876,
+    "y": 1495
+   }
+  ]
+ },
+ "layout": {
+  "safeZone": {
+   "x": [
+    60,
+    1020
+   ],
+   "y": [
+    120,
+    1670
+   ]
+  },
+  "face": {
+   "x": [
+    250,
+    810
+   ],
+   "y": [
+    880,
+    1920
+   ],
+   "note": "measured at t=1/7/15.5/21 s: hair top 905-1030, chin 1600-1810, x 265-790 (+margin)"
+  },
+  "hud": {
+   "y": [
+    170,
+    640
+   ],
+   "note": "relógio, seta de loop, checklist, medidor, hero words — parede lisa acima da cabeça"
+  },
+  "captions": {
+   "y": [
+    680,
+    850
+   ],
+   "minPx": 72,
+   "note": "acima da cabeça (a faixa padrão 1400-1550 cai na boca)"
+  },
+  "mascotCorners": {
+   "left": {
+    "x": [
+     60,
+     262
+    ],
+    "y": [
+     1380,
+     1625
+    ]
+   },
+   "right": {
+    "x": [
+     790,
+     960
+    ],
+    "y": [
+     1380,
+     1625
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,940 @@
+{
+ "$comment": "Beat sheet for 47Abas. Frames @ 60 fps. Words: whisper-small (pt) on public/audio/narracao.mp3 (ElevenLabs Kaique, seed 47, speed 1.05, stability 0.5; take 2 — take 1 had a TTS ad-lib 'Ah, isso eu espero' after 'Windows...', fixed by merging the two lines), onsets snapped to first voiced 10 ms window, then mapped to the script's spelling (scripts/build-timeline.py). STATUS: approved 2026-10-24.",
+ "status": "approved-2026-10-24",
+ "composition": {
+  "id": "Abas47",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "durationInFrames": 2747,
+  "durationSec": 45.783,
+  "durationNote": "Audio 43.282 s (2597 frames); last word 'mentir.' ends ~2578. Holds ~2.5 s on the CTA (blinking cursor) + fade."
+ },
+ "palette": {
+  "stage": "#0A0A0C",
+  "stageHi": "#1C1C1F",
+  "chrome": "#4285F4",
+  "chromeGlow": "#8AB4F8",
+  "ink": "#FFFFFF",
+  "muted": "#9AA0A6",
+  "glass": "rgba(255,255,255,0.06)",
+  "glassEdge": "rgba(255,255,255,0.14)",
+  "alert": "#FF453A",
+  "spot": "#EAF2FF"
+ },
+ "background3D": "Apple Keynote studio escuro: ciclorama infinito cinza-chumbo #0A0A0C→#1C1C1F, 2–3 spotlights suaves (frio), piso preto levemente reflexivo, fog de profundidade. Parallax em 3 camadas de janelas de navegador (vidro fosco, barra de abas, URL, conteúdo em skeleton) — perto/meio/fundo, derivando em velocidades diferentes. Câmera sempre em movimento (drift/dolly). Bloom leve nas bordas azuis + vinheta. Sem bolhas, partículas fofas ou elementos infantis.",
+ "audioOnly": true,
+ "pipReplacement": "Audio Visualizer HUD (barras Azul Chrome) bottom-left, x 60–260, y 1590–1660",
+ "voice": {
+  "source": "public/audio/narracao.mp3",
+  "durationSec": 43.282,
+  "tts": {
+   "provider": "ElevenLabs",
+   "voiceId": "Hmn4B9B77pf6ttydteJ8",
+   "model": "eleven_multilingual_v2",
+   "speed": 1.05,
+   "stability": 0.5,
+   "seed": 47
+  },
+  "script": "scripts/data/voice_script.txt",
+  "words": [
+   {
+    "w": "Você",
+    "f": 5,
+    "end": 17
+   },
+   {
+    "w": "não",
+    "f": 17,
+    "end": 31
+   },
+   {
+    "w": "tem",
+    "f": 31,
+    "end": 44
+   },
+   {
+    "w": "47",
+    "f": 44,
+    "end": 73
+   },
+   {
+    "w": "abas",
+    "f": 73,
+    "end": 87
+   },
+   {
+    "w": "abertas.",
+    "f": 87,
+    "end": 130
+   },
+   {
+    "w": "Você",
+    "f": 130,
+    "end": 149
+   },
+   {
+    "w": "tem",
+    "f": 149,
+    "end": 160
+   },
+   {
+    "w": "um",
+    "f": 160,
+    "end": 167
+   },
+   {
+    "w": "problema.",
+    "f": 167,
+    "end": 245
+   },
+   {
+    "w": "Olha",
+    "f": 249,
+    "end": 266
+   },
+   {
+    "w": "só:",
+    "f": 266,
+    "end": 288
+   },
+   {
+    "w": "uma",
+    "f": 293,
+    "end": 301
+   },
+   {
+    "w": "de",
+    "f": 301,
+    "end": 310
+   },
+   {
+    "w": "pesquisa",
+    "f": 310,
+    "end": 344
+   },
+   {
+    "w": "que",
+    "f": 344,
+    "end": 357
+   },
+   {
+    "w": "você",
+    "f": 357,
+    "end": 374
+   },
+   {
+    "w": "ia",
+    "f": 374,
+    "end": 383
+   },
+   {
+    "w": "ler",
+    "f": 383,
+    "end": 396
+   },
+   {
+    "w": "ontem.",
+    "f": 396,
+    "end": 425
+   },
+   {
+    "w": "Três",
+    "f": 428,
+    "end": 434
+   },
+   {
+    "w": "de",
+    "f": 434,
+    "end": 487
+   },
+   {
+    "w": "\"vou",
+    "f": 487,
+    "end": 505
+   },
+   {
+    "w": "ver",
+    "f": 505,
+    "end": 538
+   },
+   {
+    "w": "depois\".",
+    "f": 538,
+    "end": 587
+   },
+   {
+    "w": "Duas",
+    "f": 588,
+    "end": 610
+   },
+   {
+    "w": "do",
+    "f": 610,
+    "end": 618
+   },
+   {
+    "w": "mesmo",
+    "f": 618,
+    "end": 639
+   },
+   {
+    "w": "site,",
+    "f": 639,
+    "end": 664
+   },
+   {
+    "w": "porque",
+    "f": 665,
+    "end": 691
+   },
+   {
+    "w": "você",
+    "f": 691,
+    "end": 706
+   },
+   {
+    "w": "esqueceu",
+    "f": 706,
+    "end": 741
+   },
+   {
+    "w": "que",
+    "f": 741,
+    "end": 752
+   },
+   {
+    "w": "já",
+    "f": 752,
+    "end": 761
+   },
+   {
+    "w": "tinha",
+    "f": 761,
+    "end": 782
+   },
+   {
+    "w": "aberto.",
+    "f": 782,
+    "end": 808
+   },
+   {
+    "w": "Uma",
+    "f": 808,
+    "end": 824
+   },
+   {
+    "w": "de",
+    "f": 829,
+    "end": 856
+   },
+   {
+    "w": "receita",
+    "f": 856,
+    "end": 869
+   },
+   {
+    "w": "que",
+    "f": 869,
+    "end": 881
+   },
+   {
+    "w": "você",
+    "f": 881,
+    "end": 911
+   },
+   {
+    "w": "nunca",
+    "f": 911,
+    "end": 931
+   },
+   {
+    "w": "vai",
+    "f": 931,
+    "end": 946
+   },
+   {
+    "w": "fazer.",
+    "f": 946,
+    "end": 980
+   },
+   {
+    "w": "E",
+    "f": 980,
+    "end": 985
+   },
+   {
+    "w": "aquela",
+    "f": 1000,
+    "end": 1014
+   },
+   {
+    "w": "aba",
+    "f": 1014,
+    "end": 1028
+   },
+   {
+    "w": "do",
+    "f": 1028,
+    "end": 1038
+   },
+   {
+    "w": "Google",
+    "f": 1038,
+    "end": 1067
+   },
+   {
+    "w": "Docs",
+    "f": 1067,
+    "end": 1087
+   },
+   {
+    "w": "que",
+    "f": 1087,
+    "end": 1101
+   },
+   {
+    "w": "tá",
+    "f": 1101,
+    "end": 1120
+   },
+   {
+    "w": "aberta",
+    "f": 1120,
+    "end": 1174
+   },
+   {
+    "w": "desde",
+    "f": 1174,
+    "end": 1180
+   },
+   {
+    "w": "segunda-feira.",
+    "f": 1185,
+    "end": 1256
+   },
+   {
+    "w": "E",
+    "f": 1258,
+    "end": 1261
+   },
+   {
+    "w": "o",
+    "f": 1261,
+    "end": 1266
+   },
+   {
+    "w": "pior:",
+    "f": 1266,
+    "end": 1295
+   },
+   {
+    "w": "você",
+    "f": 1295,
+    "end": 1313
+   },
+   {
+    "w": "não",
+    "f": 1313,
+    "end": 1329
+   },
+   {
+    "w": "fecha",
+    "f": 1329,
+    "end": 1352
+   },
+   {
+    "w": "porque",
+    "f": 1352,
+    "end": 1381
+   },
+   {
+    "w": "\"pode",
+    "f": 1381,
+    "end": 1400
+   },
+   {
+    "w": "precisar\".",
+    "f": 1400,
+    "end": 1463
+   },
+   {
+    "w": "Mas",
+    "f": 1463,
+    "end": 1468
+   },
+   {
+    "w": "a",
+    "f": 1480,
+    "end": 1501
+   },
+   {
+    "w": "verdade",
+    "f": 1501,
+    "end": 1505
+   },
+   {
+    "w": "é",
+    "f": 1505,
+    "end": 1506
+   },
+   {
+    "w": "que",
+    "f": 1506,
+    "end": 1519
+   },
+   {
+    "w": "você",
+    "f": 1519,
+    "end": 1549
+   },
+   {
+    "w": "já",
+    "f": 1549,
+    "end": 1550
+   },
+   {
+    "w": "nem",
+    "f": 1550,
+    "end": 1564
+   },
+   {
+    "w": "lembra",
+    "f": 1564,
+    "end": 1594
+   },
+   {
+    "w": "o",
+    "f": 1598,
+    "end": 1599
+   },
+   {
+    "w": "que",
+    "f": 1599,
+    "end": 1615
+   },
+   {
+    "w": "tem",
+    "f": 1615,
+    "end": 1631
+   },
+   {
+    "w": "em",
+    "f": 1631,
+    "end": 1642
+   },
+   {
+    "w": "metade",
+    "f": 1644,
+    "end": 1674
+   },
+   {
+    "w": "delas.",
+    "f": 1674,
+    "end": 1711
+   },
+   {
+    "w": "E",
+    "f": 1711,
+    "end": 1717
+   },
+   {
+    "w": "toda",
+    "f": 1717,
+    "end": 1737
+   },
+   {
+    "w": "vez",
+    "f": 1737,
+    "end": 1754
+   },
+   {
+    "w": "que",
+    "f": 1754,
+    "end": 1769
+   },
+   {
+    "w": "o",
+    "f": 1769,
+    "end": 1775
+   },
+   {
+    "w": "PC",
+    "f": 1775,
+    "end": 1785
+   },
+   {
+    "w": "fica",
+    "f": 1785,
+    "end": 1786
+   },
+   {
+    "w": "lento,",
+    "f": 1786,
+    "end": 1843
+   },
+   {
+    "w": "você",
+    "f": 1843,
+    "end": 1864
+   },
+   {
+    "w": "culpa",
+    "f": 1864,
+    "end": 1891
+   },
+   {
+    "w": "o",
+    "f": 1891,
+    "end": 1896
+   },
+   {
+    "w": "Windows...",
+    "f": 1896,
+    "end": 1943
+   },
+   {
+    "w": "enquanto",
+    "f": 1943,
+    "end": 1963
+   },
+   {
+    "w": "mantém",
+    "f": 1963,
+    "end": 1993
+   },
+   {
+    "w": "um",
+    "f": 1993,
+    "end": 2002
+   },
+   {
+    "w": "zoológico",
+    "f": 2002,
+    "end": 2045
+   },
+   {
+    "w": "de",
+    "f": 2045,
+    "end": 2055
+   },
+   {
+    "w": "abas",
+    "f": 2055,
+    "end": 2074
+   },
+   {
+    "w": "aberto.",
+    "f": 2074,
+    "end": 2122
+   },
+   {
+    "w": "Manda",
+    "f": 2125,
+    "end": 2140
+   },
+   {
+    "w": "esse",
+    "f": 2140,
+    "end": 2158
+   },
+   {
+    "w": "vídeo",
+    "f": 2158,
+    "end": 2175
+   },
+   {
+    "w": "pro",
+    "f": 2177,
+    "end": 2186
+   },
+   {
+    "w": "amigo",
+    "f": 2186,
+    "end": 2206
+   },
+   {
+    "w": "que",
+    "f": 2206,
+    "end": 2217
+   },
+   {
+    "w": "vive",
+    "f": 2217,
+    "end": 2233
+   },
+   {
+    "w": "com",
+    "f": 2233,
+    "end": 2245
+   },
+   {
+    "w": "o",
+    "f": 2245,
+    "end": 2248
+   },
+   {
+    "w": "Chrome",
+    "f": 2248,
+    "end": 2270
+   },
+   {
+    "w": "virando",
+    "f": 2270,
+    "end": 2297
+   },
+   {
+    "w": "um",
+    "f": 2297,
+    "end": 2305
+   },
+   {
+    "w": "shopping",
+    "f": 2305,
+    "end": 2311
+   },
+   {
+    "w": "center.",
+    "f": 2311,
+    "end": 2371
+   },
+   {
+    "w": "E",
+    "f": 2371,
+    "end": 2374
+   },
+   {
+    "w": "comenta",
+    "f": 2374,
+    "end": 2399
+   },
+   {
+    "w": "aí:",
+    "f": 2399,
+    "end": 2407
+   },
+   {
+    "w": "quantas",
+    "f": 2407,
+    "end": 2437
+   },
+   {
+    "w": "abas",
+    "f": 2437,
+    "end": 2454
+   },
+   {
+    "w": "você",
+    "f": 2454,
+    "end": 2471
+   },
+   {
+    "w": "tá",
+    "f": 2471,
+    "end": 2489
+   },
+   {
+    "w": "com",
+    "f": 2492,
+    "end": 2502
+   },
+   {
+    "w": "agora?",
+    "f": 2502,
+    "end": 2532
+   },
+   {
+    "w": "Sem",
+    "f": 2532,
+    "end": 2548
+   },
+   {
+    "w": "mentir.",
+    "f": 2548,
+    "end": 2578
+   }
+  ]
+ },
+ "lineStarts": {
+  "L1": 5,
+  "L2": 249,
+  "L3": 808,
+  "L4": 1258,
+  "L5": 1463,
+  "L6": 1711,
+  "L7": 1943,
+  "L8": 2125,
+  "L9": 2371
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "line": 0,
+   "from": 0,
+   "to": 245,
+   "name": "Hook — 47 ABAS ABERTAS",
+   "keyBeats": {
+    "voce": 5,
+    "n47": 44,
+    "abas": 73,
+    "abertas": 87,
+    "problema": 167
+   },
+   "pause": [
+    198,
+    245
+   ],
+   "visual": "Abre em preto total, um único spot frio acende. Em '47' hard cut + flash: '47' gigante (360px, branco) bate no centro com screen shake; 'ABAS ABERTAS' (Azul Chrome #4285F4, 96px, tracking largo) entra em 'abas'. Ao mesmo tempo ~47 janelas de navegador 3D (vidro fosco, cantos arredondados, barra de abas + URL) voam do fundo em direção à câmera e se acumulam num enxame em camadas. Em 'problema': zoom punch, '47' sai e 'UM PROBLEMA.' bate (branco puro, 150px). Pausa: só as janelas derivando no escuro, respiro.",
+   "sfx": [
+    "whoosh rápido @34",
+    "impacto grave @44",
+    "clicks rápidos (janelas chegando) 44→117",
+    "impacto grave @167"
+   ],
+   "tag": "impactful",
+   "text": "Você não tem 47 abas abertas. Você tem um problema."
+  },
+  {
+   "id": "S02",
+   "line": 1,
+   "from": 245,
+   "to": 804,
+   "name": "O mural de janelas — pesquisa / ver depois / duplicadas",
+   "keyBeats": {
+    "olha": 249,
+    "pesquisa": 310,
+    "ontem": 396,
+    "tres": 428,
+    "depois": 487,
+    "duas": 588,
+    "site": 639,
+    "esqueceu": 706
+   },
+   "visual": "Câmera passeia (dolly lateral fluido) por um MURAL 3D de janelas flutuantes em grade irregular. Em 'pesquisa' uma janela se destaca (sai do mural, borda acende em azul, glow): artigo com barra de busca + chip 'LER ONTEM' com ícone de relógio. Em 'Três' 3 janelas se empilham em leque com selo '×3 · VER DEPOIS'. Em 'Duas' duas janelas idênticas deslizam e se sobrepõem com ghosting + chip 'DUPLICADA'. Em 'esqueceu' toast minimalista: 'Você já abriu esta página'.",
+   "sfx": [
+    "click @310",
+    "click ×3 @428",
+    "click ×2 @588",
+    "pop suave @706"
+   ],
+   "tag": "conversational",
+   "text": "Olha só: uma de pesquisa que você ia ler ontem. Três de \"vou ver depois\". Duas do mesmo site porque você esqueceu que já tinha aberto."
+  },
+  {
+   "id": "S03",
+   "line": 2,
+   "from": 804,
+   "to": 1254,
+   "name": "Receita + Docs desde segunda → fecha 1, abrem 3",
+   "keyBeats": {
+    "receita": 856,
+    "nunca": 911,
+    "google": 1038,
+    "docs": 1067,
+    "segunda": 1185,
+    "closeTab": 1204,
+    "multiply": 1226
+   },
+   "pause": [
+    1204,
+    1254
+   ],
+   "visual": "Drift contínuo pelo mural. Em 'receita' janela com ícone de receita (panela em linha fina) acende em azul; em 'nunca' ela esfria para cinza com chip 'NUNCA FEITA'. Em 'Google Docs' janela de documento (ícone genérico de doc azul com linhas, sem logo oficial, título 'Documento sem título') se destaca; em 'segunda-feira' chip de calendário 'ABERTA DESDE SEG.' e contador de tempo rodando. Pausa (respiro sem texto novo): cursor 3D desliza até o X de uma aba, clica — a aba fecha — e no mesmo instante 3 abas novas brotam ao lado (pop em sequência).",
+   "sfx": [
+    "click @856",
+    "click @1067",
+    "click (fechar) @1204",
+    "pop ×3 acelerado @1226"
+   ],
+   "tag": "conversational",
+   "text": "Uma de receita que você nunca vai fazer. E aquela aba do Google Docs que tá aberta desde segunda-feira."
+  },
+  {
+   "id": "S04",
+   "line": 3,
+   "from": 1254,
+   "to": 1459,
+   "name": "\"PODE PRECISAR\" — o cursor hesita",
+   "keyBeats": {
+    "pior": 1266,
+    "fecha": 1329,
+    "pode": 1381,
+    "precisar": 1400
+   },
+   "visual": "Iluminação cai (serious), enquadramento fechado na barra de abas, câmera lenta e pesada. Em 'fecha' o cursor paira sobre o X, o X acende… e o cursor recua devagar. Em 'pode precisar' texto '\"PODE PRECISAR\"' entre aspas, cinza claro, 120px, sobe e fica.",
+   "sfx": [
+    "click abafado/hover @1329"
+   ],
+   "tag": "serious",
+   "text": "E o pior: você não fecha porque \"pode precisar\"."
+  },
+  {
+   "id": "S05",
+   "line": 4,
+   "from": 1459,
+   "to": 1707,
+   "name": "Metade delas — títulos se apagam",
+   "keyBeats": {
+    "verdade": 1501,
+    "lembra": 1564,
+    "metade": 1644,
+    "delas": 1674
+   },
+   "visual": "Slow zoom out gradual (curious), luz suave volta. A barra de abas mostra ~24 abas com favicon + título. Em 'lembra' os títulos começam a desfocar; em 'metade' exatamente metade das abas perde título e favicon (vira '?'), divisória em azul marcando 50%. Texto 'METADE' com '50%' em contador.",
+   "sfx": [
+    "glitch suave @1644"
+   ],
+   "tag": "curious",
+   "text": "Mas a verdade é que você já nem lembra o que tem em metade delas."
+  },
+  {
+   "id": "S06",
+   "line": 5,
+   "from": 1707,
+   "to": 1939,
+   "name": "Clímax 1 — PC lento, culpa no Windows",
+   "keyBeats": {
+    "toda": 1717,
+    "pc": 1775,
+    "lento": 1786,
+    "culpa": 1864,
+    "windows": 1896
+   },
+   "visual": "Cortes limpos (matter-of-fact). Zoom dramático num ícone de usuário estressado (busto em linha fina, mão na testa, minimalista, nada infantil) diante de um monitor 3D. Em 'lento' a tela começa a ENGASGAR: frame holds, stutter, cursor de carregamento girando, HUD técnico 'CPU 98% · RAM 15,7/16 GB' subindo. Em 'Windows' um símbolo de 4 janelas estilizado (desenhado em código, inspirado no logo, branco) aparece no monitor com seta acusatória.",
+   "sfx": [
+    "PC fan subindo (contínuo) 1775→2121",
+    "glitch/stutter @1786",
+    "impacto leve @1896"
+   ],
+   "tag": "matter-of-fact",
+   "text": "E toda vez que o PC fica lento, você culpa o Windows..."
+  },
+  {
+   "id": "S07",
+   "line": 6,
+   "from": 1939,
+   "to": 2121,
+   "name": "Clímax 2 — ZOOLÓGICO DE ABAS",
+   "keyBeats": {
+    "enquanto": 1943,
+    "zoologico": 2002,
+    "abas2": 2055,
+    "aberto2": 2074
+   },
+   "pause": [
+    2085,
+    2121
+   ],
+   "visual": "Impactful: em 'enquanto' a câmera puxa pra trás num movimento seco — o símbolo do Windows fica minúsculo diante de um paredão de janelas. Em 'zoológico' as abas se multiplicam em ritmo acelerado (exponencial), contador '47 → 128 → 512 → 999+' em azul, screen shake, flash branco. 'ZOOLÓGICO' (branco, 140px) bate. Pausa: o enxame congela num último engasgo e a tela apaga.",
+   "sfx": [
+    "pops/glitch acelerando 2002→2094",
+    "impacto grave @2002",
+    "fan corta seco no fim da pausa"
+   ],
+   "tag": "impactful",
+   "text": "...enquanto mantém um zoológico de abas aberto."
+  },
+  {
+   "id": "S08",
+   "line": 7,
+   "from": 2121,
+   "to": 2367,
+   "name": "Manda pro amigo — Chrome shopping center",
+   "keyBeats": {
+    "manda": 2125,
+    "amigo": 2186,
+    "chrome": 2248,
+    "shopping": 2305,
+    "center": 2311
+   },
+   "visual": "Drift relaxado (conversational), palco limpo e claro de novo. Em 'Manda' ícone de compartilhar (avião de papel em linha fina) cruza a tela com rastro azul. Em 'Chrome' uma única janela de navegador genérico (sem logo) entra; em 'shopping center' a barra de abas se espreme até as abas virarem fatias finíssimas (centenas) e a janela estica pros lados como uma galeria. Texto 'SHOPPING CENTER' discreto.",
+   "sfx": [
+    "whoosh @2125",
+    "clicks rápidos (abas espremendo) 2305→2341"
+   ],
+   "tag": "conversational",
+   "text": "Manda esse vídeo pro amigo que vive com o Chrome virando um shopping center."
+  },
+  {
+   "id": "S09",
+   "line": 8,
+   "from": 2367,
+   "to": 2747,
+   "name": "CTA — Quantas abas você tem abertas agora?",
+   "keyBeats": {
+    "comenta": 2374,
+    "quantas": 2407,
+    "agora": 2502,
+    "sem": 2532,
+    "mentir": 2548
+   },
+   "fadeOut": [
+    2697,
+    2747
+   ],
+   "visual": "Tela limpa, um spot suave (curious). Ícone de balão de comentário (linha fina, azul) entra em 'comenta'. Em 'quantas' o texto central gigante 'Quantas abas você tem abertas agora?' (branco, 110px, 3 linhas) é digitado com cursor piscando (Azul Chrome). Em 'Sem mentir' subtítulo pequeno 'Sem mentir.' em cinza. Cursor continua piscando no hold até o fade.",
+   "sfx": [
+    "ding suave @2374",
+    "teclado suave 2407→2532",
+    "ding suave @2568"
+   ],
+   "tag": "curious",
+   "text": "E comenta aí: quantas abas você tá com agora? Sem mentir."
+  }
+ ],
+ "audio": {
+  "bgm": null,
+  "bgmNote": "Sem música por pedido do usuário: só voz + SFX.",
+  "sfxPlan": {
+   "whoosh": "fast whoosh",
+   "impact": "deep cinematic impact",
+   "click": "digital click / ui click",
+   "pop": "ui pop / glitch pop",
+   "glitch": "digital glitch stutter",
+   "fan": "computer fan loud / pc fan noise",
+   "ding": "soft notification ding",
+   "keys": "soft keyboard typing"
+  },
+  "duck": {
+   "whoosh": -3,
+   "boom": -8,
+   "fan": -18
+  },
+  "target": {
+   "lufs": -14,
+   "dbtp": -1
+  }
+ },
+ "layout": {
+  "safeZone": {
+   "x": [
+    60,
+    1020
+   ],
+   "y": [
+    120,
+    1670
+   ]
+  },
+  "captions": {
+   "y": [
+    1400,
+    1550
+   ],
+   "minPx": 72
+  },
+  "visualizer": {
+   "x": 60,
+   "y": 1590,
+   "w": 200,
+   "h": 70
+  },
+  "heroText": {
+   "y": [
+    520,
+    1100
+   ],
+   "note": "47 / UM PROBLEMA / ZOOLÓGICO / CTA ficam acima das legendas"
+  }
+ }
+}

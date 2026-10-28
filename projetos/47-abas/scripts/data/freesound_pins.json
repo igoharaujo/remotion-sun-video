@@ -1,0 +1,11 @@
+{
+ "abas_whoosh.wav": {"id": 59995, "query": "fast whoosh"},
+ "abas_impact.wav": {"id": 671375, "query": "deep cinematic impact"},
+ "abas_click.wav": {"id": 528561, "query": "ui click digital"},
+ "abas_pop.wav": {"id": 812555, "query": "ui pop"},
+ "abas_glitch.wav": {"id": 458065, "query": "digital glitch"},
+ "abas_glitch_long.wav": {"id": 348585, "query": "digital glitch"},
+ "abas_fan.wav": {"id": 487355, "query": "computer fan loud"},
+ "abas_ding.wav": {"id": 571512, "query": "soft notification ding"},
+ "abas_keys.wav": {"id": 447909, "query": "keyboard typing"}
+}

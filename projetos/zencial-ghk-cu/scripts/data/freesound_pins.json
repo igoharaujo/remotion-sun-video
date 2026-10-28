@@ -1,0 +1,12 @@
+{
+ "zen_cash.wav": {"id": 728224, "query": "cash register"},
+ "zen_whoosh.wav": {"id": 60013, "query": "whoosh"},
+ "zen_hit.wav": {"id": 441342, "query": "cinematic impact hit"},
+ "zen_glow.wav": {"id": 376745, "query": "magic sparkle chime"},
+ "zen_chime.wav": {"id": 351879, "query": "notification chime"},
+ "zen_pop.wav": {"id": 669918, "query": "ui pop"},
+ "zen_swipe.wav": {"id": 60007, "query": "whoosh"},
+ "zen_tick.wav": {"id": 528561, "query": "digital counter tick"},
+ "zen_riser.wav": {"id": 859482, "query": "cinematic riser short"},
+ "zen_ding.wav": {"id": 380482, "query": "message notification"}
+}

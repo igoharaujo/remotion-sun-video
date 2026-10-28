@@ -1,0 +1,14 @@
+{
+ "teste_pop.wav": {"id": 812555, "query": "ui pop"},
+ "teste_whoosh.wav": {"id": 59995, "query": "fast whoosh"},
+ "teste_riser.wav": {"id": 859482, "query": "short riser"},
+ "teste_tick.wav": {"id": 528561, "query": "ui click digital"},
+ "teste_check.wav": {"id": 220176, "query": "ui confirm"},
+ "teste_error.wav": {"id": 478191, "query": "error beep soft"},
+ "teste_pageflip.wav": {"id": 397548, "query": "page flip"},
+ "teste_heartbeat.wav": {"id": 276578, "query": "heartbeat"},
+ "teste_spin.wav": {"id": 463766, "query": "whoosh spin"},
+ "teste_clock.wav": {"id": 275802, "query": "clock ticking"},
+ "teste_impact.wav": {"id": 671375, "query": "deep cinematic impact"},
+ "teste_ding.wav": {"id": 571512, "query": "soft notification ding"}
+}

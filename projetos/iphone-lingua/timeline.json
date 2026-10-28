@@ -1,0 +1,890 @@
+{
+ "$comment": "Beat sheet for IphoneLingua. Frames @ 60 fps. Word onsets: whisper-small (pt) on public/audio/narracao.mp3 snapped to first voiced 10 ms window (scripts/align-words-lingua.py); 'passar…dedo' re-timed from a segment re-run + silencedetect (whisper misplaced it across the pause). STATUS: approved 2026-10-23.",
+ "status": "approved-2026-10-23",
+ "composition": {
+  "id": "IphoneLingua",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "durationInFrames": 2960,
+  "durationSec": 49.333,
+  "durationNote": "Audio 47.833 s (2870 frames); last word 'mágica?' ends ~2854. Holds ~1.5 s for the sparkle + fade."
+ },
+ "palette": {
+  "bg": "#0A0A0F",
+  "iosBlue": "#007AFF",
+  "neonGreen": "#10B981",
+  "white": "#F5F7FA",
+  "warn": "#F59E0B",
+  "alert": "#EF4444"
+ },
+ "background3D": "Dark-mode tech: grid sutil em perspectiva com scroll lento (camada 1), ícones de acessibilidade em wireframe flutuando (camada 2), partículas de poeira azul (camada 3), face mesh de pontos de luz como 'personagem' recorrente. Câmera em drift contínuo, bloom + vinheta.",
+ "audioOnly": true,
+ "pipReplacement": "Audio Visualizer HUD (ondas azul/verde) acima da legenda",
+ "tutorialClips": {
+  "decision": "procedural",
+  "reason": "Nenhum clipe com licença clara encontrado (ver public/videos/tutorial/LICENSE_CHECK.md). Seguindo o item 6 do brief: S01 e S05 usam simulação procedural (face mesh + UI de Ajustes estilizada) com selo 'EXEMPLO SIMULADO' / 'INTERFACE SIMULADA'."
+ },
+ "voice": {
+  "source": "public/audio/narracao.mp3",
+  "durationSec": 47.833,
+  "integratedLoudnessLUFS": -19.3,
+  "tts": {
+   "provider": "ElevenLabs",
+   "voiceId": "Hmn4B9B77pf6ttydteJ8",
+   "model": "eleven_multilingual_v2"
+  },
+  "words": [
+   {
+    "w": "Você",
+    "f": 6,
+    "end": 17
+   },
+   {
+    "w": "sabia",
+    "f": 17,
+    "end": 40
+   },
+   {
+    "w": "que",
+    "f": 40,
+    "end": 51
+   },
+   {
+    "w": "o",
+    "f": 51,
+    "end": 55
+   },
+   {
+    "w": "seu",
+    "f": 55,
+    "end": 68
+   },
+   {
+    "w": "iPhone",
+    "f": 68,
+    "end": 94
+   },
+   {
+    "w": "consegue",
+    "f": 94,
+    "end": 128
+   },
+   {
+    "w": "ler",
+    "f": 128,
+    "end": 140
+   },
+   {
+    "w": "a",
+    "f": 140,
+    "end": 145
+   },
+   {
+    "w": "sua",
+    "f": 145,
+    "end": 156
+   },
+   {
+    "w": "língua?",
+    "f": 156,
+    "end": 199
+   },
+   {
+    "w": "Parece",
+    "f": 205,
+    "end": 222
+   },
+   {
+    "w": "pegadinha,",
+    "f": 222,
+    "end": 263
+   },
+   {
+    "w": "mas",
+    "f": 263,
+    "end": 275
+   },
+   {
+    "w": "é",
+    "f": 275,
+    "end": 278
+   },
+   {
+    "w": "uma",
+    "f": 278,
+    "end": 289
+   },
+   {
+    "w": "função",
+    "f": 293,
+    "end": 312
+   },
+   {
+    "w": "oficial",
+    "f": 312,
+    "end": 343
+   },
+   {
+    "w": "do",
+    "f": 343,
+    "end": 349
+   },
+   {
+    "w": "iOS",
+    "f": 349,
+    "end": 403
+   },
+   {
+    "w": "26.",
+    "f": 403,
+    "end": 432
+   },
+   {
+    "w": "O",
+    "f": 432,
+    "end": 438
+   },
+   {
+    "w": "nome",
+    "f": 438,
+    "end": 454
+   },
+   {
+    "w": "é",
+    "f": 454,
+    "end": 458
+   },
+   {
+    "w": "rastreamento",
+    "f": 458,
+    "end": 512
+   },
+   {
+    "w": "de",
+    "f": 513,
+    "end": 521
+   },
+   {
+    "w": "cabeça.",
+    "f": 521,
+    "end": 566
+   },
+   {
+    "w": "A",
+    "f": 569,
+    "end": 572
+   },
+   {
+    "w": "Apple",
+    "f": 572,
+    "end": 588
+   },
+   {
+    "w": "criou",
+    "f": 588,
+    "end": 606
+   },
+   {
+    "w": "isso",
+    "f": 606,
+    "end": 620
+   },
+   {
+    "w": "para",
+    "f": 620,
+    "end": 635
+   },
+   {
+    "w": "pessoas",
+    "f": 635,
+    "end": 661
+   },
+   {
+    "w": "com",
+    "f": 661,
+    "end": 671
+   },
+   {
+    "w": "limitações",
+    "f": 671,
+    "end": 707
+   },
+   {
+    "w": "motoras",
+    "f": 707,
+    "end": 746
+   },
+   {
+    "w": "usarem",
+    "f": 746,
+    "end": 767
+   },
+   {
+    "w": "o",
+    "f": 767,
+    "end": 772
+   },
+   {
+    "w": "celular",
+    "f": 772,
+    "end": 799
+   },
+   {
+    "w": "sem",
+    "f": 799,
+    "end": 812
+   },
+   {
+    "w": "tocar",
+    "f": 812,
+    "end": 834
+   },
+   {
+    "w": "na",
+    "f": 836,
+    "end": 843
+   },
+   {
+    "w": "tela.",
+    "f": 843,
+    "end": 876
+   },
+   {
+    "w": "Mas",
+    "f": 877,
+    "end": 887
+   },
+   {
+    "w": "o",
+    "f": 887,
+    "end": 891
+   },
+   {
+    "w": "Tik",
+    "f": 891,
+    "end": 902
+   },
+   {
+    "w": "Tok",
+    "f": 902,
+    "end": 916
+   },
+   {
+    "w": "descobriu",
+    "f": 916,
+    "end": 952
+   },
+   {
+    "w": "e",
+    "f": 952,
+    "end": 952
+   },
+   {
+    "w": "transformou",
+    "f": 953,
+    "end": 997
+   },
+   {
+    "w": "em",
+    "f": 997,
+    "end": 1003
+   },
+   {
+    "w": "trend",
+    "f": 1003,
+    "end": 1022
+   },
+   {
+    "w": "mundial.",
+    "f": 1022,
+    "end": 1066
+   },
+   {
+    "w": "A",
+    "f": 1067,
+    "end": 1072
+   },
+   {
+    "w": "configuração",
+    "f": 1072,
+    "end": 1129
+   },
+   {
+    "w": "é",
+    "f": 1129,
+    "end": 1129
+   },
+   {
+    "w": "simples,",
+    "f": 1129,
+    "end": 1171
+   },
+   {
+    "w": "ajustes,",
+    "f": 1171,
+    "end": 1211
+   },
+   {
+    "w": "acessibilidade,",
+    "f": 1211,
+    "end": 1285
+   },
+   {
+    "w": "rastreamento",
+    "f": 1285,
+    "end": 1340
+   },
+   {
+    "w": "de",
+    "f": 1340,
+    "end": 1349
+   },
+   {
+    "w": "cabeça.",
+    "f": 1349,
+    "end": 1397
+   },
+   {
+    "w": "Você",
+    "f": 1398,
+    "end": 1418
+   },
+   {
+    "w": "ativa,",
+    "f": 1418,
+    "end": 1453
+   },
+   {
+    "w": "escolhe",
+    "f": 1457,
+    "end": 1488
+   },
+   {
+    "w": "o",
+    "f": 1488,
+    "end": 1493
+   },
+   {
+    "w": "gesto,",
+    "f": 1493,
+    "end": 1528
+   },
+   {
+    "w": "mostrar",
+    "f": 1536,
+    "end": 1569
+   },
+   {
+    "w": "a",
+    "f": 1569,
+    "end": 1579
+   },
+   {
+    "w": "língua",
+    "f": 1579,
+    "end": 1601
+   },
+   {
+    "w": "e",
+    "f": 1601,
+    "end": 1604
+   },
+   {
+    "w": "define",
+    "f": 1607,
+    "end": 1635
+   },
+   {
+    "w": "a",
+    "f": 1635,
+    "end": 1640
+   },
+   {
+    "w": "ação,",
+    "f": 1640,
+    "end": 1675
+   },
+   {
+    "w": "rolar",
+    "f": 1681,
+    "end": 1700
+   },
+   {
+    "w": "para",
+    "f": 1700,
+    "end": 1718
+   },
+   {
+    "w": "baixo.",
+    "f": 1718,
+    "end": 1754
+   },
+   {
+    "w": "Aí",
+    "f": 1760,
+    "end": 1765
+   },
+   {
+    "w": "é",
+    "f": 1765,
+    "end": 1771
+   },
+   {
+    "w": "só",
+    "f": 1771,
+    "end": 1781
+   },
+   {
+    "w": "colocar",
+    "f": 1795,
+    "end": 1819
+   },
+   {
+    "w": "o",
+    "f": 1819,
+    "end": 1825
+   },
+   {
+    "w": "celular",
+    "f": 1825,
+    "end": 1862
+   },
+   {
+    "w": "na",
+    "f": 1862,
+    "end": 1876
+   },
+   {
+    "w": "frente",
+    "f": 1876,
+    "end": 1906
+   },
+   {
+    "w": "do",
+    "f": 1906,
+    "end": 1907
+   },
+   {
+    "w": "rosto",
+    "f": 1912,
+    "end": 1952
+   },
+   {
+    "w": "e",
+    "f": 1952,
+    "end": 1977
+   },
+   {
+    "w": "passar",
+    "f": 2048,
+    "end": 2062
+   },
+   {
+    "w": "o",
+    "f": 2062,
+    "end": 2063
+   },
+   {
+    "w": "vídeo",
+    "f": 2063,
+    "end": 2084
+   },
+   {
+    "w": "sem",
+    "f": 2084,
+    "end": 2097
+   },
+   {
+    "w": "encostar",
+    "f": 2097,
+    "end": 2131
+   },
+   {
+    "w": "o",
+    "f": 2131,
+    "end": 2143
+   },
+   {
+    "w": "dedo.",
+    "f": 2143,
+    "end": 2176
+   },
+   {
+    "w": "A",
+    "f": 2210,
+    "end": 2214
+   },
+   {
+    "w": "câmera",
+    "f": 2214,
+    "end": 2239
+   },
+   {
+    "w": "frontal",
+    "f": 2239,
+    "end": 2271
+   },
+   {
+    "w": "detecta",
+    "f": 2271,
+    "end": 2300
+   },
+   {
+    "w": "a",
+    "f": 2300,
+    "end": 2304
+   },
+   {
+    "w": "expressão",
+    "f": 2304,
+    "end": 2343
+   },
+   {
+    "w": "em",
+    "f": 2343,
+    "end": 2351
+   },
+   {
+    "w": "tempo",
+    "f": 2351,
+    "end": 2358
+   },
+   {
+    "w": "real.",
+    "f": 2358,
+    "end": 2407
+   },
+   {
+    "w": "O",
+    "f": 2407,
+    "end": 2413
+   },
+   {
+    "w": "único",
+    "f": 2413,
+    "end": 2429
+   },
+   {
+    "w": "problema?",
+    "f": 2429,
+    "end": 2470
+   },
+   {
+    "w": "se",
+    "f": 2470,
+    "end": 2474
+   },
+   {
+    "w": "você",
+    "f": 2474,
+    "end": 2489
+   },
+   {
+    "w": "sorrir",
+    "f": 2489,
+    "end": 2512
+   },
+   {
+    "w": "sem",
+    "f": 2512,
+    "end": 2530
+   },
+   {
+    "w": "querer,",
+    "f": 2530,
+    "end": 2555
+   },
+   {
+    "w": "o",
+    "f": 2555,
+    "end": 2558
+   },
+   {
+    "w": "celular",
+    "f": 2558,
+    "end": 2562
+   },
+   {
+    "w": "pode",
+    "f": 2562,
+    "end": 2604
+   },
+   {
+    "w": "achar",
+    "f": 2604,
+    "end": 2611
+   },
+   {
+    "w": "que",
+    "f": 2611,
+    "end": 2620
+   },
+   {
+    "w": "é",
+    "f": 2621,
+    "end": 2623
+   },
+   {
+    "w": "um",
+    "f": 2623,
+    "end": 2629
+   },
+   {
+    "w": "comando.",
+    "f": 2629,
+    "end": 2664
+   },
+   {
+    "w": "Tecnologia",
+    "f": 2667,
+    "end": 2705
+   },
+   {
+    "w": "absurda.",
+    "f": 2705,
+    "end": 2748
+   },
+   {
+    "w": "Ou",
+    "f": 2750,
+    "end": 2761
+   },
+   {
+    "w": "seria",
+    "f": 2761,
+    "end": 2794
+   },
+   {
+    "w": "mágica?",
+    "f": 2794,
+    "end": 2854
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "id": "S01",
+   "tag": "curious",
+   "name": "Hook — o iPhone lê a sua língua",
+   "to": 204,
+   "text": "Você sabia que o seu iPhone consegue ler a sua língua?",
+   "keyWords": {
+    "iPhone": 68,
+    "ler": 128,
+    "língua": 156
+   },
+   "visual": "Slow zoom. iPhone 3D em wireframe azul gira até ficar de frente; constelação de ~70 pontos de luz forma um rosto (face mesh procedural). Em 'ler' os pontos acendem em varredura; em 'língua' um ponto verde-neon sai da boca + clipe simulado (2 s) no ecrã do iPhone: feed rolando. Selo 'EXEMPLO SIMULADO' no canto.",
+   "pause": [
+    153,
+    204
+   ],
+   "sfx": [
+    "soft digital boot @0",
+    "scan sweep @128",
+    "pop/blip @156"
+   ],
+   "from": 0
+  },
+  {
+   "id": "S02",
+   "tag": "conversational",
+   "name": "Pegadinha? Não: oficial",
+   "to": 431,
+   "text": "Parece pegadinha, mas é uma função oficial do iOS 26.",
+   "keyWords": {
+    "pegadinha": 222,
+    "oficial": 312,
+    "iOS 26": 349
+   },
+   "visual": "Drift fluido. Carta 'pegadinha' (ícone de máscara/coringa) entra girando e é virada; em 'oficial' carimbo de selo verificado azul; em 'iOS 26' número '26' grande em vidro 3D com reflexo.",
+   "sfx": [
+    "card flip whoosh @222",
+    "stamp hit @312",
+    "glass shimmer @349"
+   ],
+   "from": 205
+  },
+  {
+   "id": "S03",
+   "tag": "matter-of-fact",
+   "name": "Rastreamento de Cabeça = acessibilidade",
+   "to": 876,
+   "text": "O nome é Rastreamento de Cabeça. A Apple criou isso para pessoas com limitações motoras usarem o celular sem tocar na tela.",
+   "keyWords": {
+    "Rastreamento de Cabeça": 458,
+    "Apple": 572,
+    "limitações motoras": 671,
+    "sem tocar": 799
+   },
+   "visual": "Cortes limpos, HUD técnico. Retícula de rastreamento trava no face mesh com eixos yaw/pitch/roll e leituras numéricas. Ícone 3D de acessibilidade (figura universal) flutua e pulsa em 'pessoas'. Em 'sem tocar na tela': mão estilizada se aproxima do ecrã, ripple de toque aparece e é riscado (⊘).",
+   "sfx": [
+    "HUD lock-on @458",
+    "soft tick x3",
+    "negative blip @799"
+   ],
+   "from": 432
+  },
+  {
+   "id": "S04",
+   "tag": "impactful",
+   "name": "O TikTok descobriu",
+   "to": 1066,
+   "text": "Mas o TikTok descobriu e transformou em trend mundial.",
+   "keyWords": {
+    "TikTok": 891,
+    "descobriu": 916,
+    "trend mundial": 1003
+   },
+   "visual": "Hard cut + flash branco em 'Mas'. Screen shake. Globo de pontos azul gira; em 'trend mundial' dezenas de cartões de vídeo genéricos (ícone play, sem logos) explodem do globo com contadores de views subindo (1M → 10M → 100M). Texto 'TREND MUNDIAL' bate na tela.",
+   "sfx": [
+    "cinematic impact hit @877",
+    "riser 916→1003",
+    "boom @1003",
+    "counter ticks 1003→1066"
+   ],
+   "from": 877
+  },
+  {
+   "id": "S05",
+   "tag": "conversational",
+   "name": "Tutorial — passo a passo (interface simulada)",
+   "to": 1759,
+   "text": "A configuração é simples: Ajustes, Acessibilidade, Rastreamento de Cabeça. Você ativa, escolhe o gesto mostrar a língua e define a ação: rolar para baixo.",
+   "keyWords": {
+    "Ajustes": 1171,
+    "Acessibilidade": 1211,
+    "Rastreamento": 1285,
+    "ativa": 1418,
+    "mostrar a língua": 1536,
+    "rolar para baixo": 1681,
+    "simples": 1129
+   },
+   "visual": "iPhone grande ao centro com UI de Ajustes estilizada (dark mode, desenhada em código, não captura real). Breadcrumb no topo acende passo 1›2›3 em cada palavra; linha tocada destaca em azul #007AFF e a tela desliza para a próxima. 'ativa' → toggle verde liga com bounce. 'mostrar a língua' → linha de gesto com emoji-ícone de língua. 'rolar para baixo' → ação seleciona com ✓ e seta animada ↓. Selo 'INTERFACE SIMULADA'.",
+   "sfx": [
+    "tap click em cada passo (1171,1211,1285)",
+    "toggle switch @1418",
+    "select tick @1536",
+    "whoosh down @1681"
+   ],
+   "from": 1067
+  },
+  {
+   "id": "S06",
+   "tag": "curious",
+   "name": "Na frente do rosto e...",
+   "to": 2047,
+   "text": "Aí é só colocar o celular na frente do rosto e...",
+   "keyWords": {
+    "celular": 1825,
+    "rosto": 1912,
+    "e": 1952
+   },
+   "visual": "Câmera lenta. iPhone sobe e para na frente do face mesh; feixe de luz da câmera frontal varre o rosto. Pausa 1977–2047: respiro visual, nenhum texto novo, só os pontos respirando e um leve drone de suspense.",
+   "pause": [
+    1977,
+    2047
+   ],
+   "sfx": [
+    "soft rise @1825",
+    "suspense drone 1977→2048"
+   ],
+   "from": 1760
+  },
+  {
+   "id": "S07",
+   "tag": "impactful",
+   "name": "Passa sem encostar o dedo",
+   "to": 2406,
+   "text": "...passar o vídeo sem encostar o dedo. A câmera frontal detecta a expressão em tempo real.",
+   "keyWords": {
+    "passar": 2048,
+    "dedo": 2143,
+    "câmera frontal": 2214,
+    "tempo real": 2351,
+    "vídeo": 2063,
+    "encostar": 2097,
+    "detecta": 2271,
+    "expressão": 2304,
+    "sem": 2084
+   },
+   "visual": "Payoff: ponto da língua explode em verde-neon, zoom punch, os cartões do feed no ecrã sobem com motion blur (3 swipes). 'sem encostar o dedo' → ícone de dedo riscado. Depois: lente da câmera frontal em close 3D com anel de foco, scanlines, HUD 'REC ● 60 fps' e landmarks com % de confiança atualizando em tempo real.",
+   "sfx": [
+    "whoosh swipe x3 @2048,2084,2143",
+    "impact @2048",
+    "camera focus beep @2214",
+    "data ticks 2271→2406"
+   ],
+   "from": 2048
+  },
+  {
+   "id": "S08",
+   "tag": "serious",
+   "name": "O problema: sorrir sem querer",
+   "to": 2666,
+   "text": "O único problema? Se você sorrir sem querer, o celular pode achar que é um comando.",
+   "keyWords": {
+    "problema": 2429,
+    "sorrir": 2489,
+    "comando": 2629,
+    "querer": 2530
+   },
+   "visual": "Iluminação cai, enquadramento fecha, câmera lenta e pesada. A curva da boca no face mesh vira sorriso; HUD âmbar pisca 'EXPRESSÃO DETECTADA'; em 'comando' glitch vermelho + feed rola sozinho por acidente.",
+   "sfx": [
+    "low tension pad",
+    "alert beep @2489",
+    "glitch @2629"
+   ],
+   "from": 2407
+  },
+  {
+   "id": "S09",
+   "tag": "conversational",
+   "name": "Tecnologia ou mágica?",
+   "to": 2960,
+   "text": "Tecnologia absurda. Ou seria... mágica?",
+   "keyWords": {
+    "Tecnologia": 2667,
+    "absurda": 2705,
+    "mágica": 2794,
+    "fadeOut": 2900
+   },
+   "visual": "Drift. Grid e pontos do rosto se dissolvem em partículas que convergem numa faísca; em 'mágica' sparkle azul+verde com bloom e '?' final. Fade to black ~2900–2960.",
+   "sfx": [
+    "shimmer @2705",
+    "magic sparkle chime @2794",
+    "soft chime fade"
+   ],
+   "from": 2667
+  }
+ ],
+ "layout": {
+  "safeZone": {
+   "x": [
+    60,
+    1020
+   ],
+   "y": [
+    120,
+    1670
+   ],
+   "rightActionBarX": 960
+  },
+  "captions": {
+   "y": [
+    1400,
+    1550
+   ]
+  },
+  "audioVisualizerHUD": {
+   "box": {
+    "x": 360,
+    "y": 1572,
+    "w": 360,
+    "h": 84
+   },
+   "note": "audio-only: replaces the PiP; centred under the captions, inside the safe zone"
+  },
+  "faceCenterY": 700
+ }
+}

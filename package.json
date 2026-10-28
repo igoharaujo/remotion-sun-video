@@ -1,0 +1,26 @@
+{
+  "name": "remotion-sun-video",
+  "version": "1.0.0",
+  "description": "Este é um monorepo dedicado à criação automatizada de vídeos verticais (TikTok, Reels e Shorts) utilizando **Inteligência Artificial (Claude Code)**, **Remotion (React)** e **Three.js**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igoharaujo/remotion-sun-video.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/igoharaujo/remotion-sun-video/issues"
+  },
+  "homepage": "https://github.com/igoharaujo/remotion-sun-video#readme",
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.74.0",
+    "dotenv": "^18.0.9",
+    "replicate": "^1.4.0"
+  }
+}
